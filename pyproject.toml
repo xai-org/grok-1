@@ -1,0 +1,15 @@
+[tool.ruff]
+indent-width = 4
+line-length = 100
+
+[tool.ruff.lint]
+ignore = [
+    "E722",
+    "E731",
+    "E741",
+    "F405",
+    # Re-enable these later on:
+    "E402",
+    "F403",
+]
+select = ["ISC001"]
