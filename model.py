@@ -28,7 +28,6 @@ from jax.lax import with_sharding_constraint as pjit_sharding_constraint
 from jax.sharding import PartitionSpec
 from jax.sharding import PartitionSpec as P
 
-
 config.update("jax_spmd_mode", "allow_all")
 
 logger = logging.getLogger(__name__)
@@ -226,7 +225,6 @@ class Router(hk.Module):
     def compute_routing_prob(
         self, inputs: jax.Array, padding_mask: Optional[jax.Array], num_experts: int
     ):
-        """During inference, we sort the inputs depending on which expert they get routed to."""
         return self._compute_routing_prob(inputs, padding_mask, num_experts)
 
     @hk.transparent
@@ -1171,7 +1169,7 @@ class LanguageModelConfig:
         # We cannot specify [] as a default value (it is mutable), hence None.
         model_config = self.model
         assert self.init_scale_override is None, (
-            "Overriding model " + "initialize scale is supported only for predefined models."
+            "Overriding model initialize scale is supported only for predefined models."
         )
         if self.model_size == 0:
             self.model_size = model_config.emb_size
@@ -1226,8 +1224,6 @@ class LanguageModel(hk.Module):
         config = self.config
 
         input_mask = jnp.greater(tokens, config.pad_token)
-        # Shift right by 1:
-        pad_width = ((0, 0), (1, 0))
 
         # Embed the input tokens and positions.
         in_out_embed = InOutEmbed(

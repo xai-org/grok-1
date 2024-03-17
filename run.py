@@ -14,11 +14,13 @@
 
 import logging
 
-from model import LanguageModelConfig, TransformerConfig
-from runners import InferenceRunner, ModelRunner
-
+from model import LanguageModelConfig, TransformerConfig, QuantizedWeight8bit as QW8Bit
+from runners import InferenceRunner, ModelRunner, sample_from_model
 
 CKPT_PATH = "./checkpoints/"
+
+# This is required in order for unpickling to work.
+QuantizedWeight8bit = QW8Bit
 
 
 def main():

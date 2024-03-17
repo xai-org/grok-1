@@ -23,7 +23,6 @@ import re
 import shutil
 import tempfile
 from concurrent.futures import ThreadPoolExecutor, wait
-from functools import partial
 from typing import Any, Optional
 
 import jax
@@ -143,7 +142,6 @@ def replace_with_load_state(
     load_exclude_rules: Optional[list[str]] = None,
     mesh_config: tuple = (1, 1),
 ) -> Any:
-    # re_pattern, re_substitue
     flatten_load, _ = jax.tree_util.tree_flatten_with_path(load_state)
     flatten_init, structure_init = jax.tree_util.tree_flatten_with_path(init_state)
     load_map = {path_tuple_to_string(path): tensor for path, tensor in flatten_load}
@@ -177,7 +175,6 @@ def restore(
     checkpoint_path: str,
     state_shapes: Any,
     mesh,
-    local_mesh_config,
     between_hosts_config,
     params_only,
     state_sharding,

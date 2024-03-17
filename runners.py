@@ -44,7 +44,6 @@ from model import (
 logger = logging.getLogger(__name__)
 rank_logger = logging.getLogger("rank")
 
-
 TOP_K = 8
 
 
@@ -71,7 +70,8 @@ def insert_slice(memory: Memory, slice, length, i):
         ],
     )
 
-    return jax.tree_map(lambda m, u: jax.lax.dynamic_update_index_in_dim(m, u[0], i, axis=0), memory, slice)
+    return jax.tree_map(lambda m, u: jax.lax.dynamic_update_index_in_dim(m, u[0], i, axis=0),
+                        memory, slice)
 
 
 def pad_to_size(x, size):
@@ -239,7 +239,6 @@ class ModelRunner:
                 checkpoint_path=self.checkpoint_path,
                 state_shapes=state_shapes,
                 mesh=self.mesh,
-                local_mesh_config=self.local_mesh_config,
                 between_hosts_config=self.between_hosts_config,
                 state_sharding=self.state_sharding,
                 init_state=init_state,

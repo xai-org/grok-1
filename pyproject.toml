@@ -8,7 +8,6 @@ ignore = [
     "E731",
     "E741",
     "F405",
-    # Re-enable these later on:
     "E402",
     "F403",
 ]
