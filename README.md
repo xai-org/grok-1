@@ -22,7 +22,7 @@ The implementation of the MoE layer in this repository is not efficient. The imp
 
 Grok-1 is currently designed with the following specifications:
 
-- **Parameters:** 314B
+- **Parameters:** 314B (86B active)
 - **Architecture:** Mixture of 8 Experts (MoE)
 - **Experts Utilization:** 2 experts used per token
 - **Layers:** 64
