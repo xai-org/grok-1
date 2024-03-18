@@ -25,6 +25,7 @@ Grok-1 is currently designed with the following specifications:
 - **Parameters:** 314B
 - **Architecture:** Mixture of 8 Experts (MoE)
 - **Experts Utilization:** 2 experts used per token
+- **Maximum Sequence Length (context):** 8,192 tokens
 - **Layers:** 64
 - **Attention Heads:** 48 for queries, 8 for keys/values
 - **Embedding Size:** 6,144
@@ -32,7 +33,6 @@ Grok-1 is currently designed with the following specifications:
 - **Additional Features:**
   - Rotary embeddings (RoPE)
   - Supports activation sharding and 8-bit quantization
-- **Maximum Sequence Length (context):** 8,192 tokens
 
 # Downloading the weights
 
