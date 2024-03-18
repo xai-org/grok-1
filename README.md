@@ -65,9 +65,7 @@ The NamedTuple is a lightweight data structure provides a way to define immutabl
 
 the TrainingState serves as a lightweight container to hold and manage the model parameters during the training process, allowing for efficient manipulation and updating of the model's weights.
 
-**ffn_size**: 
-
-This function computes the size (number of units) for the feed-forward network (FFN) layer in the transformer architecture. The FFN size is typically larger than the embedding size to increase the model's expressive power. The function takes two arguments:
+**ffn_size**: This function computes the size (number of units) for the feed-forward network (FFN) layer in the transformer architecture. The FFN size is typically larger than the embedding size to increase the model's expressive power. The function takes two arguments:
 
 **emb_size**: The size of the input embeddings.
 
@@ -113,14 +111,14 @@ let's dive in some of the partitioning rules defined in `TRANSFORMER_PARTITION_R
     This rule matches the weight tensors (w) of the query, key, and value projections in the multi-head attention module. It specifies that these weights should be partitioned along the "data" and "model" dimensions, which means they will be split across multiple devices or accelerators along those dimensions.
 
 
-- #### (("multi_head_attention", "(query|key|value)", "b"), P(None)): 
+- #### `(("multi_head_attention", "(query|key|value)", "b"), P(None))`: 
     This rule matches the bias tensors (b) of the query, key, and value projections in the multi-head attention module. It specifies that these biases should not be partitioned (indicated by P(None)), meaning they will be replicated across all devices.
 
-- #### ((r"decoder_layer_[0-9]+", "linear", "w"), P("data", "model")): 
+- #### `((r"decoder_layer_[0-9]+", "linear", "w"), P("data", "model"))`: 
 
     This rule matches the weight tensors (w) of the linear projections in the decoder layers of the transformer model. The regular expression r"decoder_layer_[0-9]+" matches any parameter path containing "decoder_layer_" followed by a number. These weights are partitioned along the "data" and "model" dimensions.
 
-- #### ((r"decoder_layer_[0-9]+", "linear", "b"), P(None)): 
+- #### `((r"decoder_layer_[0-9]+", "linear", "b"), P(None))`: 
     Similar to the previous rule, but it matches the bias tensors (b) of the linear projections in the decoder layers, and these biases are not partitioned.
 
 - Rules for partitioning the parameters of layer normalization (layer_norm, rms_norm) and router (router) modules are also included.
