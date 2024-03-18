@@ -47,7 +47,7 @@ using IPFS CID (blake3):
 bafyb4id5xdepghz5pvplhylgz7scjkoefh4d34j4kdw2w5hzrblv3uwbw4
 ```
 
-or directly using HuggingFace:
+or directly using [HuggingFace 🤗 Hub](https://huggingface.co/xai-org/grok-1):
 ```
 git clone https://github.com/xai-org/grok-1.git && cd grok-1
 pip install huggingface_hub[hf_transfer]
