@@ -162,7 +162,7 @@ The NamedTuple is a lightweight data structure provides a way to define immutabl
 
 the TrainingState serves as a lightweight container to hold and manage the model parameters during the training process, allowing for efficient manipulation and updating of the model's weights.
 
-### :page_with_curl: KVMemory
+## :page_with_curl: KVMemory
 
 `KVMemory` is a `NamedTuple` data structure used to store and manage the key-value memory state in the transformer architecture. It is defined as follows:
 
