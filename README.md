@@ -36,7 +36,7 @@ This repository contains Python code for grok-1. Below is a breakdown of the mai
 ## :book: `model.py`
 i will try to breakdown each classes in detail
 
-## functions, varibales and constants
+## :page_with_curl: functions, varibales and constants
 
 **ffn_size**: This function computes the size (number of units) for the feed-forward network (FFN) layer in the transformer architecture. The FFN size is typically larger than the embedding size to increase the model's expressive power. The function takes two arguments:
 
@@ -133,7 +133,7 @@ The `LM_PARTITION_RULES` list contains the following rules:
 By applying these partitioning rules, the language model's parameters are reshaped and distributed across multiple devices in a way that aims to balance the computational load and memory usage. The input and output embeddings, which are typically large tensors, are partitioned along the "data" and "model" dimensions to distribute their storage and computations. At the same time, smaller tensors like the normalization layer parameters are replicated across all devices to minimize communication overhead.
 
 
-## QuantizedWeight8bit
+## :page_with_curl: QuantizedWeight8bit
 The QuantizedWeight8bit class is a data structure that represents quantized weights in a neural network. Quantization is a technique used to reduce the precision of weight values from the typical 32-bit floating-point representation to a lower-precision format, such as 8-bit integers, to save memory and improve computational efficiency, especially on hardware accelerators like GPUs or TPUs.
 
 The QuantizedWeight8bit class has two main attributes:
@@ -147,7 +147,7 @@ When performing computations in the neural network, such as linear transformatio
 After the computation, the results are typically de-quantized (converted back to higher precision) for further processing or output.
 By using QuantizedWeight8bit, the model can achieve significant memory savings and potentially faster computations, especially on hardware accelerators optimized for low-precision arithmetic. However, there is a trade-off between the level of quantization and the model's accuracy, as quantization introduces approximation errors. Careful calibration and quantization-aware training techniques are often employed to minimize the accuracy loss due to quantization.
 
-## TrainingState 
+## :page_with_curl: TrainingState 
 The TrainingState class is a simple data structure defined as a NamedTuple in Python. It is used to hold the parameters (weights) of a neural network model during the training process. In this specific code, the TrainingState only contains one field:
 
 ```python
@@ -162,7 +162,7 @@ The NamedTuple is a lightweight data structure provides a way to define immutabl
 
 the TrainingState serves as a lightweight container to hold and manage the model parameters during the training process, allowing for efficient manipulation and updating of the model's weights.
 
-### KVMemory
+### :page_with_curl: KVMemory
 
 `KVMemory` is a `NamedTuple` data structure used to store and manage the key-value memory state in the transformer architecture. It is defined as follows:
 
@@ -188,7 +188,7 @@ The `step` field is incremented after each step to keep track of the current pos
 
 By encapsulating the key-value memory state in a dedicated data structure, the code can easily manage and update the memory state as the transformer processes each input sequence. This memory mechanism is crucial for the transformer architecture to capture long-range dependencies and generate coherent outputs in sequence-to-sequence tasks, such as language modeling or machine translation.
 
-## Router 
+## :page_with_curl: Router 
 The `Router` class is a module used in the Mixture of Experts (MoE) layer of the transformer architecture. It is responsible for routing the input tokens to a subset of experts (specialized feed-forward networks) based on learned routing probabilities. let's dive in 😊
 
 `__init__`:
@@ -259,7 +259,7 @@ This is a transparent method (decorated with `@hk.transparent`) that performs th
 
 The `Router` class is used in conjunction with the `MoELayer` class, which implements the Mixture of Experts layer. The routing probabilities computed by the Router are used to select the top `num_selected_experts` for each input token, and the corresponding expert networks are applied to the selected inputs. This allows the transformer to dynamically route different inputs to specialized experts, potentially improving the model's performance and capacity.
 
-## MoELayer 
+## :page_with_curl: MoELayer 
 
 The `MoELayer` class is a module that implements the Mixture of Experts (MoE) layer in the transformer architecture. The MoE layer is a technique that allows the model to dynamically route different inputs to specialized feed-forward networks, called experts, based on learned routing probabilities. let's try to explain the `MoELayer` class 😋:
 
