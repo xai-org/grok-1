@@ -33,7 +33,7 @@ repository and the model weights of Grok-1.
 # Table of contents
 This repository contains Python code for grok-1. Below is a breakdown of the main components and features provided by this codebase:
 
-## :book: `model.py`
+# :book: **model.py**
 i will try to breakdown each classes in detail
 
 ## :page_with_curl: functions, varibales and constants
