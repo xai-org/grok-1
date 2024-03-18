@@ -33,37 +33,10 @@ repository and the model weights of Grok-1.
 # Table of contents
 This repository contains Python code for grok-1. Below is a breakdown of the main components and features provided by this codebase:
 
-## File: `model.py`
+## :book: `model.py`
 i will try to breakdown each classes in detail
 
-## QuantizedWeight8bit
-The QuantizedWeight8bit class is a data structure that represents quantized weights in a neural network. Quantization is a technique used to reduce the precision of weight values from the typical 32-bit floating-point representation to a lower-precision format, such as 8-bit integers, to save memory and improve computational efficiency, especially on hardware accelerators like GPUs or TPUs.
-
-The QuantizedWeight8bit class has two main attributes:
-
-**weight** : This is a NumPy array that holds the quantized weight values, represented as 8-bit integers.
-
-**scales** : This is a NumPy array that holds the scaling factors associated with each quantized weight.
-
-During the model initialization or loading phase, the original 32-bit floating-point weights are quantized to 8-bit integers and packed into QuantizedWeight8bit instances.
-When performing computations in the neural network, such as linear transformations or convolutions, the quantized weights are used instead of the original 32-bit weights. This is done by applying the scaling factors stored in the scales attribute to recover approximate values of the original weights.
-After the computation, the results are typically de-quantized (converted back to higher precision) for further processing or output.
-By using QuantizedWeight8bit, the model can achieve significant memory savings and potentially faster computations, especially on hardware accelerators optimized for low-precision arithmetic. However, there is a trade-off between the level of quantization and the model's accuracy, as quantization introduces approximation errors. Careful calibration and quantization-aware training techniques are often employed to minimize the accuracy loss due to quantization.
-
-## TrainingState 
-The TrainingState class is a simple data structure defined as a NamedTuple in Python. It is used to hold the parameters (weights) of a neural network model during the training process. In this specific code, the TrainingState only contains one field:
-
-```python
-TrainingState(NamedTuple):
-    """Container for the training state."""
-
-    params: hk.Params
-```
-Here, params is an instance of hk.Params, which is a data structure provided by the Haiku library (a JAX-based neural network library) to represent the parameters (weights) of a neural network model.
-
-The NamedTuple is a lightweight data structure provides a way to define immutable tuples with named fields. It is similar to a class, but it is more lightweight and efficient, making it suitable for storing and passing around data structures that don't require additional methods or behavior.
-
-the TrainingState serves as a lightweight container to hold and manage the model parameters during the training process, allowing for efficient manipulation and updating of the model's weights.
+## functions, varibales and constants
 
 **ffn_size**: This function computes the size (number of units) for the feed-forward network (FFN) layer in the transformer architecture. The FFN size is typically larger than the embedding size to increase the model's expressive power. The function takes two arguments:
 
@@ -95,7 +68,19 @@ If the current environment does not support distributed training (i.e., jax.expe
 
 The function compiles the regular expressions in qs and checks if any window (consecutive sublist) of strings in ks matches all the compiled regular expressions simultaneously. If a match is found, it returns True; otherwise, it returns False. This function is likely used by apply_rules to determine if a specific set of rules (regular expressions) should be applied to a given path in the neural network model.
 
-## TRANSFORMER_PARTITION_RULES
+**init_layer_memories**: 
+
+**hk_rms_norm**:
+
+**make_attention_mask**:
+
+**rotate_half**:
+
+**layer_norm**:
+
+
+
+### TRANSFORMER_PARTITION_RULES: 
 `TRANSFORMER_PARTITION_RULES` is a list of tuples that define the partitioning rules for the parameters of a transformer model. These rules are used by the `apply_rules` function to reshape (reshard) the model parameters for efficient distributed training across multiple devices or accelerators.
 
 Each tuple in the TRANSFORMER_PARTITION_RULES list consists of two elements:
@@ -146,6 +131,36 @@ The `LM_PARTITION_RULES` list contains the following rules:
     This rule matches the parameters of the RMSNorm layer in the language model. The PartitionSpec P(None) indicates that these parameters should not be partitioned at all and should be replicated across all devices.
 
 By applying these partitioning rules, the language model's parameters are reshaped and distributed across multiple devices in a way that aims to balance the computational load and memory usage. The input and output embeddings, which are typically large tensors, are partitioned along the "data" and "model" dimensions to distribute their storage and computations. At the same time, smaller tensors like the normalization layer parameters are replicated across all devices to minimize communication overhead.
+
+
+## QuantizedWeight8bit
+The QuantizedWeight8bit class is a data structure that represents quantized weights in a neural network. Quantization is a technique used to reduce the precision of weight values from the typical 32-bit floating-point representation to a lower-precision format, such as 8-bit integers, to save memory and improve computational efficiency, especially on hardware accelerators like GPUs or TPUs.
+
+The QuantizedWeight8bit class has two main attributes:
+
+**weight** : This is a NumPy array that holds the quantized weight values, represented as 8-bit integers.
+
+**scales** : This is a NumPy array that holds the scaling factors associated with each quantized weight.
+
+During the model initialization or loading phase, the original 32-bit floating-point weights are quantized to 8-bit integers and packed into QuantizedWeight8bit instances.
+When performing computations in the neural network, such as linear transformations or convolutions, the quantized weights are used instead of the original 32-bit weights. This is done by applying the scaling factors stored in the scales attribute to recover approximate values of the original weights.
+After the computation, the results are typically de-quantized (converted back to higher precision) for further processing or output.
+By using QuantizedWeight8bit, the model can achieve significant memory savings and potentially faster computations, especially on hardware accelerators optimized for low-precision arithmetic. However, there is a trade-off between the level of quantization and the model's accuracy, as quantization introduces approximation errors. Careful calibration and quantization-aware training techniques are often employed to minimize the accuracy loss due to quantization.
+
+## TrainingState 
+The TrainingState class is a simple data structure defined as a NamedTuple in Python. It is used to hold the parameters (weights) of a neural network model during the training process. In this specific code, the TrainingState only contains one field:
+
+```python
+TrainingState(NamedTuple):
+    """Container for the training state."""
+
+    params: hk.Params
+```
+Here, params is an instance of hk.Params, which is a data structure provided by the Haiku library (a JAX-based neural network library) to represent the parameters (weights) of a neural network model.
+
+The NamedTuple is a lightweight data structure provides a way to define immutable tuples with named fields. It is similar to a class, but it is more lightweight and efficient, making it suitable for storing and passing around data structures that don't require additional methods or behavior.
+
+the TrainingState serves as a lightweight container to hold and manage the model parameters during the training process, allowing for efficient manipulation and updating of the model's weights.
 
 ### KVMemory
 
