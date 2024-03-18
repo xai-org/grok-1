@@ -137,7 +137,7 @@ The `LM_PARTITION_RULES` list contains the following rules:
 
 - #### `(("language_model", "positional_embeddings"), P(None, ("data", "model")))`: 
 
-    This rule matches the positional embeddings tensor in the language model module. The PartitionSpec P(None, ("data", "model")) specifies that this tensor should be partitioned along the "data" and "model" dimensions, but not partitioned along the leading dimension (represented by None). This means that the positional embeddings will be split across multiple devices along the "data" and "model" dimensions, but replicated along the leading dimension (e.g., batch dimension).
+    This rule matches the positional embeddings tensor in the language model module. The PartitionSpec `P(None, ("data", "model"))` specifies that this tensor should be partitioned along the "data" and "model" dimensions, but not partitioned along the leading dimension (represented by None). This means that the positional embeddings will be split across multiple devices along the "data" and "model" dimensions, but replicated along the leading dimension (e.g., batch dimension).
 
 - #### `(("language_model", "in_out_embed", "embeddings"), P(None, ("data", "model")))`: 
     This rule matches the embeddings tensor of the InOutEmbed module (used for input and output embeddings) in the language model. Similar to the previous rule, it specifies that this tensor should be partitioned along the "data" and "model" dimensions, while being replicated along the leading dimension.
@@ -282,7 +282,7 @@ The `MoELayer` class is a module that implements the Mixture of Experts (MoE) la
 
 - It selects the top `num_selected_experts` experts for each input token based on the routing probabilities.
 
-` It creates a broadcasted version of the input tensor, duplicating it num_selected_experts times for each token position.
+- It creates a broadcasted version of the input tensor, duplicating it num_selected_experts times for each token position.
 
 - It initializes the expert networks (specified by `layer_fn`) by creating a batched version of the initialization function.
 
