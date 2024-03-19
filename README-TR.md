@@ -11,7 +11,7 @@ pip install -r requirements.txt
 python run.py
 ```
 
-to test the code.
+kodu test etmek için.
 
 Betik, bir test girdisinde modelden örnekler almak için kontrol noktasını yükler.
 
