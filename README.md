@@ -1,6 +1,10 @@
 # Grok-1
 
 This repository contains JAX example code for loading and running the Grok-1 open-weights model.
+```bash
+git clone https://github.com/xai-org/grok-1
+cd grok-1
+```
 
 Make sure to download the checkpoint and place the `ckpt-0` directory in `checkpoints` - see [Downloading the weights](#downloading-the-weights)
 
