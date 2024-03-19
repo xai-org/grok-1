@@ -22,6 +22,27 @@ CKPT_PATH = "./checkpoints/"
 
 
 def main():
+    """
+    Initializes and runs a text generation model using predefined model configurations and inference settings.
+
+    This function sets up a language model with specific configurations, including model architecture details
+    (e.g., embedding sizes, number of layers, attention heads, and MoE settings) and text generation settings
+    (e.g., vocabulary size, token identifiers). It initializes an inference runner with the model, checkpoint
+    path, tokenizer, and mesh configuration. The inference runner is then used to generate text based on a
+    given prompt and output the result.
+
+    The process involves:
+    - Creating a `LanguageModelConfig` instance with specified model parameters, including transformer
+      configurations and quantization settings for weights.
+    - Initializing an `InferenceRunner` with the model configuration, batch size per device, checkpoint path,
+      and other relevant settings.
+    - Calling the `initialize` method on the inference runner to prepare the model and tokenizer for inference.
+    - Generating text based on a provided prompt using the `sample_from_model` function, which internally
+      manages the sampling process through the inference runner.
+
+    Output:
+    - Prints the generated text continuation for a prompt to the standard output.
+    """
     grok_1_model = LanguageModelConfig(
         vocab_size=128 * 1024,
         pad_token=0,
