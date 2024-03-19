@@ -1,0 +1,39 @@
+name: 🚀 Feature Request
+description: I have a suggestion (and may want to implement it 🙂)!
+title: "[Feature] <title>"
+labels: ["type: new feature"]
+body:
+- type: textarea
+  attributes:
+    label: Feature Request
+    description: >
+      Tip: Have you checked GitHub issues whether someone else has already reported your issue? Maybe the feature already exists?
+    placeholder: >
+      A concise description of what you're experiencing.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Is your feature request related to a problem? Please describe
+    description: A clear and concise description of what the problem is. Ex. I have an issue when [...]
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Describe the solution you'd like
+    description: A clear and concise description of what you want to happen. Add any considered drawbacks.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Describe alternatives you've considered
+    description: A clear and concise description of any alternative solutions or features you've considered.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Additional context
+  validations:
+    required: false
+- type: markdown
+  value: "Please read the README before submitting the PR"

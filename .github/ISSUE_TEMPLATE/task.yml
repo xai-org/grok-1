@@ -1,0 +1,25 @@
+name: 🚀 Task
+description: Used to create tasks for the community.
+title: "[Task] <title>"
+labels: ["status: volunteer wanted"]
+body:
+- type: textarea
+  attributes:
+    label: Description
+    placeholder: A clear and concise description of Task
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Task List
+    placeholder: |
+      1. Task1...
+      2. Task2...
+      3. Task3...
+      4. Task4...
+  validations:
+    required: false
+- type: markdown
+  attributes:
+    value: |
+      Please read the README before submitting the PR

@@ -1,0 +1,17 @@
+name: 🤔 Volunteer
+description: Some volunteer help
+title: "[Volunteer] <title>"
+labels: ["status: volunteer wanted"]
+body:
+- type: textarea
+  attributes:
+    label: Volunteer help
+    placeholder: >
+      your need volunteer help here;
+  validations:
+    required: true
+- type: markdown
+  attributes:
+    value: |
+      Please read the README before submitting the PR
+
