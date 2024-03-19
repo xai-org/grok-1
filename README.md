@@ -41,7 +41,7 @@ Grok-1 is currently designed with the following specifications:
 - **Maximum Sequence Length (context):** 8,192 tokens
 - **TPU/GPU:** NVIDIA/AMD supported only
 
-## 4. Downloading the weights
+## 3. Downloading the weights
 
 You can download the weights using a torrent client and this magnet link:
 
