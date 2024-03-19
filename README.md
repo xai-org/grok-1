@@ -1,4 +1,13 @@
+<p align="center"><img src="./assets/xai.png"></p>
+
 # Grok-1
+![GitHub Repo stars](https://img.shields.io/github/stars/xai-org/grok-1?style=flat&logo=github&logoColor=%23ffffff&labelColor=%23000000&color=%23000000)
+![GitHub forks](https://img.shields.io/github/forks/xai-org/grok-1?style=flat&logo=github&logoColor=%23ffffff&labelColor=%23000000&color=%23000000)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/xai-org/grok-1?style=flat&logo=github&labelColor=%23000000&color=%23000000)
+![GitHub last commit](https://img.shields.io/github/last-commit/xai-org/grok-1?style=flat&logo=github&labelColor=%23000000&color=%23000000)
+![GitHub License](https://img.shields.io/github/license/xai-org/grok-1?style=flat&logo=github&labelColor=%23000000&color=%23000000)
+
+
 
 This repository contains JAX example code for loading and running the Grok-1 open-weights model.
 
@@ -54,3 +63,11 @@ huggingface-cli download xai-org/grok-1 --repo-type model --include ckpt-0/* --l
 The code and associated Grok-1 weights in this release are licensed under the
 Apache 2.0 license. The license only applies to the source files in this
 repository and the model weights of Grok-1.
+
+# Contributors
+
+<p align="center">
+  <a href="https://github.com/xai-org/grok-1/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=xai-org/grok-1" />
+  </a>
+</p>
