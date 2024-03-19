@@ -1,0 +1,2 @@
+checkpoints/*
+!checkpoints/README.md
