@@ -12,10 +12,32 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import logging
+import logging, os
 
 from model import LanguageModelConfig, TransformerConfig, QuantizedWeight8bit as QW8Bit
 from runners import InferenceRunner, ModelRunner, sample_from_model
+
+# Fall back to using CPU execution if less than 8 GPUs
+# ONLY MEANT FOR DEVELOPERS WITH 384GB RAM
+# CURRENTLY TOO SLOW FOR MEANINGFUL INFERENCE WORKLOADS
+#
+# Set True to run model on CPU only
+USE_CPU_ONLY = False
+
+if USE_CPU_ONLY:
+    # Simulate 8 devices via CPUs
+    xla_flags = os.environ.get("XLA_FLAGS", "")
+    xla_flags += " --xla_force_host_platform_device_count=8"
+    os.environ["XLA_FLAGS"] = xla_flags
+    # Enforce CPU-only execution
+    os.environ["CUDA_VISIBLE_DEVICES"] = ""
+    # Suppress warnings about unused backends
+    logging.getLogger("jax._src.xla_bridge").addFilter(logging.Filter("Unable to initialize backend"))
+    # Suppress false warnings about stuck processes
+    logging.getLogger("collective_ops_utils").addFilter(logging.Filter("This thread has been waiting for"))
+    logging.getLogger("collective_ops_utils").addFilter(logging.Filter("Thread is unstuck"))
+    # Suppress warnings about slow compiling
+    logging.getLogger("slow_operation_alarm").addFilter(logging.Filter("Very slow compile"))
 
 
 CKPT_PATH = "./checkpoints/"

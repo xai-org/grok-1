@@ -1,0 +1,4 @@
+dm_haiku==0.0.12
+jax==0.4.25
+numpy==1.26.4
+sentencepiece==0.2.0
