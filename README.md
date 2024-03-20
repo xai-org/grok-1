@@ -11,6 +11,14 @@ pip install -r requirements.txt
 python run.py
 ```
 
+to test the code. If you are using Conda, run
+
+```shell
+conda env create -f environment.yml
+conda activate grok
+python run.py
+```
+
 to test the code.
 
 The script loads the checkpoint and samples from the model on a test input.
