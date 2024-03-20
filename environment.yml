@@ -1,0 +1,11 @@
+name: grok
+channels:
+  - conda-forge
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy==1.26.4
+  - dm-haiku==0.0.12
+  - sentencepiece==0.2.0
+  - jax[cuda12-pip]==0.4.25  

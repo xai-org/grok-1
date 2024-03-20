@@ -13,6 +13,16 @@ python run.py
 
 to test the code.
 
+If you are using Conda, run
+
+```shell
+conda env create -f environment.yml
+conda activate grok
+python run.py
+```
+
+to test the code.
+
 The script loads the checkpoint and samples from the model on a test input.
 
 Due to the large size of the model (314B parameters), a machine with enough GPU memory is required to test the model with the example code.
