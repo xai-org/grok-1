@@ -11,7 +11,9 @@ pip install -r requirements.txt
 python run.py
 ```
 
-to test the code. If you are using Conda, run
+to test the code.
+
+If you are using Conda, run
 
 ```shell
 conda env create -f environment.yml
