@@ -141,7 +141,7 @@ def path_tuple_to_string(path: tuple) -> str:
 For get_load_path_str(),
 introducing a simple caching mechanism to avoid recomputing regex matches for paths that have already been processed.
 """
-@lru_cache(maxsize=None)
+@lru_cache(maxsize=32)  # Set maxsize to 32MB
 def get_load_path_str_cached(
     init_path_str: str,
     load_rename_rules: Optional[list[tuple[str, str]]] = None,
