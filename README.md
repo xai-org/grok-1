@@ -49,6 +49,18 @@ pip install huggingface_hub[hf_transfer]
 huggingface-cli download xai-org/grok-1 --repo-type model --include ckpt-0/* --local-dir checkpoints --local-dir-use-symlinks False
 ```
 
+# Reproducible Environment
+
+Those familiar with `nix` and `direnv` can use a reproducible development environment.
+
+```sh
+cd ~/src/grok-1
+direnv allow .
+just --list
+just download-weights
+just test
+```
+
 # License
 
 The code and associated Grok-1 weights in this release are licensed under the
