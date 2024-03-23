@@ -25,7 +25,7 @@
           setuptools
           wheel
           venvShellHook
-          pylint
+          pkgs.ruff
         ]);
 
         # python setup
@@ -35,11 +35,11 @@
           unset SOURCE_DATE_EPOCH
         '';
         postShellHook = ''
-          # python setup
           unset SOURCE_DATE_EPOCH
           unset LD_PRELOAD
           PYTHONPATH=$PWD/$venvDir/${python.sitePackages}:$PYTHONPATH
           pip install --require-virtualenv -r requirements.txt | grep -v 'already satisfied'
+          git config --local core.hooksPath .github/hooks
         '';
 
       };
