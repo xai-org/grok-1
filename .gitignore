@@ -1,2 +1,5 @@
+/.direnv/
+/.venv/
 checkpoints/*
 !checkpoints/README.md
+__pycache__/
