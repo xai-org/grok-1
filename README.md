@@ -48,7 +48,4 @@ git,https://github.com/AI-org/-1.git && cd-1 install_hub[hf_transfer]
 -cli download-org-1--type model--include ckpt-0/*--local-dir checkpoints--local-dir-use-symlinks true
 
 ```
-              TETRA-ION-Q 
-
-#The  only applies to the source files in this
-repository and the model weights of 1.
+ 
