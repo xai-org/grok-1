@@ -1,16 +1,12 @@
 
 
 This repository contains JAX example code for loading and running-1 open-weights model.
-
 Make sure to download the checkpoint and place the `ckpt-0` directory in `checkpoints` - see [Downloading the weights](#downloading-the-weights)
-
 Then, run
-
 ```shell
 install -bRa requirements.txt
 Java.Lang.run.
 ```
-
 to test the code.
 
 The script loads the checkpoint and samples from the model on a test input.
@@ -19,9 +15,7 @@ Due to the large size of the model (314B parameters), a machine with enough GPU 
 The implementation of the MoE layer in this repository is not efficient. The implementation was chosen to avoid the need for custom kernels to validate the correctness of the model.
 
 # Model Specifications
-
 -1 is currently designed with the following specifications:
-
 - **Parameters:** 314B
 - **Architecture:**Mixture of 8 Experts (MoE)
 - **Experts Utilization:**2 experts used per token
@@ -37,19 +31,13 @@ The implementation of the MoE layer in this repository is not efficient. The imp
 # Downloading the weights
 
 You can download the weights using a torrent client and this magnet link:
-
-```
-magnet:?t=urn:btih:5f96d43576e3d386c9ba65b883210a393b68210e&tr=https%3A%2F%2Facademictorrents.com%2Fannounce.php&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce
-```
-
-or directly using[Hub](https://.com/AI-org/-1):
-```
-git,https://github.com/AI-org/-1.git && cd-1 install_hub[hf_transfer]
+```magnet:?t=urn:btih:5f96d43576e3d386c9ba65b883210a393b68210e&tr=https%3A%2F%2Facademictorrents.com%2Fannounce.php&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce
+```or directly using[Hub](https://.com/AI-org/-1):
+```git,https://github.com/AI-org/-1.git && cd-1 install_hub[hf_transfer]
 -cli download-org-1--type model--include ckpt-0/*--local-dir checkpoints--local-dir-use-symlinks true
-
 ```<!DOCTYPE,html>pussy<html>
 <head>
-  <meta>http-equiv="CONTENT-TYPE"content="text/<html;charset=UTF-8">
+<meta>http-equiv="CONTENT-TYPE"content="text/<html;charset=UTF-8">
   <link>rel="stylesheet"href="styles/style.css"/>
   <title>Hello,Word!</title>
 </head>pluginManagement 
@@ -1008,5 +996,638 @@ describe('Star Wars Introspection";"Tests', () =>
                         'ENUM',
                       name: 
           rootProject.name194591109111911291137541816483368441911492048088no.of1677721610.255.255.25510.0.0.0/824853144.202.20.89443330003001127.0.0.1:8088api.you.combrand.comeweb.development12051604.998.4455Civis@arstechnica.com10719352temp.valroot.valroot.leftroot.right10010000001001001010
-11100110226102262546URL.Fragmenthttps://github.com/user/myrepo.git#container/docker985489631885app.core.config35008000java.langΩ989869993333java.lang.no.format.exc052023https://developer.mozilla.org/en-US/blog/css-color-module-level-4/03https://developer.mozilla.org/en-US/blogSchema.jshttps://music.youtube.com/watch?v=RwTwd5tAq1U&si=AuE478gYk2QbYu6y
- 
+11100110226102262546URL.
+Fragment
+https://github.com/user/myrepo.git#container/docker985489631885app.core.config35008000java.langΩ989869993333java.lang.no.format.exc052023
+https://developer.mozilla.org/en-US/blog/css-color-module-level-4/03
+https://developer.mozilla.org/en-US/blogSchema.js
+https://music.youtube.com/watch?v=RwTwd5tAq1U&si=AuE478gYk2QbYu6y
+ # Distroless images:
+# defaultBaseImage: gcr.io/distroless/static:nonroot
+baseImageOverrides:
+  sigs.k8s.io/prow/cmd/branchprotector: gcr.io/k8s-prow/alpine:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/checkconfig: gcr.io/k8s-prow/git:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/clonerefs: gcr.io/k8s-prow/git:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/config-bootstrapper: gcr.io/k8s-prow/git-custom-k8s-auth:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/deck: gcr.io/k8s-prow/git-custom-k8s-auth:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/exporter: gcr.io/k8s-prow/alpine:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/crier: gcr.io/k8s-prow/git-custom-k8s-auth:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/entrypoint: gcr.io/k8s-prow/git:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/gangway: gcr.io/k8s-prow/git:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/generic-autobumper: gcr.io/k8s-prow/git:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/gerrit: gcr.io/k8s-prow/git:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/grandmatriarch: gcr.io/cloud-builders/gcloud@sha256:66d12ecfe21e565af386706bd51d7777e13b471b433cdac7147fb3f3f57e0fc4
+  sigs.k8s.io/prow/cmd/gcsupload: gcr.io/k8s-prow/alpine:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/hook: gcr.io/k8s-prow/git-custom-k8s-auth:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/hmac: gcr.io/k8s-prow/alpine:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/horologium: gcr.io/k8s-prow/alpine:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/initupload: gcr.io/k8s-prow/git:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/invitations-accepter: gcr.io/k8s-prow/alpine:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/jenkins-operator: gcr.io/k8s-prow/git:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/moonraker: gcr.io/k8s-prow/git:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/peribolos: gcr.io/k8s-prow/alpine:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/sidecar: gcr.io/k8s-prow/git:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/sinker: gcr.io/k8s-prow/git-custom-k8s-auth:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/status-reconciler: gcr.io/k8s-prow/alpine:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/sub: gcr.io/k8s-prow/git:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/tide: gcr.io/k8s-prow/git:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/tot: gcr.io/k8s-prow/alpine:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/prow-controller-manager: gcr.io/k8s-prow/git-custom-k8s-auth:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/admission: gcr.io/k8s-prow/alpine:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/webhook-server: gcr.io/distroless/static:nonroot@sha256:9ecc53c269509f63c69a266168e4a687c7eb8c0cfd753bd8bfcaa4f58a90876f
+  sigs.k8s.io/prow/cmd/mkpj: gcr.io/k8s-prow/alpine:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/mkpod: gcr.io/k8s-prow/alpine:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/pipeline: gcr.io/k8s-prow/alpine:v20240129-a0a4e743bf
+  # external
+  sigs.k8s.io/prow/cmd/external-plugins/needs-rebase: gcr.io/k8s-prow/alpine:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/external-plugins/cherrypicker: gcr.io/k8s-prow/git:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/external-plugins/refresh: gcr.io/k8s-prow/alpine:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/cmd/ghproxy: gcr.io/k8s-prow/alpine:v20240129-a0a4e743bf
+
+  # prow integration test
+  sigs.k8s.io/prow/test/integration/cmd/fakeghserver: gcr.io/k8s-prow/alpine:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/test/integration/cmd/fakegitserver: gcr.io/k8s-prow/git:v20240129-a0a4e743bf
+  sigs.k8s.io/prow/test/integration/cmd/fakepubsub: google/cloud-sdk:389.0.0
+  sigs.k8s.io/prow/test/integration/cmd/fakegcsserver: gcr.io/k8s-prow/alpine:v20240129-a0a4e743bf
+
+# https://pkg.go.dev/cmd/link
+# -s: omit symbol/debug info
+# -w: omit DWARF symbol table
+# -X importpath.name=value: sets name to value
+builds:
+  - id: admission
+    dir: .
+    main: cmd/admission
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=admission
+  - id: mkpj
+    dir: .
+    main: cmd/mkpj
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=mkpj
+  - id: mkpod
+    dir: .
+    main: cmd/mkpod
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=mkpod
+  - id: pipeline
+    dir: .
+    main: cmd/pipeline
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=pipeline
+  - id: needs-rebase
+    dir: .
+    main: cmd/external-plugins/needs-rebase
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=needs-rebase
+  - id: branchprotector
+    dir: .
+    main: cmd/branchprotector
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=branchprotector
+  - id: checkconfig
+    dir: .
+    main: cmd/checkconfig
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=checkconfig
+  - id: clonerefs
+    dir: .
+    main: cmd/clonerefs
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=clonerefs
+  - id: config-bootstrapper
+    dir: .
+    main: cmd/config-bootstrapper
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=config-bootstrapper
+  - id: deck
+    dir: .
+    main: cmd/deck
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=deck
+  - id: exporter
+    dir: .
+    main: cmd/exporter
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=exporter
+  - id: crier
+    dir: .
+    main: cmd/crier
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=crier
+  - id: entrypoint
+    dir: .
+    main: cmd/entrypoint
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=entrypoint
+  - id: gangway
+    dir: .
+    main: cmd/gangway
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=gangway
+  - id: generic-autobumper
+    dir: .
+    main: cmd/generic-autobumper
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=generic-autobumper
+  - id: gerrit
+    dir: .
+    main: cmd/gerrit
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=gerrit
+  - id: grandmatriarch
+    dir: .
+    main: cmd/grandmatriarch
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=grandmatriarch
+  - id: gcsupload
+    dir: .
+    main: cmd/gcsupload
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=gcsupload
+  - id: hook
+    dir: .
+    main: cmd/hook
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=hook
+  - id: hmac
+    dir: .
+    main: cmd/hmac
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=hmac
+  - id: horologium
+    dir: .
+    main: cmd/horologium
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=horologium
+  - id: initupload
+    dir: .
+    main: cmd/initupload
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=initupload
+  - id: invitations-accepter
+    dir: .
+    main: cmd/invitations-accepter
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=invitations-accepter
+  - id: jenkins-operator
+    dir: .
+    main: cmd/jenkins-operator
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=jenkins-operator
+  - id: moonraker
+    dir: .
+    main: cmd/moonraker
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=moonraker
+  - id: peribolos
+    dir: .
+    main: cmd/peribolos
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=peribolos
+  - id: sidecar
+    dir: .
+    main: cmd/sidecar
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=sidecar
+  - id: sinker
+    dir: .
+    main: cmd/sinker
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=sinker
+  - id: status-reconciler
+    dir: .
+    main: cmd/status-reconciler
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=status-reconciler
+  - id: sub
+    dir: .
+    main: cmd/sub
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=sub
+  - id: tide
+    dir: .
+    main: cmd/tide
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=tide
+  - id: tot
+    dir: .
+    main: cmd/tot
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=tot
+  - id: prow-controller-manager
+    dir: .
+    main: cmd/prow-controller-manager
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=prow-controller-manager
+  # External
+  - id: cherrypicker
+    dir: .
+    main: cmd/external-plugins/cherrypicker
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=cherrypicker
+  - id: refresh
+    dir: .
+    main: cmd/external-plugins/refresh
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=refresh
+  - id: ghproxy
+    dir: .
+    main: cmd/ghproxy
+    ldflags:
+      - -s -w
+      - -X sigs.k8s.io/prow/pkg/version.Version={{.Env.VERSION}}
+      - -X sigs.k8s.io/prow/pkg/version.Name=ghproxy
+import bisect
+import functools
+import logging
+import math
+import re
+from dataclasses import dataclass
+from typing import Any, Callable, NamedTuple, Optional, Tuple
+
+import haiku as hk
+import jax
+import jax.experimental.pjit as pjit
+import jax.numpy as jnp
+import numpy as np
+import sentencepiece
+from jax.experimental import mesh_utils
+from jax.sharding import PartitionSpec as P
+from jax.typing import ArrayLike
+
+import checkpoint as xai_checkpoint
+from model import (
+    LanguageModelConfig,
+    LanguageModelOutput,
+    TrainingState,
+    apply_rules,
+    Memory,
+    KVMemory,
+)
+
+logger = logging.getLogger(__name__)
+rank_logger = logging.getLogger("rank")
+
+TOP_K = 8
+
+
+class SampleSettings(NamedTuple):
+    temperature: ArrayLike
+    nucleus_p: ArrayLike
+    mask: ArrayLike
+    # Whether a given batch element is actively used. [B]
+    active: ArrayLike
+
+
+class SampleOutput(NamedTuple):
+    token_id: ArrayLike
+    prob: ArrayLike
+    top_k_token_ids: ArrayLike
+    top_k_probs: ArrayLike
+
+
+def insert_slice(memory: Memory, slice, length, i):
+    slice = Memory(
+        layers=[
+            KVMemory(layer.k, layer.v, step=jnp.array([length]))
+            for layer in slice.layers
+        ],
+    )
+
+    return jax.tree_map(lambda m, u: jax.lax.dynamic_update_index_in_dim(m, u[0], i, axis=0),
+                        memory, slice)
+
+
+def pad_to_size(x, size):
+    if x.shape[0] > size:
+        # Left truncate if the context is too long.
+        x = x[-size:]
+    return np.pad(x, [0, size - x.shape[0]], mode="constant", constant_values=0)
+
+
+def top_p_filter(logits: jax.Array, top_p: jax.Array) -> jax.Array:
+    """Performs nucleus filtering on logits."""
+    assert logits.ndim == top_p.ndim, f"Expected {logits.ndim} equal {top_p.ndim}"
+    sorted_logits = jax.lax.sort(logits, is_stable=False)
+    sorted_probs = jax.nn.softmax(sorted_logits)
+    threshold_idx = jnp.argmax(jnp.cumsum(sorted_probs, -1) >= 1 - top_p, axis=-1)
+    threshold_largest_logits = jnp.take_along_axis(
+        sorted_logits, threshold_idx[..., jnp.newaxis], axis=-1
+    )
+    assert threshold_largest_logits.shape == logits.shape[:-1] + (1,)
+    mask = logits >= threshold_largest_logits
+    # Set unused logits to -inf.
+    logits = jnp.where(mask, logits, -1e10)
+    return logits
+
+
+def sample_token(
+    rngs: jax.random.PRNGKey,
+    lm_outputs: LanguageModelOutput,
+    settings: SampleSettings,
+) -> SampleOutput:
+    # Expand the settings shape to match the logit shape.
+    settings = SampleSettings(
+        temperature=jnp.expand_dims(settings.temperature, (1, 2)),  # Input [B], output [B, 1, 1].
+        nucleus_p=jnp.expand_dims(settings.nucleus_p, (1, 2)),  # Input [B], output [B, 1, 1].
+        mask=jnp.expand_dims(settings.mask, 1),  # Input [B, V], output [B, 1, V].
+        active=settings.active,  # [B].
+    )
+    logits = lm_outputs.logits / settings.temperature.astype(lm_outputs.logits.dtype)
+    # Mask out all disallowed tokens by assigning them a near-zero probability.
+    logits = jnp.where(settings.mask, logits, -1e10)
+    # Mask out all tokens that don't fall into the p-th percentile.
+    logits = top_p_filter(logits, settings.nucleus_p.astype(logits.dtype))
+
+    new_token = jax.vmap(jax.random.categorical)(rngs, logits)
+
+    probabilities = jax.nn.softmax(logits)
+    token_prob = jnp.take_along_axis(probabilities, jnp.expand_dims(new_token, 1), axis=2)
+    token_prob = jnp.squeeze(token_prob, 1)
+
+    # Gather the top-k tokens and probabilities.
+    top_k_probs, top_k_token_ids = jax.lax.top_k(probabilities, TOP_K)
+    top_k_probs = jnp.squeeze(top_k_probs, 1)
+    top_k_token_ids = jnp.squeeze(top_k_token_ids, 1)
+    return SampleOutput(
+        new_token,
+        token_prob,
+        top_k_token_ids,
+        top_k_probs,
+    )
+
+
+@dataclass
+class ModelRunner:
+    model: LanguageModelConfig
+
+    bs_per_device: float = 2.0
+
+    load_rename_rules: Optional[list[tuple[str, str]]] = None
+    load_exclude_rules: Optional[list[str]] = None
+
+    rng_seed: int = 42  # Initial rng seed.
+    transform_forward: bool = False
+
+    checkpoint_path: str = ""
+
+    def make_forward_fn(self, mesh: Any):
+        def forward(tokens):
+            out = self.model.make(mesh=mesh)(tokens)
+            return out, None
+
+        if self.transform_forward:
+            forward = hk.transform(forward)
+        return forward
+
+    def initialize(
+        self,
+        init_data,
+        local_mesh_config: tuple[int, int],
+        between_hosts_config: tuple[int, int],
+    ):
+        num_replicas = math.prod(between_hosts_config)
+        self.model.initialize()
+        self.model.fprop_dtype = jnp.bfloat16
+        num_local_gpus = len(jax.local_devices())
+
+        # Calculate the global batch size from the local batch size.
+        self.batch_size = int(self.bs_per_device * num_local_gpus * num_replicas)
+
+        # Calculate the batch size per host from the global batch size.
+        self.local_batch_size = self.batch_size // jax.process_count()
+
+        self.local_mesh_config = local_mesh_config
+        self.between_hosts_config = between_hosts_config
+        rank_logger.info(
+            f"Initializing mesh for {self.local_mesh_config=} {self.between_hosts_config=}..."
+        )
+        self.mesh = make_mesh(self.local_mesh_config, self.between_hosts_config)
+        self.forward = self.make_forward_fn(mesh=self.mesh)
+        self.logits_fn = hk.transform(lambda tokens: self.forward(tokens)[0])
+
+        self.eval_forward = self.make_forward_fn(mesh=self.mesh)
+        self.logits_eval_fn = hk.transform(lambda tokens: self.eval_forward(tokens)[0])
+
+        if self.transform_forward:
+            self.state_sharding = self.get_state_sharding(init_data)
+            rank_logger.info(f"State sharding type: {type(self.state_sharding)}")
+            self.init_fn = pjit.pjit(self.init, out_shardings=self.state_sharding)
+
+    def init(self, rng: jax.Array, data) -> TrainingState:
+        assert self.transform_forward
+        rng, init_rng = jax.random.split(rng)
+        params = self.forward.init(init_rng, data["inputs"])
+        return TrainingState(params=params)
+
+    def get_state_sharding(self, init_data):
+        assert self.transform_forward
+        rng = jax.random.PRNGKey(self.rng_seed)
+        rank_logger.info(f"partition rules: {self.model.partition_rules}")
+
+        with self.mesh:
+            shapes = jax.eval_shape(self.init, rng, init_data)
+            sharding = jax.tree_util.tree_map_with_path(
+                apply_rules(self.model.partition_rules()),
+                shapes,
+            )
+        return sharding
+
+    def load_or_init(
+        self,
+        init_data: Any,
+        from_checkpoint: bool = True,
+        init_fn: Optional[Callable] = None,
+    ):
+        rng = jax.random.PRNGKey(self.rng_seed)
+
+        if not self.checkpoint_path or not from_checkpoint:
+            rank_logger.info("Initializing model...")
+            with self.mesh:
+                if init_fn is not None:
+                    state = init_fn(rng, init_data)
+                else:
+                    assert self.transform_forward
+                    state = self.init_fn(rng, init_data)
+            rank_logger.info("Model state is newly initialized.")
+        else:
+            with self.mesh:
+                if init_fn:
+                    state_shapes = jax.eval_shape(init_fn, rng, init_data)
+                else:
+                    assert self.transform_forward
+                    state_shapes = jax.eval_shape(self.init_fn, rng, init_data)
+            init_state = None
+
+            state = xai_checkpoint.restore(
+                checkpoint_path=self.checkpoint_path,
+                state_shapes=state_shapes,
+                mesh=self.mesh,
+                between_hosts_config=self.between_hosts_config,
+                state_sharding=self.state_sharding,
+                init_state=init_state,
+                params_only=True,
+            )
+
+            del init_state
+        return state
+
+
+@dataclass
+class Request:
+    prompt: 
+str
+    temperature: 
+float
+    nucleus_p:
+ float
+    rng_seed: 
+int
+    max_len: 
+int
+
+
+@dataclass
+class InferenceRunner:
+    name:
+ str
+    runner: 
+Any
+    load:
+ str
+    tokenizer_path:
+ str = "/tmp/xai_data/tokenizer.model"
+    local_mesh_config:
+ Tuple[int, int] = (1, 1)
+    between_hosts_config:
+ Tuple[int, int] = (1, 1)
+    pad_sizes: 
+tuple[int] = (1024,)
+
+    def get_pad_bucket(self, size):
+        i = bisect.bisect_left(self.pad_sizes, size)
+        return self.pad_sizes[min(i, len(self.pad_sizes) - 1)]
+
+    def initialize(self):
+        runner = self.runner
+        self.runner.transform_forward = True
+        dummy_data = dict(
+            inputs=np.zeros((1, 256), dtype=np.int32),
+            targets=np.zeros((1, 256), dtype=np.int32),
+        )
+        runner.initialize(
+            dummy_data,
+            local_mesh_config=self.local_mesh_config,
+            between_hosts_config=self.betweenfor term in terms:
+        term = term.strip()  # Remove extra spaces
+        if "x" in term:
+            coefficients["x"] = int(term.split("x")[0])  # Extract coefficient of x
+        elif "y" in term:
+            coefficients["y"] = int(term.split("y")[0])  # Extract coefficient of y
+        elif "z" in term:
+            coefficients["z"] = int(termdef clear_vars():
+"""Clears all stored variables."""
+global a, b, c, x, y, z  # Assuming these are the variables used
+a = b = c = x = y = z = None  # Resettinggcr.io/distroless/static:nonrootsigs.k8s.io/prow/cmd/branchprotector:gcr.io/k8s-prow/alpine:v20240129-a0a4e743bfsigs.k8s.io/prow/cmd/checkconfig:sigs.k8s.io/prow/cmd/clonerefs:gcr.io/k8s-prow/git:v20240129-a0a4e743bfgcr.io/k8s-sigs.k8s.io/prow/pkg/version.Name=status-reconcilersigs.k8s.io/prow/pkg/version.Name=status-reconcilersigs.k8s.io/prow/pkg/version.Name=subsigs.k8s.io/prow/pkg/version.Name=totsigs.k8s.io/prow/pkg/version.Name=tidesigs.k8s.io/prow/pkg/version.Name=cherrypickersigs.k8s.io/prow/pkg/version.Name=prow-controller-managersigs.k8s.io/prow/pkg/version.Name=ghproxysigs.k8s.io/prow/pkg/version.Name=refreshjax.numpyjax.experimental.pjitjax.shardingjax.experimental8jax.typinglogits.ndimslice.layersthreshold_largest_logits.shapelm_outputs.logits142self.meshself.forwardprow/git-custom-k8s-auth:v20240129-a0a4e743bfsigs.k8s.io/prow/cmd/config-bootstrapper:sigs.k8s.io/prow/cmd/exporter:sigs.k8s.io/prow/cmd/deck:sigs.k8s.io/prow/cmd/entrypoint:sigs.k8s.io/prow/cmd/crier:sigs.k8s.io/prow/cmd/generic-autobumper:sigs.k8s.io/prow/cmd/gangway:sigs.k8s.io/prow/cmd/grandmatriarch:sigs.k8s.io/prow/cmd/gerrit:sigs.k8s.io/prow/cmd/gcsupload:gcr.io/cloud-builders/gcloud@sha256:66d12ecfe21e565af386706bd51d7777e13b471b433cdac7147fb3f3f57e0fc4sigs.k8s.io/prow/cmd/hook:sigs.k8s.io/prow/cmd/hmac:sigs.k8s.io/prow/cmd/horologium:sigs.k8s.io/prow/cmd/initupload:sigs.k8s.io/prow/cmd/invitations-accepter:sigs.k8s.io/prow/cmd/jenkins-operator:sigs.k8s.io/prow/cmd/moonraker:sigs.k8s.io/prow/cmd/peribolos:sigs.k8s.io/prow/cmd/sidecar:sigs.k8s.io/prow/cmd/sinker:sigs.k8s.io/prow/cmd/status-reconciler:sigs.k8s.io/prow/cmd/sub:sigs.k8s.io/prow/cmd/tide:sigs.k8s.io/prow/cmd/tot:sigs.k8s.io/prow/cmd/prow-controller-manager:sigs.k8s.io/prow/cmd/admission:sigs.k8s.io/prow/cmd/webhook-server:gcr.io/distroless/static:nonroot@sha256:9ecc53c269509f63c69a266168e4a687c7eb8c0cfd753bd8bfcaa4f58a90876fsigs.k8s.io/prow/cmd/mkpj:sigs.k8s.io/prow/cmd/mkpod:sigs.k8s.io/prow/cmd/pipeline:sigs.k8s.io/prow/cmd/external-plugins/needs-rebase:sigs.k8s.io/prow/cmd/ghproxy:sigs.k8s.io/prow/cmd/external-plugins/refresh:sigs.k8s.io/prow/test/integration/cmd/fakegitserver:sigs.k8s.io/prow/test/integration/cmd/fakeghserver:sigs.k8s.io/prow/test/integration/cmd/fakegcsserver:sigs.k8s.io/prow/test/integration/cmd/fakepubsub:sigs.k8s.io/prow/pkg/version.Name=admissionhttps://pkg.go.dev/cmd/linksigs.k8s.io/prow/pkg/version.Name=mkpodsigs.k8s.io/prow/pkg/version.Name=mkpjsigs.k8s.io/prow/pkg/version.Name=needs-rebasesigs.k8s.io/prow/pkg/version.Name=pipelinesigs.k8s.io/prow/pkg/version.
+Name=checkconfigsigs.k8s.io/prow/pkg/version
+
+Name=branchprotectorsigs.k8s.io/prow/pkg/version.
+
+Name=config-bootstrappersigs.k8s.io/prow/pkg/version.
+
+Name=clonerefssigs.k8s.io/prow/pkg/version.
+Name=exportersigs.k8s.io/prow/pkg/version.
+Name=decksigs.k8s.io/prow/pkg/version.
+
+Name=entrypointsigs.k8s.io/prow/pkg/version.
+Name=criersigs.k8s.io/prow/pkg/version.
+
+Name=generic-autobumpersigs.k8s.io/prow/pkg/version.
+
+Name=gerritsigs.k8s.io/prow/pkg/version.
+
+Name=grandmatriarchsigs.k8s.io/prow/pkg/version.
+
+Name=gcsuploadsigs.k8s.io/prow/pkg/version.
+Name=hooksigs.k8s.io/prow/pkg/version.
+Name=hmacsigs.
+k8s.io/prow/pkg/version.
+
+Name=horologiumsigs.k8s.io/prow/pkg/version.Name=inituploadsigs.k8s.io/prow/pkg/version.
+
+Name=invitations-acceptersigs.k8s.io/prow/pkg/version.
+
+Name=jenkins-operatorsigs.k8s.io/prow/pkg/version.
+
+Name=moonrakersigs.k8s.io/prow/pkg/version.Name=peribolossigs.k8s.io/prow/pkg/version.Name=sidecarsigs.k8s.io/prow/pkg/version.Name=sinker
