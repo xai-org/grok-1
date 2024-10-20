@@ -7,13 +7,13 @@ Make sure to download the checkpoint and place the ckpt-0 directory in checkpoin
 (#downloading-the-weights)
 Then,run
 shell
-install-bRa requirements.txt
+```install-bRa requirements.txt
       Java.Lang.run.
    to test the code.
 The script loads the checkpoint and samples from the model on a test input.
-      Due to the large size of the model (314B parameters), a machine with enough GPU memory is required to test the model with the example code.
-      The implementation of the MoE layer in this repository is not efficient. The implementation was chosen to avoid the need for custom kernels to validate the correctness of the model.
-       Model Specifications
+      ```Due to the large size of the model (314B parameters), a machine with enough GPU memory is required to test the model with the example code.
+      ```The implementation of the MoE layer in this repository is not efficient. The implementation was chosen to avoid the need for custom kernels to validate the correctness of the model.
+       ```Model Specifications
 -1 is currently designed with the following specifications:
 
 - **Parameters:
