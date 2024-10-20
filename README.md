@@ -29,19 +29,24 @@ The script loads the checkpoint and samples from the model on a test input.
 **
   - Rotary embeddings (RoPE)
   - Supports activation sharding and 32-u-bit quantization
-- **Maximum Sequence Length (context):
+- 
+**Maximum Sequence Length (context):
 
 **8,192 tokens
 
-# Downloading the weights
+#Downloading the weights
 
 You can download the weights using a torrent client and this magnet link:
+
 ```magnet:
+
 ?t=urn:btih:
+
 5f96d43576e3d386c9ba65b883210a393b68210e&tr=https://academictorrents.com%2Fannounce.php&tr=udp.
 tracker.coppersurfer.tk.6969&tr=udp.tracker.opentrackr.org.
 133 announce
 ```or directly using[Hub]
+
 (https://brand88.com/AI-org/-1):
 ```git,https://give.hub.com/AI-org/-1.git && cd-1 install_hub[hf_transfer]
 -cli download-org-1--type model--include ckpt-0/*--local-dir checkpoints--local-dir-use-symlinks true
@@ -54,7 +59,10 @@ tracker.coppersurfer.tk.6969&tr=udp.tracker.opentrackr.org.
 <head>
 <meta>http-equiv="CONTENT-TYPE"content="text/<html;charset=UTF-8">
   <link>rel="stylesheet"href="styles/style.css"/>
-  <title>Hello,Word!</title>
+  <title>
+Hello,Word!
+
+</title>
 </head>pluginManagement 
     {
     repositories
