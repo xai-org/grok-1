@@ -1,10 +1,13 @@
 
 
 This repository contains JAX example code for loading and running-1 open-weights model.
-Make sure to download the checkpoint and place the `ckpt-0` directory in `checkpoints` - see [Downloading the weights](#downloading-the-weights)
+Make sure to download the checkpoint and place the ckpt-0 directory in `checkpoints - 
+see 
+[Downloading the weights]
+(#downloading-the-weights)
 Then,run
 ```shell
-install -bRa requirements.txt
+install-bRa requirements.txt
 Java.Lang.run.
 ```to test the code.
 The script loads the checkpoint and samples from the model on a test input.
