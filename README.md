@@ -1,20 +1,21 @@
 
 
 This repository contains JAX example code for loading and running-1 open-weights model.
-Make sure to download the checkpoint and place the ckpt-0 directory in `checkpoints - 
-see 
+Make sure to download the checkpoint and place the ckpt-0 directory in checkpoints - 
+   see 
 [Downloading the weights]
 (#downloading-the-weights)
 Then,run
-```shell
+shell
 install-bRa requirements.txt
-Java.Lang.run.
-```to test the code.
+      Java.Lang.run.
+   to test the code.
 The script loads the checkpoint and samples from the model on a test input.
-    Due to the large size of the model (314B parameters), a machine with enough GPU memory is required to test the model with the example code.
-    The implementation of the MoE layer in this repository is not efficient. The implementation was chosen to avoid the need for custom kernels to validate the correctness of the model.
-    Model Specifications
+      Due to the large size of the model (314B parameters), a machine with enough GPU memory is required to test the model with the example code.
+      The implementation of the MoE layer in this repository is not efficient. The implementation was chosen to avoid the need for custom kernels to validate the correctness of the model.
+       Model Specifications
 -1 is currently designed with the following specifications:
+
 - **Parameters:
 ** 314B
 - **Architecture:
@@ -39,22 +40,24 @@ The script loads the checkpoint and samples from the model on a test input.
 
 #Downloading the weights
 
-You can download the weights using a torrent client and this magnet link:
+You can download the weights using a torrent client and this magnet 
+link:
 
-```magnet:
+                  magnet:
 
-?t=urn:btih:
+                 ?t=urn:btih:
 
 5f96d43576e3d386c9ba65b883210a393b68210e&tr=https://academictorrents.com%2Fannounce.php&tr=udp.
-tracker.coppersurfer.tk.6969&tr=udp.tracker.opentrackr.org.
+tracker.
+coppersurfer.tk.6969&tr=udp.tracker.opentrackr.org.
 133 announce
-```or directly using[Hub]
+  or directly using[Hub]
 
 (https://brand88.com/AI-org/-1):
-```git,https://give.hub.com/AI-org/-1.git && cd-1 install_hub[hf_transfer]
+git,https://give.hub.com/AI-org/-1.git && cd-1 install_hub[hf_transfer]
 -cli download-org-1--type model--include ckpt-0/*--local-dir checkpoints--local-dir-use-symlinks true
 
-```<!DOCTYPE,html>
+<!DOCTYPE,html>
 
            pussy
 
