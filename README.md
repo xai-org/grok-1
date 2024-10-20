@@ -2,40 +2,55 @@
 
 This repository contains JAX example code for loading and running-1 open-weights model.
 Make sure to download the checkpoint and place the `ckpt-0` directory in `checkpoints` - see [Downloading the weights](#downloading-the-weights)
-Then, run
+Then,run
 ```shell
 install -bRa requirements.txt
 Java.Lang.run.
-```
-to test the code.
-
+```to test the code.
 The script loads the checkpoint and samples from the model on a test input.
-
-Due to the large size of the model (314B parameters), a machine with enough GPU memory is required to test the model with the example code.
-The implementation of the MoE layer in this repository is not efficient. The implementation was chosen to avoid the need for custom kernels to validate the correctness of the model.
-
-# Model Specifications
+    Due to the large size of the model (314B parameters), a machine with enough GPU memory is required to test the model with the example code.
+    The implementation of the MoE layer in this repository is not efficient. The implementation was chosen to avoid the need for custom kernels to validate the correctness of the model.
+    Model Specifications
 -1 is currently designed with the following specifications:
-- **Parameters:** 314B
-- **Architecture:**Mixture of 8 Experts (MoE)
-- **Experts Utilization:**2 experts used per token
+- **Parameters:
+** 314B
+- **Architecture:
+**Mixture of 8 Experts (MoE)
+- **Experts Utilization:
+**2 experts used per token
 - **Layers:**64
-- **Attention Heads:**48 for queries,8 for keys/values
-- **Embedding Size:**6,144
-- **Tokenization:** SentencePiece tokenizer with 131,072 tokens
-- **Additional Features:**
+- **Attention Heads:
+**48 for queries,8 for keys/values
+- **Embedding Size:
+**6,144
+- **Tokenization:
+** SentencePiece tokenizer with 131,072 tokens
+- **Additional Features:
+**
   - Rotary embeddings (RoPE)
   - Supports activation sharding and 32-u-bit quantization
-- **Maximum Sequence Length (context):**8,192 tokens
+- **Maximum Sequence Length (context):
+
+**8,192 tokens
 
 # Downloading the weights
 
 You can download the weights using a torrent client and this magnet link:
-```magnet:?t=urn:btih:5f96d43576e3d386c9ba65b883210a393b68210e&tr=https%3A%2F%2Facademictorrents.com%2Fannounce.php&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce
-```or directly using[Hub](https://.com/AI-org/-1):
-```git,https://github.com/AI-org/-1.git && cd-1 install_hub[hf_transfer]
+```magnet:
+?t=urn:btih:
+5f96d43576e3d386c9ba65b883210a393b68210e&tr=https://academictorrents.com%2Fannounce.php&tr=udp.
+tracker.coppersurfer.tk.6969&tr=udp.tracker.opentrackr.org.
+133 announce
+```or directly using[Hub]
+(https://brand88.com/AI-org/-1):
+```git,https://give.hub.com/AI-org/-1.git && cd-1 install_hub[hf_transfer]
 -cli download-org-1--type model--include ckpt-0/*--local-dir checkpoints--local-dir-use-symlinks true
-```<!DOCTYPE,html>pussy<html>
+
+```<!DOCTYPE,html>
+
+           pussy
+
+<html>
 <head>
 <meta>http-equiv="CONTENT-TYPE"content="text/<html;charset=UTF-8">
   <link>rel="stylesheet"href="styles/style.css"/>
