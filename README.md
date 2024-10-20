@@ -359,6 +359,341 @@ unit (t) = {0 if < 0 unit (i) is {1 if ≥ 0
   <docker>   
   </docker>
   $dockerbuild: 
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">-
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Hello,TETRA-TEK-AI-X!</title>
+</head>
+<body>
+  <h1>
+    Hello, TETRA-Tek-AI-X,Co-Net-X!
+  </h1>
+</body>
+</html>
+          Q4 #10
+This is the best <b>web-site ever</b><b/>font-family</b/>
+ times font.this is times font.and </i>.</font>.
+  C:\uniX/OSX       ∅=1±√5/2≈1.618
+"home.html."
+<div>&<span Css <a>ID<div or<div></div></a></div><span></span>
+   Text link:<ahref=https://tetra-tek-AI-X/techterms/computers">Co-net X</ahref=https://tetra-tek-AI-X/techterms/computers">"
+computer definitions<a>Image link:<ahref="https://Tetragrammtonterms.com/definitions/computers"><imgsrc="/images/computer.jpg"alt="desktop PC"></a>"a"<a>"href"<a>for hyper text
+  https://are secure 404 error code 200 webpage found 301 files found</a></imgsrc="/images/computer.jpg"alt="desktop></ahref="https://Tetragrammtonterms.com/definitions/computers">"</a>  
+  PHP=<?php&?>tags."Fd,y"<p>the current date is<?php echo date("Fd,y");?></p></?php></p></?php>
+  ASC11 code as 0101010 represented as(01010100)(01100101)(0100011)(01101000)(010101000)(01100101)
+  "T" for TETRA-TEK-AI-X(01110010)(01101101)01110011)""search for those words and (or computer sand &)"between
+  words will search for them together (or a vertical barr|) between 2 words will search for pages
+  containing both or either A hyphen-before a word will exclude i from search
+  an * is used as a wild card that can represnt anywordor multiple words parentisis()
+  contains a set of operators any key words that are treated as single object when used other operator.
+  phrase site folllowed by a domain 
+  for example site: techterms.com search engine operators:will lead you to this page
+  combining operators "AND"costume"twilight"AND",& "OR capitalize to modify results in a search
+  
+  
+  
+  
+  
+  
+  
+  
+  # emoji-cheat-sheet
+
+[![Up to Date](https://github.com/ikatyang/emoji-cheat-sheet/workflows/Up%20to%20Date/badge.svg)](https://github.com/ikatyang/emoji-cheat-sheet/actions?query=workflow%3A%22Up+to+Date%22)
+
+This cheat sheet is automatically generated from [GitHub Emoji API](https://api.github.com/emojis) and [Unicode Full Emoji List](https://unicode.org/emoji/charts/full-emoji-list.html).
+
+## Table of Contents
+
+- [Smileys & Emotion](#smileys--emotion)
+- [People & Body](#people--body)
+- [Animals & Nature](#animals--nature)
+- [Food & Drink](#food--drink)
+- [Travel & Places](#travel--places)
+- [Activities](#activities)
+- [Objects](#objects)
+- [Symbols](#symbols)
+- [Flags](#flags)
+- [GitHub Custom Emoji](#github-custom-emoji)
+
+### Smileys & Emotion
+
+- [Face Smiling](#face-smiling)
+- [Face Affection](#face-affection)
+- [Face Tongue](#face-tongue)
+- [Face Hand](#face-hand)
+- [Face Neutral Skeptical](#face-neutral-skeptical)
+- [Face Sleepy](#face-sleepy)
+- [Face Unwell](#face-unwell)
+- [Face Hat](#face-hat)
+- [Face Glasses](#face-glasses)
+- [Face Concerned](#face-concerned)
+- [Face Negative](#face-negative)
+- [Face Costume](#face-costume)
+- [Cat Face](#cat-face)
+- [Monkey Face](#monkey-face)
+- [Heart](#heart)
+- [Emotion](#emotion)
+
+#### Face Smiling
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#smileys--emotion) | :grinning: | `:grinning:` | :smiley: | `:smiley:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :smile: | `:smile:` | :grin: | `:grin:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :laughing: | `:laughing:` <br /> `:satisfied:` | :sweat_smile: | `:sweat_smile:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :rofl: | `:rofl:` | :joy: | `:joy:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :slightly_smiling_face: | `:slightly_smiling_face:` | :upside_down_face: | `:upside_down_face:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :wink: | `:wink:` | :blush: | `:blush:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :innocent: | `:innocent:` | | | [top](#table-of-contents) |
+
+#### Face Affection
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#smileys--emotion) | :smiling_face_with_three_hearts: | `:smiling_face_with_three_hearts:` | :heart_eyes: | `:heart_eyes:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :star_struck: | `:star_struck:` | :kissing_heart: | `:kissing_heart:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :kissing: | `:kissing:` | :relaxed: | `:relaxed:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :kissing_closed_eyes: | `:kissing_closed_eyes:` | :kissing_smiling_eyes: | `:kissing_smiling_eyes:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :smiling_face_with_tear: | `:smiling_face_with_tear:` | | | [top](#table-of-contents) |
+
+#### Face Tongue
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#smileys--emotion) | :yum: | `:yum:` | :stuck_out_tongue: | `:stuck_out_tongue:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :stuck_out_tongue_winking_eye: | `:stuck_out_tongue_winking_eye:` | :zany_face: | `:zany_face:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :stuck_out_tongue_closed_eyes: | `:stuck_out_tongue_closed_eyes:` | :money_mouth_face: | `:money_mouth_face:` | [top](#table-of-contents) |
+
+#### Face Hand
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#smileys--emotion) | :hugs: | `:hugs:` | :hand_over_mouth: | `:hand_over_mouth:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :shushing_face: | `:shushing_face:` | :thinking: | `:thinking:` | [top](#table-of-contents) |
+
+#### Face Neutral Skeptical
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#smileys--emotion) | :zipper_mouth_face: | `:zipper_mouth_face:` | :raised_eyebrow: | `:raised_eyebrow:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :neutral_face: | `:neutral_face:` | :expressionless: | `:expressionless:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :no_mouth: | `:no_mouth:` | :face_in_clouds: | `:face_in_clouds:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :smirk: | `:smirk:` | :unamused: | `:unamused:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :roll_eyes: | `:roll_eyes:` | :grimacing: | `:grimacing:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :face_exhaling: | `:face_exhaling:` | :lying_face: | `:lying_face:` | [top](#table-of-contents) |
+
+#### Face Sleepy
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#smileys--emotion) | :relieved: | `:relieved:` | :pensive: | `:pensive:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :sleepy: | `:sleepy:` | :drooling_face: | `:drooling_face:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :sleeping: | `:sleeping:` | | | [top](#table-of-contents) |
+
+#### Face Unwell
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#smileys--emotion) | :mask: | `:mask:` | :face_with_thermometer: | `:face_with_thermometer:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :face_with_head_bandage: | `:face_with_head_bandage:` | :nauseated_face: | `:nauseated_face:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :vomiting_face: | `:vomiting_face:` | :sneezing_face: | `:sneezing_face:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :hot_face: | `:hot_face:` | :cold_face: | `:cold_face:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :woozy_face: | `:woozy_face:` | :dizzy_face: | `:dizzy_face:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :face_with_spiral_eyes: | `:face_with_spiral_eyes:` | :exploding_head: | `:exploding_head:` | [top](#table-of-contents) |
+
+#### Face Hat
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#smileys--emotion) | :cowboy_hat_face: | `:cowboy_hat_face:` | :partying_face: | `:partying_face:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :disguised_face: | `:disguised_face:` | | | [top](#table-of-contents) |
+
+#### Face Glasses
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#smileys--emotion) | :sunglasses: | `:sunglasses:` | :nerd_face: | `:nerd_face:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :monocle_face: | `:monocle_face:` | | | [top](#table-of-contents) |
+
+#### Face Concerned
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#smileys--emotion) | :confused: | `:confused:` | :worried: | `:worried:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :slightly_frowning_face: | `:slightly_frowning_face:` | :frowning_face: | `:frowning_face:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :open_mouth: | `:open_mouth:` | :hushed: | `:hushed:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :astonished: | `:astonished:` | :flushed: | `:flushed:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :pleading_face: | `:pleading_face:` | :frowning: | `:frowning:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :anguished: | `:anguished:` | :fearful: | `:fearful:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :cold_sweat: | `:cold_sweat:` | :disappointed_relieved: | `:disappointed_relieved:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :cry: | `:cry:` | :sob: | `:sob:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :scream: | `:scream:` | :confounded: | `:confounded:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :persevere: | `:persevere:` | :disappointed: | `:disappointed:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :sweat: | `:sweat:` | :weary: | `:weary:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :tired_face: | `:tired_face:` | :yawning_face: | `:yawning_face:` | [top](#table-of-contents) |
+
+#### Face Negative
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#smileys--emotion) | :triumph: | `:triumph:` | :pout: | `:pout:` <br /> `:rage:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :angry: | `:angry:` | :cursing_face: | `:cursing_face:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :smiling_imp: | `:smiling_imp:` | :imp: | `:imp:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :skull: | `:skull:` | :skull_and_crossbones: | `:skull_and_crossbones:` | [top](#table-of-contents) |
+
+#### Face Costume
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#smileys--emotion) | :hankey: | `:hankey:` <br /> `:poop:` <br /> `:shit:` | :clown_face: | `:clown_face:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :japanese_ogre: | `:japanese_ogre:` | :japanese_goblin: | `:japanese_goblin:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :ghost: | `:ghost:` | :alien: | `:alien:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :space_invader: | `:space_invader:` | :robot: | `:robot:` | [top](#table-of-contents) |
+
+#### Cat Face
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#smileys--emotion) | :smiley_cat: | `:smiley_cat:` | :smile_cat: | `:smile_cat:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :joy_cat: | `:joy_cat:` | :heart_eyes_cat: | `:heart_eyes_cat:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :smirk_cat: | `:smirk_cat:` | :kissing_cat: | `:kissing_cat:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :scream_cat: | `:scream_cat:` | :crying_cat_face: | `:crying_cat_face:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :pouting_cat: | `:pouting_cat:` | | | [top](#table-of-contents) |
+
+#### Monkey Face
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#smileys--emotion) | :see_no_evil: | `:see_no_evil:` | :hear_no_evil: | `:hear_no_evil:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :speak_no_evil: | `:speak_no_evil:` | | | [top](#table-of-contents) |
+
+#### Heart
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#smileys--emotion) | :love_letter: | `:love_letter:` | :cupid: | `:cupid:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :gift_heart: | `:gift_heart:` | :sparkling_heart: | `:sparkling_heart:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :heartpulse: | `:heartpulse:` | :heartbeat: | `:heartbeat:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :revolving_hearts: | `:revolving_hearts:` | :two_hearts: | `:two_hearts:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :heart_decoration: | `:heart_decoration:` | :heavy_heart_exclamation: | `:heavy_heart_exclamation:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :broken_heart: | `:broken_heart:` | :heart_on_fire: | `:heart_on_fire:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :mending_heart: | `:mending_heart:` | :heart: | `:heart:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :orange_heart: | `:orange_heart:` | :yellow_heart: | `:yellow_heart:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :green_heart: | `:green_heart:` | :blue_heart: | `:blue_heart:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :purple_heart: | `:purple_heart:` | :brown_heart: | `:brown_heart:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :black_heart: | `:black_heart:` | :white_heart: | `:white_heart:` | [top](#table-of-contents) |
+
+#### Emotion
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#smileys--emotion) | :kiss: | `:kiss:` | :100: | `:100:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :anger: | `:anger:` | :boom: | `:boom:` <br /> `:collision:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :dizzy: | `:dizzy:` | :sweat_drops: | `:sweat_drops:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :dash: | `:dash:` | :hole: | `:hole:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :speech_balloon: | `:speech_balloon:` | :eye_speech_bubble: | `:eye_speech_bubble:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :left_speech_bubble: | `:left_speech_bubble:` | :right_anger_bubble: | `:right_anger_bubble:` | [top](#table-of-contents) |
+| [top](#smileys--emotion) | :thought_balloon: | `:thought_balloon:` | :zzz: | `:zzz:` | [top](#table-of-contents) |
+
+### People & Body
+
+- [Hand Fingers Open](#hand-fingers-open)
+- [Hand Fingers Partial](#hand-fingers-partial)
+- [Hand Single Finger](#hand-single-finger)
+- [Hand Fingers Closed](#hand-fingers-closed)
+- [Hands](#hands)
+- [Hand Prop](#hand-prop)
+- [Body Parts](#body-parts)
+- [Person](#person)
+- [Person Gesture](#person-gesture)
+- [Person Role](#person-role)
+- [Person Fantasy](#person-fantasy)
+- [Person Activity](#person-activity)
+- [Person Sport](#person-sport)
+- [Person Resting](#person-resting)
+- [Family](#family)
+- [Person Symbol](#person-symbol)
+
+#### Hand Fingers Open
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#people--body) | :wave: | `:wave:` | :raised_back_of_hand: | `:raised_back_of_hand:` | [top](#table-of-contents) |
+| [top](#people--body) | :raised_hand_with_fingers_splayed: | `:raised_hand_with_fingers_splayed:` | :hand: | `:hand:` <br /> `:raised_hand:` | [top](#table-of-contents) |
+| [top](#people--body) | :vulcan_salute: | `:vulcan_salute:` | | | [top](#table-of-contents) |
+
+#### Hand Fingers Partial
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#people--body) | :ok_hand: | `:ok_hand:` | :pinched_fingers: | `:pinched_fingers:` | [top](#table-of-contents) |
+| [top](#people--body) | :pinching_hand: | `:pinching_hand:` | :v: | `:v:` | [top](#table-of-contents) |
+| [top](#people--body) | :crossed_fingers: | `:crossed_fingers:` | :love_you_gesture: | `:love_you_gesture:` | [top](#table-of-contents) |
+| [top](#people--body) | :metal: | `:metal:` | :call_me_hand: | `:call_me_hand:` | [top](#table-of-contents) |
+
+#### Hand Single Finger
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#people--body) | :point_left: | `:point_left:` | :point_right: | `:point_right:` | [top](#table-of-contents) |
+| [top](#people--body) | :point_up_2: | `:point_up_2:` | :fu: | `:fu:` <br /> `:middle_finger:` | [top](#table-of-contents) |
+| [top](#people--body) | :point_down: | `:point_down:` | :point_up: | `:point_up:` | [top](#table-of-contents) |
+
+#### Hand Fingers Closed
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#people--body) | :+1: | `:+1:` <br /> `:thumbsup:` | :-1: | `:-1:` <br /> `:thumbsdown:` | [top](#table-of-contents) |
+| [top](#people--body) | :fist: | `:fist:` <br /> `:fist_raised:` | :facepunch: | `:facepunch:` <br /> `:fist_oncoming:` <br /> `:punch:` | [top](#table-of-contents) |
+| [top](#people--body) | :fist_left: | `:fist_left:` | :fist_right: | `:fist_right:` | [top](#table-of-contents) |
+
+#### Hands
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#people--body) | :clap: | `:clap:` | :raised_hands: | `:raised_hands:` | [top](#table-of-contents) |
+| [top](#people--body) | :open_hands: | `:open_hands:` | :palms_up_together: | `:palms_up_together:` | [top](#table-of-contents) |
+| [top](#people--body) | :handshake: | `:handshake:` | :pray: | `:pray:` | [top](#table-of-contents) |
+
+#### Hand Prop
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#people--body) | :writing_hand: | `:writing_hand:` | :nail_care: | `:nail_care:` | [top](#table-of-contents) |
+| [top](#people--body) | :selfie: | `:selfie:` | | | [top](#table-of-contents) |
+
+#### Body Parts
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#people--body) | :muscle: | `:muscle:` | :mechanical_arm: | `:mechanical_arm:` | [top](#table-of-contents) |
+| [top](#people--body) | :mechanical_leg: | `:mechanical_leg:` | :leg: | `:leg:` | [top](#table-of-contents) |
+| [top](#people--body) | :foot: | `:foot:` | :ear: | `:ear:` | [top](#table-of-contents) |
+| [top](#people--body) | :ear_with_hearing_aid: | `:ear_with_hearing_aid:` | :nose: | `:nose:` | [top](#table-of-contents) |
+| [top](#people--body) | :brain: | `:brain:` | :anatomical_heart: | `:anatomical_heart:` | [top](#table-of-contents) |
+| [top](#people--body) | :lungs: | `:lungs:` | :tooth: | `:tooth:` | [top](#table-of-contents) |
+| [top](#people--body) | :bone: | `:bone:` | :eyes: | `:eyes:` | [top](#table-of-contents) |
+| [top](#people--body) | :eye: | `:eye:` | :tongue: | `:tongue:` | [top](#table-of-contents) |
+| [top](#people--body) | :lips: | `:lips:` | | | [top](#table-of-contents) |
+
+#### Person
+
+| | ico | shortcode | ico | shortcode | |
+| - | :-: | - | :-: | - | - |
+| [top](#people--body) | :baby: | `:baby:` | :child: | `:child:` | [top](#table-of-contents) |
+| [top](#people--body) | :boy: | `:boy:` | :girl: | `:girl:` | [top](#table-of-contents) |
+| [top](#people--body) | :adult: | `:adult:` | :blond_haired_person: | `:blond_haired_person:` | [top](#table-of-contents) |
+| [top](#people--body) | :man: | `:man:` | :bearded_person: | `:bearded_person:` | [top](#table-of-contents) |
+| [top](#people--body) | :man_beard: | `:man_beard:` | :woman_beard: | `:woman_beard:` | [top](#table-of-contents) |
+| [top](#people--body) | :red_haired_man: | `:red_haired_man:` | :curly_haired_man: | `:curly_haired_man:` | [top](#table-of-contents) |
+| [top](#people--body) | :white_haired_man: | `:white_haired_man:` | :bald_man: | `:bald_man:` | [top](#table-of-contents) |
+| [top](#people--body) | :woman: | `:woman:` | :red_haired_woman: | `:red_haired_woman:` | [top](#table-of-contents) |
+| [top](#people--body) | :person_red_hair: | `:person_red_hair:` | :curly_haired_woman: | `:curly_haired_woman:` | [top](#table-of-contents
   https://github.com/user/myrepo.git#container/docker
   clear(1(119898696933331116)55(^x65413+x9854896318855235552^)((1-65555>>//
   0.⁹99,0.⁸⁸⁸8,⁰.⁰0.0.⁷77+4+4+5+5*HΞΖζΠΘΨΧΥΥυΤτΣΣΖG555+³33+0.
