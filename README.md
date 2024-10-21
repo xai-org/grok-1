@@ -1,4 +1,1887 @@
+<!DOCTYPE html>
 
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+</head>
+<body>
+  <h1>
+    Hello, World!
+  </h1>
+</body>
+</html>
+                              
+           https://cloud.yehuda.com
+
+               "TETRA-ION-Q-AI-X
+
+        TETRA-PEPTIDES TETRA-TEK-AI-X
+ 
+             Y.H.W.H YAHWEH RAPHA
+
+             Y.H.V.H JEHOVAH RAPHA" 
+                                   
+           ("TETRAGRAMMATON") 
+
+Sure, given the expression A * 1 + n * 0 + I * j, let's evaluate it assuming the following values for the variables:
+| Variable | Value |
+|---|---|
+| A | 4 |
+| n | 2 |
+| I | 3 |
+| j | 5 |
+Following the order of operations (PEMDAS - Parentheses, Exponents, Multiplication and Division from left to right, Addition and Subtraction from left to right), we get:
+A * 1 + n * 0 + I * j
+= 4 * 1 + 2 * 0 + 3 * 5
+= 4 + 0 + 15
+= 19
+Therefore, the result of the expression is 19.
+ * https://slideplayer.com/amp/219427/
+G:=(⁰-8-2) 
+X=|41|
+  |-26|
+Y=|0-3|
+String result = String.valueOf("3,3"); result would be "3,3"
+System.out.println(result);Output: 3,3
+String result = String.valueOf("3,3"); String inputString = "111-65555";
+String[] parts = inputString.split("-"); Split into "111" and "65555"
+int num1 = Integer.parseInt(parts[0]); Convert "111" to the number 111
+int num2 = Integer.parseInt(parts[1])Convert "65555" to the number 65555
+Further processing based on num1 and num2
+6555511165555111The presence of "Java language" and "input 
+string" in your context suggests we are 
+dealing with programming, specifically 
+in Java.
+
+           Input String:
+
+In Java, a string is a sequence 
+of characters. The "input string"
+ likely refers to data entered by a 
+user or
+ read from a file that the Java program 
+needs to process.
+
+             Examples:
+
+ * User input: The string could be 
+what a user types into a text field.
+ * File content: It might be the text 
+extracted from a text file.
+ 
+           * API response: 
+
+It could be data 
+received from a web service or API in the 
+form of a string.
+Java and String Manipulation:
+Java has robust capabilities for working
+ 
+            with strings:
+
+            * Creation: 
+
+You can create strings using 
+        
+           double quotes:
+
+ String message = "Hello, world!";
+ 
+          * Concatenation: 
+
+Combine strings using the + operator: 
+String fullName = firstName + " " + lastName;
+ 
+          * Extraction:
+
+ Get parts of a string using
+ methods like substring().
+ 
+           * Conversion:
+
+ Convert strings to other data
+ types (numbers, dates, etc.) or vice versa.
+Example Java code to process an input 
+
+                string:
+
+String inputString = "111-65555";
+String[] parts = inputString.split("-"); 
+Split into "111" and "65555"
+int num1 = Integer.parseInt(parts[0]); 
+ Convert "111" to the number 111
+int num2 = Integer.parseInt(parts[1]); 
+ Convert "65555" to the number 65555
+Further processing (e.g., calculations, manipulations) based on num1 and num2
+Please provide the specific input 
+string you have in mind, and any desired
+ actions or manipulations you want to 
+perform on it. I can then help you 
+write the appropriate Java code.
+
+65555111(9898696933339354896318858235511
+The image seems to contain a mix of 
+mathematical expressions and random 
+character strings.
+
+The first line, X = F = 14.8176X, 
+appears to be an equation where X and F 
+are variables.
+ However, this equation is inconsistent, as it implies 1 = 14.8176, 
+which is not true.
+The second line contains a combination of 
+symbols and letters, which don't appear to
+ form a meaningful mathematical expression 
+or code.
+The third line is the word "Input strings"
+ followed by "ABC (abc)", which might be 
+referring to input data for a program or 
+function.
+The meaning of the remaining symbols
+ (X and *) is unclear without further 
+context.
+Do you have more information about this
+ image or its context? That could help me 
+provide a more accurate interpretation.
+1The image seems to contain the following:
+ * A mathematical function f(x, y) 
+= x^2 + 3xy - 6x. The function is evaluated at 
+(2,3) and (4,4).
+ * A calculation finding the value of 
+(x,y) when x = 2 and y = 43,resulting in 58.
+ * The text "Hackiusjson".
+ * The label "Input String" followed 
+by a string of characters, which might be a code or cipher.
+ * The number 5.9999 followed by >> 
+java lang, suggesting a conversion or operation in Java programming language.
+ * The string "P.201kK7aM-znq6".
+ * The string "Username EL-Brandon".
+Is there anything specific you'd 
+like to focus on within this image?
+27aMThe expression 371^2339.3^3333
+ represents an extremely large 
+number, far beyond the capabilities 
+of standard calculators and most 
+programming languages. The result would 
+essentially be infinity for practical 
+purposes.
+
+The second part, 3,3>>java.lang.string:
+
+"3,3", 
+seems to be related to Java programming. 
+Here's how it could be interpreted:
+
+               * 3,3: 
+
+ Could represent two separate 
+values (3 and 3) or a single string ("3,3").
+
+            * >>:
+
+ This is the right shift operator 
+in Java, but it's usually used with integers.
+
+     v * java.lang.string:"3,3": 
+
+ This indicates converting the input (either 3 and 3 or"3,3")
+ into a Java String with the value "3,3".
+Possible interpretations:
+ * If 3,3 is treated as two integers, 
+the right shift is not a standard 
+operation, and the result is unclear.
+ * If 3,3 is a string, the code would 
+convert it to a Java String "3,3".
+Example Java code:
+String result = String.valueOf("3,3");
+ result would be "3,3"
+System.out.println(result); 
+ Output: 3,3
+Please clarify your intent if
+ you need more specific help with 
+this code snippet.
+3935489631885(98986969333327aM3Eigen values for symmetric matrix with Jacobi method
+   3.0,  -7.0, -19.0, -13.0, -13.0
+  -7.0, -19.0, -19.0, -11.0,  13.0
+-19.0, -19.0,  -7.0,   0.0,  -1.0
+-13.0, -11.0,   0.0,  -7.0,  -7.0
+-13.0,  13.0,  -1.0,  -7.0, -13.0
+0
+1st iteration 
+  17.64688,   6.05625,   0.00000, -10.29586,  -9.68532
+   6.05625, -19.0    , -19.32154, -11.0    ,  13.0    
+   0.00000, -19.32154, -21.64688,  -7.93696,  -8.72895
+-10.29586, -11.0  as  -8.72895,  -7.0    , -13.0
+
+2nd iteration 
+  17.64688,  4.42632,   4.13350, -10.29586,  -9.68532
+   4.42632, -0.95663,   0.0    ,  -2.62242,  15.45895
+   4.13350, -0.00000, -39.69025, -13.30858,   2.49304
+-10.29586, -2.62242, -13.30858,  -7.0    ,  -7.0    
+  -9.68532, 15.45895,   2.49304,  -7.0    , -13.0
+
+3rd iteration 
+  17.64688, -1.81214,   4.13350, -10.29586, -10.49352
+  -1.81214,  9.61204,   1.40701,  -6.11548,   0.0    
+   4.13350,  1.40701, -39.69025, -13.30858,   2.05805
+-10.29586, -6.11548, -13.30858,  -7.0    ,  -4.29861
+-10.49352,  0.0    ,   2.05805,  -4.29861, -23.56867
+...
+21st iteration 
+23.91674,0.00000,0.00001,0.00000,  -0.00000
+  0.00000,12.02909,0.00011,-0.00000,  -0.00000
+  0.00001,0.00011,-44.45362,0.00001,   0.00000,0.00000,-0.00000,0.00001, -6.12609,0.00006-0.00000,0.00000,   0.00000,0.00006,-28.36612
+
+Eigen values
+23.91674224436793,12.029091927572956
+-44.453622298682035,-6.126089921468898,
+-28.366121951789975
+
+Eigen vectors
+  0.72666, -0.38152,  0.39890, -0.14054,  0.38411
+  0.18164,  0.59025,  0.66429,  0.17314, -0.38387
+-0.55459, -0.23986,  0.53884, -0.58582,  0.03700
+-0.34493, -0.30069,  0.32998,  0.77172,  0.29355
+-0.11150,  0.59841, -0.01912, -0.10742,  0.78585
+clear() >> vars and 
+functions cleared
+//variableexample
+(θ=45,sin(θ)²+cos(θ)²) >> 1
+(a=2,b=3,a*b+sin(θ)) >> 6.707106781186547
+aᵇ >> 8
+a^b >> 8
+ε₀=8.854E-12
+ħ=6.58E-16 
+def 
+<!DOCTYPE,html>pussy<html>
+<head>
+
+ 4hi Tesseract-tetrahub Going up into the 4rth dimension 4 dimensional HYPER CUBE THE OBJECT IS 4 DIMENSIONAL HYPER CUBE 16 VERTICES ,32 edges,24 faces,& 8 cells vertices tesseract is a regular polytope w/16 verticesof the tesseract tesseract is labeled Line passes through the points c(-7,0)& D(-5,5)slope passes through the points Solutions c(-7,0) & D(-5,5) m=y²-y¹x²-x1=m=-5-0=-5-5 -5(-7)-2-2 slope intercept form given slope m=5/2 into equations y=5/2xb find(Y)-intercept coordinate for one of the points c(-7,0) into equation 0=5/2(-7)+b solving b b=17.5 equation y=5/2x+17.5 "K","A","P",&"M", Central point "o" *1+17 1+17=18 *2+16 2+16=18 *3+15 3+15=18 *4+14 4+14=18 *5+13 5+13=18 *6+12 6+12=18 *7+11 7+11=18 *8+10 8+10=18 9 9=9 188+9=145. <!doctypehtml> <title> </title>
+
+Functions, while, if, & else,<,> ,==,&!="x,y=10+2x x=1 then y≠12 x2+ then y=14 '12345'x&y are true Base 10 or decimal 10 symbols hexadecimal 16 symbols numerals "1" "9" represents value 0-9 letter "Å" "F" valves 10,15 case insensitive bb74 BB74 nbble 1001, hexadecimal 11 0-F" 00-FF", 
+function graph xy(x,y) { ... } this site is the best website ever: ":Function point;" 
+f(x)=x3-3x²-111x+1212 point p(4;12) Graph f(x) tangent line a+b f(x) tangent line at p(4,-12 f(x) and evaluate at x=4 dirivitive of the f(x) valuate @x=4 dirivitive of the f(x) is f¹(x)=3x²-6x-111 evaluating f¹(x) at x=4 f¹(4)=3(4)²-6(4)-111=15. Independent variable function is defined f(2)=2²-5x2+6=0 f(3)=3²-5×3+6=0 To find the domain of the function f(x)=x²-5x+6 solution The domain of the function is the sets of all possible values of the independent variable for which the function is defined in other words it is the set of all values that can be substituted into the independent variable without causing the function to be undefined For the function f(x)=x²-5x+6 the domain is all real numbers since there are no restrictions on The values that can be substituted into x. This means the function is defined for all real numbers. Therefore the domain function f(x)=x²-5x+6.is the set of all real numbers,
+ which can be expressed mathematically as Domain (-∞,∞). f(x)=x³+3x²-6x-8/4x-8 factor numberator f(x)=(x-2)(x²+5x+4)/(4x-2) cancel the common factor of (x-2) in the numerator and denominator f(x)=x²+5x+4 The numberator is a quadratic function which can be solved using the quadratic formula x=-b±√b²-4ac/2a where a,b, & c are the coefficients of quadratic equation ax²+bx+c=0.In this case a=1 b=5 & c=4 x=-5±√5²-4(1)(4). x=-5±√25-16/2 (x=-5±3/2) so solutions are x=1&x=-4 domain of all real numbers except for x=2&x=0. coordinates of the point 0 OP=⟨x,y,z⟩.the vector Or written as OR=⟨x0y0,z0⟩+0R the vector can also be expressed as 0R OR=⟨x0,y0z'⟩x-x-0, = -6x²+36x-59=0 x=-b±√b²-4ac/2a (a)&(b)&(c) are all coefficients of quadratic equation a=-6 b=36 & c=-59 substitute these values into the quadratic formula x=-36±√36²-4(-6)(-59)/2(-6) simplifying this expression x=-36±√1296+1404/-12 x=-36±√2700/-12 x=-36±30/-12 these are two possible solutions x=-36+30/-12=-6/-12=1/2 x=-36-30/-12=-66/-12=11/2 solution -6x²+36x-59=0 & x=1/2 & x=11/2 simplifying 4•(2b+4) solution =8b+16-3=8b+13 the expression is 8b+13. rdrr.io bit64 pk.A53 class vectors 64bit i5class() type of() i.e number with decimals (:)-tells R to generate senqence from 1,10 "L" ##[1]"integer" ×<-c(1:10)
+veiw vector
+##[1]1,2,3,4,5,6,7,8,9,10 #class(×) ×<-sample(1:10,10)
+
+veiw vector
+× ##[1]3,10,2,8,6,9,1,7,5,4
+
+view data class(×)
+##[1]-integer #number i square root of f1-1 n=6,×=3.6 sigma=21.6,sigma×²=98.56 s×=2.03961,ó× 1.86190 sum of(×)>>21.6 × sqsum(×)98.56 sigma sqroot() "Homogeneous differential equation" d²×/d+²+k×=0 form ×(+)=e^{rt} substituting differential r²ert+kert=0(r²+k)ert=0(r²+k)=0 r=±√ki Linear combinations of e^{rt} "value of r obtained ×(t)=Ae^{(\sqrt{k}I)}+Ben{(-1sqrt{k}i}t}Evlers formula e^{ix}=cos(×)+isin(×) ×(t)=A cos(√kt)+Bsin(√kt),wz√k final solution ×(t)=A cos(wt)+Bsin(wt) Initial conditions×(0)&×(0). 2nd Order of Linear homogeneous "constant & coefficients" m d²×/d+2+ c/m d×/d+=0 d²×/d+²+ c/m d×²/d+ let w=√c/m d²×/d+²+ w²×=0 solution of form ×(t)=ert=0 substituting differential equation r²ert+w²ert=0 Dividing ert r²+w2=0 quadratic two roots:r=±iw, where i=√-1 General solution of Linear combinations of 2roots ×(t)=Aeiwt+Be-iwt Evlers rule eio=cos(0)+isin(0) ×(t)=Acos(wt)+Bsin(wt) A&B are determined ×(0)&d×/dt=0 ×=0.3t+0.5,×(0)=Acos(0) =A=0.9,×π/4)=0.2 given differential d×+0.3×=0.9 sin(0.54) ef0.3d+=e0.3tsin(0,5t) ef 0.3dt=e0.3t e0.3t d×/dt+×axis ×(t)=Acos(wt)+Bsin(wt) ×(0)=0.5&v(0)=0tw Bsin(0)=0.5 v(0)=wAsin(0)+wBcos(0)=0 A=0.5 0=-w(0,5))sin(0)+wBcos(0) 0=0+wB=>B=0 A=0.5&B=0 w=√k/m w partical given k&m w period of oscillatiors T T=0 T=2π/w×=0.5 T=T/4t,0.5 f=№ all to "f(x) family f(x)'s" f(×)=5-2×f(×),×=3×=3 f(3)=5-2(3)f(3)=5-6 f(3)=-1f(×)×=3 is f(3)=-1 f(×)=5-2× find f(3)&f(f(2)) solution f(3) f(3)=5-2(3)=-1 f(f(3))f(f(3))=f(-1)=5-2(-1)=7 f(3)=-1&f(f(3))=7 "domains" f(×)=log-{10}(×-3) Intercepts:f(×)=2*× Intercepts y=4×-3 domain of fn=(-1)^n periodically f(0)=sec^2(0) 550 018 214
+
+                     "status" 
+
+                  MATRIX (A*B)+TRANSPOSE
+             (A/B)+Inverse CA*B+V(2))1rst Term
+ Matrix(A*B)^T=C(AB)^T=1rst Inverse C A*#Bv(c^2))^2,Terms ×+20
+Third number is ×+20+30=×+50,×+(×+20)+(×+50)=3×+70 sum of 3
+numbers is 90,3×+70=90× for ×=73 numbers are 7,27,57 answers is 7,27,57.numerical value. "-0.085571".Remaining numbers after valve(1.171498,0.41667) first ratio geometric series another constant respectively Identity valve-0.085571".remaining numbers after valve(1.171498,0.041667) first ratio geometric series another constant respectively identity valve -0.085571 9.08571428×(5714285.208285714-5657143.425833337)×333333336.9140 simplify expression 5657143.4258 33337=57142.5714 9.08571428×57142.85714=516905.128×333333336.9140=1.72388304×1012 answer 1.72388304×1012 buttonstroke(3,0,0,-70) >> stroke: 3,0,0,-70 buttongradient(26.0,5,-40,-10) >> gradient: 26.0,5,-40,-10 backgroundshift(-20) >> background shift: -20 inputbackground(Azure) >> background color to Azure quizsound(on) favorite(FVinvest) >> favorite app. = FVinvest Bn(n,p,x)=C(n,x)p^xq^(n-x) Bncdf(n,p,s,x)=summ(Bn(n,p,v),v,s,x) poi(x)=mˣ/(eᵐ*!(x)) buttonstroke(3,0,0,-70) >> stroke: 3,0,0,-70 buttongradient(26.0,5,-40,-10) >> gradient: 26.0,5,-40,-10 backgroundshift(-20) >> background shift: -20 inputbackground(Azure) >> background color to Azure quizsound(on) favorite(FVinvest) >> favorite app. = FVinvest Bn(n,p,x)=C(n,x)p^xq^(n-x) Bncdf(n,p,s,x)=summ(Bn(n,p,v),v,s,x) poi(x)=mˣ/(eᵐ*!(x)) ver(Feb. 2022) >> ver= Feb. 2022 buttonstroke(3,0,0,-70) >> stroke: 3,0,0,-70 buttongradient(26.0,5,-40,-10) >> gradient: 26.0,5,-40,-10 backgroundshift(-20) >> background shift: -20 inputbackground(Azure) >> background color to Azure quizsound(on) favorite(FVinvest) >> favorite app. = FVinvest ver(Feb. 2022) >> ver= Feb. 2022 q=1-p s=0 Bn(n,p,x)=C(n,x)p^xq^(n-x) Bncdf(n,p,s,x)=summ(Bn(n,p,v),v,s,x) poi(x)=mˣ/(eᵐ*!(x)) a=0 i^1+a1= // Speed of light (m⋅s-1) c=299792458 // Charge of an electron (C) q=1.602176565E-19 // Universal gravitational constant(N⋅m2/kg2) G=6.67384E-11 // Planck’s constant (eV⋅s) h=4.135667662E-15 // Dirac’s constant(eV⋅s) ħ=6.582119514E-16 // Boltzmann’s constant (eV⋅K-1) k=8.6173324E-5 // Avogadro’s constant (mol−1) NA=6.022140857E23 // Mass of an electron (kg) mₑ=9.10938291E-31 //Mass of a proton (kg) mₚ=1.672621777E-27 // Mass of a neutron(kg) mₙ=1.674927351E-27 //Permittivity of free space (F/m) ε₀=8.854187817E-12 //Permeability of free space(N⋅A-2) μ₀=π4E-7 //Bohr radius (m) a₀=5.2917721092E-11 ﻿clear() r=DiscountRate/100 NPV(r)=CashArrival(1-1/(1+r)^Periods)/r-InvestAmount NPV=NPV(r) IRR=solve(NPV(x),x,0.0001)100 dialog(NPV/IRR fixed.Net Present Value and Internal Rate of Return with fixed cash arrival. DiscountRate and IRR in % per period.,InvestAmount,DiscountRate,Periods,CashArrival,// Results //,NPV,IRR)clear() >> () is invalid operator r=DiscountRate/100 NPV(r)=CashArrival(1-1/(1+r)^Periods)/r-InvestAmount NPV=NPV(r) IRR=solve(NPV(x),x,0.0001)100 dialog(NPV/IRR fixed.Net Present Value and Internal Rate of Return with fixed cash arrival. DiscountRate and IRR in % per period.,InvestAmount,DiscountRate,Periods,CashArrival,// Results //,NPV,IRR) >> Dialog buttonstroke(3,0,0,-70) >> stroke: 3,0,0,-70 buttongradient(26.0,5,-40,-10) >> gradient: 26.0,5,-40,-10 backgroundshift(-20) >> background shift: -20 inputbackground(Azure) >> background color to Azure quizsound(on) favorite(FVinvest) >> favorite app. = FVinvest Bn(n,p,x)=C(n,x)p^xq^(n-x) Bncdf(n,p,s,x)=summ(Bn(n,p,v),v,s,x) poi(x)=mˣ/(eᵐ!(x)) ver(Feb. 2022) >> ver= Feb. 2022 buttonstroke(3,0,0,-70) >> stroke: 3,0,0,-70 buttongradient(26.0,5,-40,-10) >> gradient: 26.0,5,-40,-10 backgroundshift(-20) >> background shift: -20 inputbackground(Azure) >> background color to Azure quizsound(on) favorite(FVinvest) >> favorite app. = FVinvest ver(Feb. 2022) >> ver= Feb. 2022 q=1-p s=0 Bn(n,p,x)=C(n,x)p^xq^(n-x) Bncdf(n,p,s,x)=summ(Bn(n,p,v),v,s,x) poi(x)=mˣ/(eᵐ*!(x)) a=0 i^1+a1= // Speed of light (m⋅s-1) c=299792458 // Charge of an electron (C) q=1.602176565E-19 // Universal gravitational constant(N⋅m2/kg2) G=6.67384E-11 // Planck’s constant (eV⋅s) h=4.135667662E-15 // Dirac’s constant(eV⋅s) ħ=6.582119514E-16 // Boltzmann’s constant (eV⋅K-1) k=8.6173324E-5 // Avogadro’s constant (mol−1) NA=6.022140857E23 // Mass of an electron (kg) mₑ=9.10938291E-31 //Mass of a proton (kg) mₚ=1.672621777E-27 // Mass of a neutron(kg) mₙ=1.674927351E-27 //Permittivity of free space (F/m) ε₀=8.854187817E-12 //Permeability of free space(N⋅A-2) μ₀=π4E-7 //Bohr radius (m) a₀=5.2917721092E-11 fixed.Netbuttonstroke(3,0,0,-70) >> stroke: 3,0,0,-70 buttongradient(26.0,5,-40,-10) >> gradient: 26.0,5,-40,-10 backgroundshift(-20) >> background shift: -20 inputbackground(Azure) >> background color to Azure quizsound(on) favorite(FVinvest) >> favorite app. = FVinvest Bn(n,p,x)=C(n,x)p^xq^(n-x) Bncdf(n,p,s,x)=summ(Bn(n,p,v),v,s,x) poi(x)=mˣ/(eᵐ!(x)) ver(Feb. 2022) >> ver= Feb. 2022 buttonstroke(3,0,0,-70) >> stroke: 3,0,0,-70 buttongradient(26.0,5,-40,-10) >> gradient: 26.0,5,-40,-10 backgroundshift(-20) >> background shift: -20 inputbackground(Azure) >> background color to Azure quizsound(on) favorite(FVinvest) >> favorite app. = FVinvest ver(Feb. 2022) >> ver= Feb. 2022 q=1-p s=0 Bn(n,p,x)=C(n,x)p^xq^(n-x) Bncdf(n,p,s,x)=summ(Bn(n,p,v),v,s,x) poi(x)=mˣ/(eᵐ*!(x)) a=0 i^1+a1= // Speed of light (m⋅s-1) c=299792458 // Charge of an electron (C) q=1.602176565E-19 // Universal gravitational constant(N⋅m2/kg2) G=6.67384E-11 // Planck’s constant (eV⋅s) h=4.135667662E-15 // Dirac’s constant(eV⋅s) ħ=6.582119514E-16 // Boltzmann’s constant (eV⋅K-1) k=8.6173324E-5 // Avogadro’s constant (mol−1) NA=6.022140857E23 // Mass of an electron (kg) mₑ=9.10938291E-31 //Mass of a proton (kg) mₚ=1.672621777E-27 // Mass of a neutron(kg) mₙ=1.674927351E-27 //Permittivity of free space (F/m) ε₀=8.854187817E-12 //Permeability of free space(N⋅A-2) μ₀=π4E-7 //Bohr radius (m) a₀=5.2917721092E-11 buttonstroke(3,0,0,-70) >> stroke: 3,0,0,-70 buttongradient(26.0,5,-40,-10) >> gradient: 26.0,5,-40,-10 backgroundshift(-20) >> background shift: -20 inputbackground(Azure) >> background color to Azure quizsound(on) favorite(FVinvest) >> favorite app. = FVinvest Bn(n,p,x)=C(n,x)p^xq^(n-x) Bncdf(n,p,s,x)=summ(Bn(n,p,v),v,s,x) poi(x)=mˣ/(eᵐ!(x)) eweb@brand88.com eweb@brand88.com =5.2917721092E-11=8.854187817E-12eweb@ https://brand88.com =1.674927351E-27=1.672621777E-272022fixed.Net Integer's 1:0≤p(x)≤=x,20+1=1 $1,11,111,1111,\1 11... 1100... 00 (A-b)Mod-2017=0 where a,b 1:0≤P(x)≤=x2:0+1=1 x|y 0|2 1|2 (a-b)=f(x+h)f(x),=1 (a-b)¥=x,1:y,1(0.0) x|y 0|0 1|1 (a-b)+2017 1:0≤p(x)≤1=x=2:0+1=12:0+1 111√2017 4985.12356918... 1111111√2017 4.26064157×10-2 2+2=4/2017 √2241110887/1111111 0.42060633 1 Clear() //linear equations a1=1+2-1+2 a2=2+2+2+12 a3=1-1+2+5 A=(a1,a2,a3) linear(A) linear(a1,a2,a3) linear(1+2-1+2,2+2+2+12,1-1+2+5) (Report(½(321)7×½)" Linear(A)>> 1.0 2.0 3.0 Linear(a1,a2,a3)>> 1.0 2.0 3.0 Linear(1+2-1+2,2+2+2+12,1-1+2+5)>> 1.0 2.0 3.0 (Report(½(321)*7×½)">> Java.lang.no.format.exception for input string "2nullnullnullnullnull (∞x+c) X-intercepts:(none) Y-intercepts:(∞) ½k(k=1,2,...,6); 4BUILD. Tetragrammaton-2013 // Copyright 2013 The Chromium only one author EL'elyon Raphaiam Bradford. All rights reserved. //Only for nativeshttps://cloud.yehuda.com0124531915111https://slideplayer.com/amp/219427/65555111655565555935489631885(98986969333391674224436739354896318845362229868202909192757236612195178912608992146887071067811869161110550rdrr.io2140185714-5657143(5714285.20825657143.425833333336.914029177210922022eweb@brand88.comfixed.Net00https://brand88.com22411108872017 4985.12352013Java.lang.no.format.exception<!DOCTYPE html>
+<html>
+<head>
+  "<meta http-equiv=CONTENT-TYPE" content=text/html:charset=UTF-8>
+  <title>( Hello, World! )</title>
+</head>
+<body>
+  <h1>
+    Hello, World!
+  </h1>
+</body>
+</html>
+## This is a Docker Compose file for the InfluxData documentation site.
+## Run documentation tests for code samples.
+services:🤝
+  test:
+    image: docs-v2-tests
+    container_name: docs-v2-tests
+    profiles:
+      - test
+    volumes:
+      - type: bind
+        source: ./test
+        target: /usr/src/app/test
+      - type: bind
+        source: ./data
+        target: /usr/src/app/test/data
+      - type: bind
+        source: ./static/downloads
+        target: /usr/src/app/test/tmp/data
+    build:
+      context: .
+      dockerfile: test.Dockerfile
+      args:
+        - SOURCE_DIR=test
+        - DOCKER_IMAGE=docs-v2-tests
+  ## Run InfluxData documentation with the hugo development server on port 1313.
+  ## For more information about the hugomods/hugo image, see
+  ## https://docker.hugomods.com/docs/development/docker-compose/
+  local-dev:
+    image: hugomods/hugo:exts-0.123.8
+    command: hugo server --bind 0.0.0.0
+    ports:
+      - 1313:1313
+    volumes:
+      - type: bind
+        source: "$PWD"
+        target: /src
+      - type: bind
+        source: $HOME/hugo_cache
+        target: /tmp/hugo_cache
+ws
+
+## Table of Contents
+
+  - [Class: WebSocketServer](#class-websocketserver)
+  - [new WebSocketServer(options[, callback])](#new-websocketserveroptions-callback)
+  - [Event: 'close'](#event-close)
+  - [Event: 'connection'](#event-connection)
+  - [Event: 'error'](#event-error)
+  - [Event: 'headers'](#event-headers)
+  - [Event: 'listening'](#event-listening)
+  - [Event: 'wsClientError'](#event-wsclienterror)
+  - [server.address()](#serveraddress)
+  - [server.clients](#serverclients)
+  - [server.close([callback])](#serverclosecallback)
+  - [server.handleUpgrade(request, socket, head, callback)](#serverhandleupgraderequest-socket-head-callback)
+  - [server.shouldHandle(request)](#servershouldhandlerequest)
+  - [Class: WebSocket](#class-websocket)
+  - [Ready state constants](#ready-state-constants)
+  - [new WebSocket(address[, protocols][, options])](#new-websocketaddress-protocols-options)
+  - [IPC connections](#ipc-connections)
+  - [Event: 'close'](#event-close-1)
+  - [Event: 'error'](#event-error-1)
+  - [Event: 'message'](#event-message)
+  - [Event: 'open'](#event-open)
+  - [Event: 'ping'](#event-ping)
+  - [Event: 'pong'](#event-pong)
+  - [Event: 'redirect'](#event-redirect)
+  - [Event: 'unexpected-response'](#event-unexpected-response)
+  - [Event: 'upgrade'](#event-upgrade)
+  - [websocket.addEventListener(type, listener[, options])](#websocketaddeventlistenertype-listener-options)
+  - [websocket.binaryType](#websocketbinarytype)
+  - [websocket.bufferedAmount](#websocketbufferedamount)
+  - [websocket.close([code[, reason]])](#websocketclosecode-reason)
+  - [websocket.extensions](#websocketextensions)
+  - [websocket.isPaused](#websocketispaused)
+  - [websocket.onclose](#websocketonclose)
+  - [websocket.onerror](#websocketonerror)
+  - [websocket.onmessage](#websocketonmessage)
+  - [websocket.onopen](#websocketonopen)
+  - [websocket.pause()](#websocketpause)
+  - [websocket.ping([data[, mask]][, callback])](#websocketpingdata-mask-callback)
+  - [websocket.pong([data[, mask]][, callback])](#websocketpongdata-mask-callback)
+  - [websocket.protocol](#websocketprotocol)
+  - [websocket.readyState](#websocketreadystate)
+  - [websocket.removeEventListener(type, listener)](#websocketremoveeventlistenertype-listener)
+  - [websocket.resume()](#websocketresume)
+  - [websocket.send(data[, options][, callback])](#websocketsenddata-options-callback)
+  - [websocket.terminate()](#websocketterminate)
+  - [websocket.url](#websocketurl)
+  - [createWebSocketStream(websocket[, options])](#createwebsocketstreamwebsocket-options)
+  - [Environment variables](#environment-variables)
+  - [WS_NO_BUFFER_UTIL](#ws_no_buffer_util)
+  - [WS_NO_UTF_8_VALIDATE](#ws_no_utf_8_validate)
+  - [Error codes](#error-codes)
+  - [WS_ERR_EXPECTED_FIN](#ws_err_expected_fin)
+  - [WS_ERR_EXPECTED_MASK](#ws_err_expected_mask)
+  - [WS_ERR_INVALID_CLOSE_CODE](#ws_err_invalid_close_code)
+  - [WS_ERR_INVALID_CONTROL_PAYLOAD_LENGTH](#ws_err_invalid_control_payload_length)
+  - [WS_ERR_INVALID_OPCODE](#ws_err_invalid_opcode)
+  - [WS_ERR_INVALID_UTF8](#ws_err_invalid_utf8)
+  - [WS_ERR_UNEXPECTED_MASK](#ws_err_unexpected_mask)
+  - [WS_ERR_UNEXPECTED_RSV_1](#ws_err_unexpected_rsv_1)
+  - [WS_ERR_UNEXPECTED_RSV_2_3](#ws_err_unexpected_rsv_2_3)
+  - [WS_ERR_UNSUPPORTED_DATA_PAYLOAD_LENGTH](#ws_err_unsupported_data_payload_length)
+  - [WS_ERR_UNSUPPORTED_MESSAGE_LENGTH](#ws_err_unsupported_message_length)
+
+## Class: WebSocketServer
+This class represents a WebSocket server. It extends the `EventEmitter`.
+
+### new WebSocketServer(options[, callback])
+
+- `options` {Object}
+  - `autoPong` {Boolean} Specifies whether or not to automatically send a pong
+    in response to a ping. Defaults to `true`.
+  - `allowSynchronousEvents` {Boolean} Specifies whether any of the `'message'`,
+    `'ping'`, and `'pong'` events can be emitted multiple times in the same
+    tick. Defaults to `true`. Setting it to `false` improves compatibility with
+    the WHATWG standardbut may negatively impact performance.
+  - `backlog` {Number} The maximum length of the queue of pending connections.
+  - `clientTracking` {Boolean} Specifies whether or not to track clients.
+  - `handleProtocols` {Function} A function which can be used to handle the
+    WebSocket subprotocols. See description below.
+  - `host` {String} The hostname where to bind the server.
+  - `maxPayload` {Number} The maximum allowed message size in bytes. Defaults to
+    100 MiB (104857600 bytes).
+  - `noServer` {Boolean} Enable no server mode.
+  - `path` {String} Accept only connections matching this path.
+  - `perMessageDeflate` {Boolean|Object} Enable/disable permessage-deflate.
+  - `port` {Number} The port where to bind the server.
+  - `server` {http.Server|https.Server} A pre-created Node.js HTTP/S server.
+  - `skipUTF8Validation` {Boolean} Specifies whether or not to skip UTF-8
+    validation for text and close messages. Defaults to `false`. Set to `true`
+    only if clients are trusted.
+  - `verifyClient` {Function} A function which can be used to validate incoming
+    connections. See description below. (Usage is discouraged: see
+    [Issue #337](https://github.com/websockets/ws/issues/377#issuecomment-462152231))
+  - `WebSocket` {Function} Specifies the `WebSocket` class to be used. It must
+    be extended from the original `WebSocket`. Defaults to `WebSocket`.
+- `callback` {Function}
+
+Create a new server instance. One and only one of `port`, `server` or `noServer`
+must be provided or an error is thrown. An HTTP server is automatically created,
+started, and used if `port` is set. To use an external HTTP/S server instead,
+specify only `server` or `noServer`. In this case, the HTTP/S server must be
+started manually. The "noServer" mode allows the WebSocket server to be
+completely detached from the HTTP/S server. This makes it possible, for example,
+to share a single HTTP/S server between multiple WebSocket servers.
+
+> **NOTE:** Use of `verifyClient` is discouraged. Rather handle client
+> authentication in the `'upgrade'` event of the HTTP server. See examples for
+> more details.
+
+If `verifyClient` is not set, then the handshake is automatically accepted. If
+it has a single parameter, then `ws` will invoke it with the following argument:
+
+- `info` {Object}
+  - `origin` {String} The value in the Origin header indicated by the client.
+  - `req` {http.IncomingMessage} The client HTTP GET request.
+  - `secure` {Boolean} `true` if `req.socket.authorized` or
+    `req.socket.encrypted` is set.
+
+The return value (`Boolean`) of the function determines whether or not to accept
+the handshake.
+
+If `verifyClient` has two parameters, then `ws` will invoke it with the
+following arguments:
+
+- `info` {Object} Same as above.
+- `cb` {Function} A callback that must be called by the user upon inspection of
+  the `info` fields. Arguments in this callback are:
+  - `result` {Boolean} Whether or not to accept the handshake.
+  - `code` {Number} When `result` is `false`, this field determines the HTTP
+    error status code to be sent to the client.
+  - `name` {String} When `result` is `false`, this field determines the HTTP
+    reason phrase.
+  - `headers` {Object} When `result` is `false`, this field determines
+    additional HTTP headers to be sent to the client. For example,
+    `{ 'Retry-After': 120 }`.
+
+`handleProtocols` takes two arguments:
+
+- `protocols` {Set} The list of WebSocket subprotocols indicated by the client
+  in the `Sec-WebSocket-Protocol` header.
+- `request` {http.IncomingMessage} The client HTTP GET request.
+
+The returned value sets the value of the `Sec-WebSocket-Protocol` header in the
+HTTP 101 response. If returned value is `false`, the header is not added in the
+response.
+
+If `handleProtocols` is not set, then the first of the client's requested
+subprotocols is used.
+
+`perMessageDeflate` can be used to control the behavior of [permessage-deflate
+extension][permessage-deflate]. The extension is disabled when `false` (default
+value). If an object is provided, then that is extension parameters:
+
+- `serverNoContextTakeover` {Boolean} Whether to use context takeover or not.
+- `clientNoContextTakeover` {Boolean} Acknowledge disabling of client context
+  takeover.
+- `serverMaxWindowBits` {Number} The value of `windowBits`.
+- `clientMaxWindowBits` {Number} Request a custom client window size.
+- `zlibDeflateOptions` {Object} [Additional options][zlib-options] to pass to
+  zlib on deflate.
+- `zlibInflateOptions` {Object} [Additional options][zlib-options] to pass to
+  zlib on inflate.
+- `threshold` {Number} Payloads smaller than this will not be compressed if
+  context takeover is disabled. Defaults to 1024 bytes.
+- `concurrencyLimit` {Number} The number of concurrent calls to zlib. Calls
+  above this limit will be queued. Default 10. You usually won't need to touch
+  this option. See [this issue][concurrency-limit] for more details.
+
+If a property is empty, then either an offered configuration or a default value
+is used. When sending a fragmented message, the length of the first fragment is
+compared to the threshold. This determines if compression is used for the entire
+message.
+
+`callback` will be added as a listener for the `'listening'` event on the HTTP
+server when the `port` option is set.
+
+### Event: 'close'
+
+Emitted when the server closes. This event depends on the `'close'` event of
+HTTP server only when it is created internally. In all other cases, the event is
+emitted independently.
+
+### Event: 'connection'
+
+- `websocket` {WebSocket}
+- `request` {http.IncomingMessage}
+
+Emitted when the handshake is complete. `request` is the http GET request sent
+by the client. Useful for parsing authority headers, cookie headers, and other
+information.
+
+### Event: 'error'
+
+- `error` {Error}
+
+Emitted when an error occurs on the underlying server.
+
+### Event: 'headers'
+
+- `headers` {Array}
+- `request` {http.IncomingMessage}
+
+Emitted before the response headers are written to the socket as part of the
+handshake. This allows you to inspect/modify the headers before they are sent.
+
+### Event: 'listening'
+
+Emitted when the underlying server has been bound.
+
+### Event: 'wsClientError'
+
+- `error` {Error}
+- `socket` {net.Socket|tls.Socket}
+- `request` {http.IncomingMessage}
+
+Emitted when an error occurs before the WebSocket connection is established.
+`socket` and `request` are respectively the socket and the HTTP request from
+which the error originated. The listener of this event is responsible for
+closing the socket. When the `'wsClientError'` event is emitted there is no
+`http.ServerResponse` object, so any HTTP response, including the response
+headers and body, must be written directly to the `socket`. If there is no
+listener for this event, the socket is closed with a default 4xx response
+containing a descriptive error message.
+
+### server.address()
+
+Returns an object with `port`, `family`, and `address` properties specifying the
+bound address, the address family name, and port of the server as reported by
+the operating system if listening on an IP socket. If the server is listening on
+a pipe or UNIX domain socket, the name is returned as a string.
+
+### server.clients
+
+- {Set}
+
+A set that stores all connected clients. This property is only added when the
+`clientTracking` is truthy.
+
+### server.close([callback])
+
+Prevent the server from accepting new connections and close the HTTP server if
+created internally. If an external HTTP server is used via the `server` or
+`noServer` constructor options, it must be closed manually. Existing connections
+are not closed automatically. The server emits a `'close'` event when all
+connections are closed unless an external HTTP server is used and client
+tracking is disabled. In this case, the `'close'` event is emitted in the next
+tick. The optional callback is called when the `'close'` event occurs and
+receives an `Error` if the server is already closed.
+
+### server.handleUpgrade(request, socket, head, callback)
+
+- `request` {http.IncomingMessage} The client HTTP GET request.
+- `socket` {stream.Duplex} The network socket between the server and client.
+- `head` {Buffer} The first packet of the upgraded stream.
+- `callback` {Function}
+
+Handle a HTTP upgrade request. When the HTTP server is created internally or
+when the HTTP server is passed via the `server` option, this method is called
+automatically. When operating in "noServer" mode, this method must be called
+manually.
+
+If the upgrade is successful, the `callback` is called with two arguments:
+
+- `websocket` {WebSocket} A `WebSocket` object.
+- `request` {http.IncomingMessage} The client HTTP GET request.
+
+### server.shouldHandle(request)
+
+- `request` {http.IncomingMessage} The client HTTP GET request.
+
+See if a given request should be handled by this server. By default, this method
+validates the pathname of the request, matching it against the `path` option if
+provided. The return value, `true` or `false`, determines whether or not to
+accept the handshake.
+
+This method can be overridden when a custom handling logic is required.
+
+## Class: WebSocket
+
+This class represents a WebSocket. It extends the `EventEmitter`.
+
+### Ready state constants
+
+| Constant   | Value | Description                                      |
+| ---------- | ----- | ------------------------------------------------ |
+| CONNECTING | 0     | The connection is not yet open.                  |
+| OPEN       | 1     | The connection is open and ready to communicate. |
+| CLOSING    | 2     | The connection is in the process of closing.     |
+| CLOSED     | 3     | The connection is closed.                        |
+
+### new WebSocket(address[, protocols][, options])
+
+- `address` {String|url.URL} The URL to which to connect.
+- `protocols` {String|Array} The list of subprotocols.
+- `options` {Object}
+  - `autoPong` {Boolean} Specifies whether or not to automatically send a pong
+    in response to a ping. Defaults to `true`.
+  - `allowSynchronousEvents` {Boolean} Specifies whether any of the `'message'`,
+    `'ping'`, and `'pong'` events can be emitted multiple times in the same
+    tick. Defaults to `true`. Setting it to `false` improves compatibility with
+    the WHATWG standardbut may negatively impact performance.
+  - `finishRequest` {Function} A function which can be used to customize the
+    headers of each HTTP request before it is sent. See description below.
+  - `followRedirects` {Boolean} Whether or not to follow redirects. Defaults to
+    `false`.
+  - `generateMask` {Function} The function used to generate the masking key. It
+    takes a `Buffer` that must be filled synchronously and is called before a
+    message is sent, for each message. By default, the buffer is filled with
+    cryptographically strong random bytes.
+  - `handshakeTimeout` {Number} Timeout in milliseconds for the handshake
+    request. This is reset after every redirection.
+  - `maxPayload` {Number} The maximum allowed message size in bytes. Defaults to
+    100 MiB (104857600 bytes).
+  - `maxRedirects` {Number} The maximum number of redirects allowed. Defaults
+    to 10.
+  - `origin` {String} Value of the `Origin` or `Sec-WebSocket-Origin` header
+    depending on the `protocolVersion`.
+  - `perMessageDeflate` {Boolean|Object} Enable/disable permessage-deflate.
+  - `protocolVersion` {Number} Value of the `Sec-WebSocket-Version` header.
+  - `skipUTF8Validation` {Boolean} Specifies whether or not to skip UTF-8
+    validation for text and close messages. Defaults to `false`. Set to `true`
+    only if the server is trusted.
+  - Any other option allowed in [`http.request()`][] or [`https.request()`][].
+    Options given do not have any effect if parsed from the URL given with the
+    `address` parameter.
+
+Create a new WebSocket instance.
+
+`perMessageDeflate` default value is `true`. When using an object, parameters
+are the same of the server. The only difference is the direction of requests.
+For example, `serverNoContextTakeover` can be used to ask the server to disable
+context takeover.
+
+`finishRequest` is called with arguments
+
+- `request` {http.ClientRequest}
+- `websocket` {WebSocket}
+
+for each HTTP GET request (the initial one and any caused by redirects) when it
+is ready to be sent, to allow for last minute customization of the headers. If
+`finishRequest` is set, then it has the responsibility to call `request.end()`
+once it is done setting request headers. This is intended for niche use-cases
+where some headers can't be provided in advance e.g. because they depend on the
+underlying socket.
+
+#### IPC connections
+
+`ws` supports IPC connections. To connect to an IPC endpoint, use the following
+URL form:
+
+- On Unices
+
+  ```
+  ws+unix:/absolute/path/to/uds_socket:/pathname?search_params
+  ```
+
+- On Windows
+
+  ```
+  ws+unix:\\.\pipe\pipe_name:/pathname?search_params
+  ```
+
+The character `:` is the separator between the IPC path (the Unix domain socket
+path or the Windows named pipe) and the URL path. The IPC path must not include
+the characters `:` and `?`, otherwise the URL is incorrectly parsed. If the URL
+path is omitted
+
+```
+ws+unix:/absolute/path/to/uds_socket
+```
+
+it defaults to `/`.
+
+### Event: 'close'
+
+- `code` {Number}
+- `reason` {Buffer}
+
+Emitted when the connection is closed. `code` is a numeric value indicating the
+status code explaining why the connection has been closed. `reason` is a
+`Buffer` containing a human-readable string explaining why the connection has
+been closed.
+
+### Event: 'error'
+
+- `error` {Error}
+
+Emitted when an error occurs. Errors may have a `.code` property, matching one
+of the string values defined below under [Error codes](#error-codes).
+
+### Event: 'message'
+
+- `data` {ArrayBuffer|Blob|Buffer|Buffer[]}
+- `isBinary` {Boolean}
+
+Emitted when a message is received. `data` is the message content. `isBinary`
+specifies whether the message is binary or not.
+
+### Event: 'open'
+
+Emitted when the connection is established.
+
+### Event: 'ping'
+
+- `data` {Buffer}
+
+Emitted when a ping is received.
+
+### Event: 'pong'
+
+- `data` {Buffer}
+
+Emitted when a pong is received.
+
+### Event: 'redirect'
+
+- `url` {String}
+- `request` {http.ClientRequest}
+
+Emitted before a redirect is followed. `url` is the redirect URL. `request` is
+the HTTP GET request with the headers queued. This event gives the ability to
+inspect confidential headers and remove them on a per-redirect basis using the
+[`request.getHeader()`][] and [`request.removeHeader()`][] API. The `request`
+object should be used only for this purpose. When there is at least one listener
+for this event, no header is removed by default, even if the redirect is to a
+different domain.
+
+### Event: 'unexpected-response'
+
+- `request` {http.ClientRequest}
+- `response` {http.IncomingMessage}
+
+Emitted whetest.Dockerfilehttps://docker.hugomods.com/docs/development/docker-compose/100Node.js1201011024server.clients                              "J" 
+                         [10:9;&;11:32]
+               "J17"4:19,10,9,21.twice,22,&11:32 
+          "-P",-'L'01:11:1:04:5:6:i1,i2,i3;
+01xi1/1,x04+5-6=6i1/i2,i3.
+               "[5×5:5];
+            [1'7'2'4,1,8,1,5];
+            [23,57,14,16];
+            <?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <element array="true">
+    <element array="true">
+      <element array="true" number="true">0</element>
+    </element>
+  </element>
+  <element></element>
+</root><?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <element>"a,b,c"[0][0][0][1][1]&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;element array="true"&gt;
+    &lt;element array="true"&gt;
+      &lt;element array="true" number="true"&gt;0&lt;/element&gt;
+    &lt;/element&gt;
+  &lt;/element&gt;
+  &lt;element&gt;&lt;/element&gt;
+&lt;/root&gt;&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;[0][1][1]&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+  &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&gt;
+    &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&gt;0&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+  &lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+&lt;/root&gt;[0][1][1].&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;[0][1][1]&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+  &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&gt;
+    &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&gt;0&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+  &lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+&lt;/root&gt;.[0][1][0][0].yahxml[1].[0][1][0][0].yahxml[0]&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;element array="true" empty-array="true"&gt;&lt;/element&gt;
+  &lt;element&gt;&lt;/element&gt;
+&lt;/root&gt;&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;element&gt;[0][1][1]&lt;/element&gt;
+  &lt;element&gt;
+    &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&gt;0&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+  &lt;/element&gt;
+&lt;/root&gt;&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;element&gt;[0][1][1]&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element array="true"&amp;gt;
+    &amp;lt;element array="true"&amp;gt;
+      &amp;lt;element array="true" number="true"&amp;gt;0&amp;lt;/element&amp;gt;
+    &amp;lt;/element&amp;gt;
+  &amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;&amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;[0][1][1]&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+&amp;lt;/root&amp;gt;[0][1][1].&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;[0][1][1]&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+&amp;lt;/root&amp;gt;.[0][1][0][0].yahxml[1].[0][1][0][0].yahxml[0]&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element array="true" empty-array="true"&amp;gt;&amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;&amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element&amp;gt;[0][1][1]&amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;&lt;/element&gt;
+  &lt;element&gt;
+    &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;101010011[0][1][1].&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;[0][1][1]&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+&amp;lt;/root&amp;gt;.[0][1][0][0].yahxml[1].[0][1][0][0].yahxml[0]&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+    &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&gt;
+      &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&gt;
+        &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&gt;
+          &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&gt;0&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+        &lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+      &lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+      &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+    &lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+  &lt;/element&gt;
+&lt;/root&gt;&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;element&gt;[0][1][1]&lt;/element&gt;
+  &lt;element&gt;
+    &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&gt;0&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+  &lt;/element&gt;
+&lt;/root&gt;101010011&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;element array="true" empty-array="true"&gt;&lt;/element&gt;
+  &lt;element&gt;&lt;/element&gt;
+&lt;/root&gt;[0][1][1].&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;[0][1][1]&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+  &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&gt;
+    &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&gt;0&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+  &lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+&lt;/root&gt;.[0][1][0][0].yahxml[1].[0][1][0][0].yahxml[0]&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;element array="true"&gt;
+    &lt;element array="true"&gt;
+      &lt;element array="true" number="true"&gt;0&lt;/element&gt;
+    &lt;/element&gt;
+  &lt;/element&gt;
+  &lt;element&gt;&lt;/element&gt;
+&lt;/root&gt;&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;[0][1][1]&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element array="true"&amp;gt;
+    &amp;lt;element array="true"&amp;gt;
+      &amp;lt;element array="true" number="true"&amp;gt;0&amp;lt;/element&amp;gt;
+    &amp;lt;/element&amp;gt;
+  &amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;&amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;[0][1][1]&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+&amp;lt;/root&amp;gt;[0][1][1].&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;[0][1][1]&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+&amp;lt;/root&amp;gt;.[0][1][0][0].yahxml[1].[0][1][0][0].yahxml[0]&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element array="true" empty-array="true"&amp;gt;&amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;&amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element&amp;gt;[0][1][1]&amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element&amp;gt;[0][1][1]&amp;amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;amp;gt;
+&amp;amp;lt;root&amp;amp;gt;
+  &amp;amp;lt;element array="true"&amp;amp;gt;
+    &amp;amp;lt;element array="true"&amp;amp;gt;
+      &amp;amp;lt;element array="true" number="true"&amp;amp;gt;0&amp;amp;lt;/element&amp;amp;gt;
+    &amp;amp;lt;/element&amp;amp;gt;
+  &amp;amp;lt;/element&amp;amp;gt;
+  &amp;amp;lt;element&amp;amp;gt;&amp;amp;lt;/element&amp;amp;gt;
+&amp;amp;lt;/root&amp;amp;gt;&amp;amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;amp;gt;
+&amp;amp;lt;root&amp;amp;gt;
+  &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;[0][1][1]&amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+  &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;amp;gt;
+    &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;amp;gt;0&amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+  &amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+&amp;amp;lt;/root&amp;amp;gt;[0][1][1].&amp;amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;amp;gt;
+&amp;amp;lt;root&amp;amp;gt;
+  &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;[0][1][1]&amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+  &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;amp;gt;
+    &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;amp;gt;0&amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+  &amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+&amp;amp;lt;/root&amp;amp;gt;.[0][1][0][0].yahxml[1].[0][1][0][0].yahxml[0]&amp;amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;amp;gt;
+&amp;amp;lt;root&amp;amp;gt;
+  &amp;amp;lt;element array="true" empty-array="true"&amp;amp;gt;&amp;amp;lt;/element&amp;amp;gt;
+  &amp;amp;lt;element&amp;amp;gt;&amp;amp;lt;/element&amp;amp;gt;
+&amp;amp;lt;/root&amp;amp;gt;&amp;amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;amp;gt;
+&amp;amp;lt;root&amp;amp;gt;
+  &amp;amp;lt;element&amp;amp;gt;[0][1][1]&amp;amp;lt;/element&amp;amp;gt;
+  &amp;amp;lt;element&amp;amp;gt;
+    &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;amp;gt;0&amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+  &amp;amp;lt;/element&amp;amp;gt;
+&amp;amp;lt;/root&amp;amp;gt;&amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;101010011[0][1][1].&amp;amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;amp;gt;
+&amp;amp;lt;root&amp;amp;gt;
+  &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;[0][1][1]&amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+  &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;amp;gt;
+    &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;amp;gt;0&amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+  &amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+&amp;amp;lt;/root&amp;amp;gt;.[0][1][0][0].yahxml[1].[0][1][0][0].yahxml[0]&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+      &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+        &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+          &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+        &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+      &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+      &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+    &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element&amp;gt;[0][1][1]&amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;101010011&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element array="true" empty-array="true"&amp;gt;&amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;&amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;[0][1][1].&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;[0][1][1]&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+&amp;lt;/root&amp;gt;.[0][1][0][0].yahxml[1].[0][1][0][0].yahxml[0]&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element array="true"&amp;gt;
+    &amp;lt;element array="true"&amp;gt;
+      &amp;lt;element array="true" number="true"&amp;gt;0&amp;lt;/element&amp;gt;
+    &amp;lt;/element&amp;gt;
+  &amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;&amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;[0][1][1]&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element array="true"&amp;gt;
+    &amp;lt;element array="true"&amp;gt;
+      &amp;lt;element array="true" number="true"&amp;gt;0&amp;lt;/element&amp;gt;
+    &amp;lt;/element&amp;gt;
+  &amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;&amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;[0][1][1]&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+&amp;lt;/root&amp;gt;[0][1][1].&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;[0][1][1]&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+&amp;lt;/root&amp;gt;.[0][1][0][0].yahxml[1].[0][1][0][0].yahxml[0]&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element array="true" empty-array="true"&amp;gt;&amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;&amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element&amp;gt;[0][1][1]&amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element&amp;gt;[0][1][1]&amp;amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;amp;gt;
+&amp;amp;lt;root&amp;amp;gt;
+  &amp;amp;lt;element array="true"&amp;amp;gt;
+    &amp;amp;lt;element array="true"&amp;amp;gt;
+      &amp;amp;lt;element array="true" number="true"&amp;amp;gt;0&amp;amp;lt;/element&amp;amp;gt;
+    &amp;amp;lt;/element&amp;amp;gt;
+  &amp;amp;lt;/element&amp;amp;gt;
+  &amp;amp;lt;element&amp;amp;gt;&amp;amp;lt;/element&amp;amp;gt;
+&amp;amp;lt;/root&amp;amp;gt;&amp;amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;amp;gt;
+&amp;amp;lt;root&amp;amp;gt;
+  &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;[0][1][1]&amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+  &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="t</element>
+  <element array="true">
+    <element array="true">
+      <element array="true">
+        <yahxml>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;element array="true" empty-array="true"&gt;&lt;/element&gt;
+  &lt;element&gt;&lt;/element&gt;
+&lt<!TETRA-TEK-AI-X?>TETRAGRAMATONyj</!TETRA-TEK-AI-X?>
+
+</DOCTYPhtml>
+  accesskey
+  "Hello,Word"
+  
+</DOCTYPE,html>
+import bisect
+import functools
+import logging
+import math
+import re
+from dataclasses import dataclass
+from typing import Any, Callable, NamedTuple, Optional, Tuple
+
+import haiku as hk
+import jax
+import jax.experimental.pjit as pjit
+import jax.numpy as jnp
+import numpy as np
+import sentencepiece
+from jax.experimental import mesh_utils
+from jax.sharding import PartitionSpec as P
+from jax.typing import ArrayLike
+
+import checkpoint as xai_checkpoint
+from model import (
+    LanguageModelConfig,
+    LanguageModelOutput,
+    TrainingState,
+    apply_rules,
+    Memory,
+    KVMemory,
+)
+
+logger = logging.getLogger(__name__)
+rank_logger = logging.getLogger("rank")
+
+TOP_K = 8
+
+
+class SampleSettings(NamedTuple):
+    temperature: ArrayLike
+    nucleus_p: ArrayLike
+    mask: ArrayLike
+    # Whether a given batch element is actively used. [B]
+    active: ArrayLike
+
+
+class SampleOutput(NamedTuple):
+    token_id: ArrayLike
+    prob: ArrayLike
+    top_k_token_ids: ArrayLike
+    top_k_probs: ArrayLike
+
+
+def insert_slice(memory: Memory, slice, length, i):
+    slice = Memory(
+        layers=[
+            KVMemory(layer.k, layer.v, step=jnp.array([length]))
+            for layer in slice.layers
+        ],
+    )
+
+    return jax.tree_map(lambda m, u: jax.lax.dynamic_update_index_in_dim(m, u[0], i, axis=0),
+                        memory, slice)
+
+
+def pad_to_size(x, size):
+    if x.shape[0] > size:
+        # Left truncate if the context is too long.
+        x = x[-size:]
+    return np.pad(x, [0, size - x.shape[0]], mode="constant", constant_values=0)
+
+
+def top_p_filter(logits: jax.Array, top_p: jax.Array) -> jax.Array:
+    """Performs nucleus filtering on logits."""
+    assert logits.ndim == top_p.ndim, f"Expected {logits.ndim} equal {top_p.ndim}"
+    sorted_logits = jax.lax.sort(logits, is_stable=False)
+    sorted_probs = jax.nn.softmax(sorted_logits)
+    threshold_idx = jnp.argmax(jnp.cumsum(sorted_probs, -1) >= 1 - top_p, axis=-1)
+    threshold_largest_logits = jnp.take_along_axis(
+        sorted_logits, threshold_idx[..., jnp.newaxis], axis=-1
+    )
+    assert threshold_largest_logits.shape == logits.shape[:-1] + (1,)
+    mask = logits >= threshold_largest_logits
+    # Set unused logits to -inf.
+    logits = jnp.where(mask, logits, -1e10)
+    return logits
+
+
+def sample_token(
+    rngs: jax.random.PRNGKey,
+    lm_outputs: LanguageModelOutput,
+    settings: SampleSettings,
+) -> SampleOutput:
+    # Expand the settings shape to match the logit shape.
+    settings = SampleSettings(
+        temperature=jnp.expand_dims(settings.temperature, (1, 2)),  # Input [B], output [B, 1, 1].
+        nucleus_p=jnp.expand_dims(settings.nucleus_p, (1, 2)),  # Input [B], output [B, 1, 1].
+        mask=jnp.expand_dims(settings.mask, 1),  # Input [B, V], output [B, 1, V].
+        active=settings.active,  # [B].
+    )
+    logits = lm_outputs.logits / settings.temperature.astype(lm_outputs.logits.dtype)
+    # Mask out all disallowed tokens by assigning them a near-zero probability.
+    logits = jnp.where(settings.mask, logits, -1e10)
+    # Mask out all tokens that don't fall into the p-th percentile.
+    logits = top_p_filter(logits, settings.nucleus_p.astype(logits.dtype))
+
+    new_token = jax.vmap(jax.random.categorical)(rngs, logits)
+
+    probabilities = jax.nn.softmax(logits)
+    token_prob = jnp.take_along_axis(probabilities, jnp.expand_dims(new_token, 1), axis=2)
+    token_prob = jnp.squeeze(token_prob, 1)
+
+    # Gather the top-k tokens and probabilities.
+    top_k_probs, top_k_token_ids = jax.lax.top_k(probabilities, TOP_K)
+    top_k_probs = jnp.squeeze(top_k_probs, 1)
+    top_k_token_ids = jnp.squeeze(top_k_token_ids, 1)
+    return SampleOutput(
+        new_token,
+        token_prob,
+        top_k_token_ids,
+        top_k_probs,
+    )
+
+
+@dataclass
+class ModelRunner:
+    model: LanguageModelConfig
+
+    bs_per_device: float = 2.0
+
+    load_rename_rules: Optional[list[tuple[str, str]]] = None
+    load_exclude_rules: Optional[list[str]] = None
+
+    rng_seed: int = 42  # Initial rng seed.
+    transform_forward: bool = False
+
+    checkpoint_path: str = ""
+
+    def make_forward_fn(self, mesh: Any):
+        def forward(tokens):
+            out = self.model.make(mesh=mesh)(tokens)
+            return out, None
+
+        if self.transform_forward:
+            forward = hk.transform(forward)
+        return forward
+
+    def initialize(
+        self,
+        init_data,
+        local_mesh_config: tuple[int, int],
+        between_hosts_config: tuple[int, int],
+    ):
+        num_replicas = math.prod(between_hosts_config)
+        self.model.initialize()
+        self.model.fprop_dtype = jnp.bfloat16
+        num_local_gpus = len(jax.local_devices())
+
+        # Calculate the global batch size from the local batch size.
+        self.batch_size = int(self.bs_per_device * num_local_gpus * num_replicas)
+
+        # Calculate the batch size per host from the global batch size.
+        self.local_batch_size = self.batch_size // jax.process_count()
+
+        self.local_mesh_config = local_mesh_config
+        self.between_hosts_config = between_hosts_config
+        rank_logger.info(
+            f"Initializing mesh for {self.local_mesh_config=} {self.between_hosts_config=}..."
+        )
+        self.mesh = make_mesh(self.local_mesh_config, self.between_hosts_config)
+        self.forward = self.make_forward_fn(mesh=self.mesh)
+        self.logits_fn = hk.transform(lambda tokens: self.forward(tokens)[0])
+
+        self.eval_forward = self.make_forward_fn(mesh=self.mesh)
+        self.logits_eval_fn = hk.transform(lambda tokens: self.eval_forward(tokens)[0])
+
+        if self.transform_forward:
+            self.state_sharding = self.get_state_sharding(init_data)
+            rank_logger.info(f"State sharding type: {type(self.state_sharding)}")
+            self.init_fn = pjit.pjit(self.init, out_shardings=self.state_sharding)
+
+    def init(self, rng: jax.Array, data) -> TrainingState:
+        assert self.transform_forward
+        rng, init_rng = jax.random.split(rng)
+        params = self.forward.init(init_rng, data["inputs"])
+        return TrainingState(params=params)
+
+    def get_state_sharding(self, init_data):
+        assert self.transform_forward
+        rng = jax.random.PRNGKey(self.rng_seed)
+        rank_logger.info(f"partition rules: {self.model.partition_rules}")
+
+        with self.mesh:
+            shapes = jax.eval_shape(self.init, rng, init_data)
+            sharding = jax.tree_util.tree_map_with_path(
+                apply_rules(self.model.partition_rules()),
+                shapes,
+            )
+        return sharding
+
+    def load_or_init(
+        self,
+        init_data: Any,
+        from_checkpoint: bool = True,
+        init_fn: Optional[Callable] = None,
+    ):
+        rng = jax.random.PRNGKey(self.rng_seed)
+
+        if not self.checkpoint_path or not from_checkpoint:
+            rank_logger.info("Initializing model...")
+            with self.mesh:
+                if init_fn is not None:
+                    state = init_fn(rng, init_data)
+                else:
+                    assert self.transform_forward
+                    state = self.init_fn(rng, init_data)
+            rank_logger.info("Model state is newly initialized.")
+        else:
+            with self.mesh:
+                if init_fn:
+                    state_shapes = jax.eval_shape(init_fn, rng, init_data)
+                else:
+                    assert self.transform_forward
+                    state_shapes = jax.eval_shape(self.init_fn, rng, init_data)
+            init_state = None
+
+            state = xai_checkpoint.restore(
+                checkpoint_path=self.checkpoint_path,
+                state_shapes=state_shapes,
+                mesh=self.mesh,
+                between_hosts_config=self.between_hosts_config,
+                state_sharding=self.state_sharding,
+                init_state=init_state,
+                params_only=True,
+            )
+
+            del init_state
+        return state
+
+
+@dataclass
+class Request:
+    prompt: str
+    temperature: float
+    nucleus_p: float
+    rng_seed: int
+    max_len: int
+
+
+@dataclass
+class InferenceRunner:
+    name: str
+    runner: Any
+    load: str
+    tokenizer_path: str = "/tmp/xai_data/tokenizer.model"
+    local_mesh_config: Tuple[int, int] = (1, 1)
+    between_hosts_config: Tuple[int, int] = (1, 1)
+    pad_sizes: tuple[int] = (1024,)
+
+    def get_pad_bucket(self, size):
+        i = bisect.bisect_left(self.pad_sizes, size)
+        return self.pad_sizes[min(i, len(self.pad_sizes) - 1)]
+
+    def initialize(self):
+        runner = self.runner
+        self.runner.transform_forward = True
+        dummy_data = dict(
+            inputs=np.zeros((1, 256), dtype=np.int32),
+            targets=np.zeros((1, 256), dtype=np.int32),
+        )
+        runner.initialize(
+            dummy_data,
+            local_mesh_config=self.local_mesh_config,
+            between_hosts_config=self.between_hosts_config,
+        )
+
+        self.tokenizer = sentencepiece.SentencePieceProcessor(model_file=self.tokenizer_path)
+
+        max_len = runner.model.sequence_len
+
+        self.vocab_size = self.runner.model.vocab_size
+
+        params = runner.load_or_init(dummy_data)
+        self.params = params
+
+        def pad_to_max_len(x):
+            if len(x.shape) > 1:
+                pad_width = max_len - x.shape[1]
+                return jnp.pad(x, [(0, 0), (0, pad_width), (0, 0), (0, 0)])
+            else:
+                return x
+
+        @functools.lru_cache
+        def lm():
+            return runner.model.make(mesh=runner.mesh)
+
+        def hk_forward(
+            tokens,
+            memory=None,
+            length=None,
+            active=None,
+        ) -> LanguageModelOutput:
+            if memory is not None:
+                assert active is not None
+                layers = []
+                for l in memory.layers:
+                    # Reset steps to 0 for inactive requests to avoid unnecessary computations.
+                    step = jnp.where(active, l.step, jnp.zeros_like(l.step))
+                    layers.append(l._replace(step=step))
+                memory = memory._replace(layers=layers)
+            return lm()(tokens, memory, length=length)
+
+        def hk_sample_step(rngs, last_output: SampleOutput, memory, settings):
+            rngs, rngs_ = jax.vmap(jax.random.split, out_axes=1)(rngs)
+            lm_outputs = hk_forward(last_output.token_id, memory=memory, active=settings.active)
+            sample_result = sample_token(rngs_, lm_outputs, settings)
+            return rngs, sample_result, lm_outputs.model_state
+
+        def hk_new_memory(batch_size, sequence_len):
+            return lm().init_memory(batch_size, sequence_len)
+
+        def hk_prefill_memory(
+            rngs,
+            memory,
+            settings,
+            last_output,
+            prompt,
+            length,
+            rng_seed,
+            new_settings,
+            i,
+        ):
+            rng = jax.random.PRNGKey(seed=rng_seed)
+            rng, rng_ = jax.random.split(rng)
+
+            # Allocate new memory for this sample. The memory length is equal to the length of the
+            # prompt.
+            slice = hk_new_memory(1, prompt.shape[0])
+
+            # Move the settings for this individual batch entry into the joint settings tensor.
+            settings = jax.tree_map(
+                lambda o, v: jax.lax.dynamic_update_index_in_dim(o, v, i, axis=0),
+                settings,
+                new_settings,
+            )
+
+            # Get the settings for the batch entry from the joint settings tensor.
+            settings_slice = jax.tree_map(lambda t: jnp.expand_dims(t[i], axis=0), settings)
+
+            # Process the first n-1 tokens of the prompt.
+            lm_outputs = hk_forward(
+                jnp.expand_dims(prompt, 0),
+                memory=slice,
+                length=jnp.expand_dims(length, 0),
+                active=settings_slice.active,
+            )
+
+            # The forward pass doesn't correctly set the `step` counter inside the memory. Manually
+            # override it so `hk_forward` uses the correct context length in the next call.
+            slice = lm_outputs.model_state
+            slice = slice._replace(
+                layers=[l._replace(step=jnp.array([length])) for l in slice.layers]
+            )
+
+            # Sample the actual output token.
+            rng_ = jnp.expand_dims(rng_, 0)
+            new_output = sample_token(rng_, lm_outputs, settings_slice)
+
+            # Update the KV cache/memory.
+            slice = jax.tree_map(pad_to_max_len, slice)
+            memory = insert_slice(memory, slice, length, i)
+
+            rng = jnp.expand_dims(rng, 0)
+            rngs = jax.lax.dynamic_update_index_in_dim(rngs, rng, i, axis=0)
+
+            # Move the network outputs for this batch entry into the joint output tensor.
+            last_output = jax.tree_util.tree_map(
+                lambda last, new: jax.lax.dynamic_update_index_in_dim(last, new, i, axis=0),
+                last_output,
+                new_output,
+            )
+            return rngs, last_output, memory, settings
+
+        sample_step_ = hk.without_apply_rng(hk.transform(hk_sample_step))
+        prefill_memory_ = hk.without_apply_rng(hk.transform(hk_prefill_memory))
+        new_memory_ = hk.without_apply_rng(hk.transform(hk_new_memory))
+        forward_ = hk.without_apply_rng(hk.transform(hk_forward))
+
+        rng = jax.random.PRNGKey(42)
+        dummy_tokens = jnp.zeros((1, max_len), jnp.int32)
+
+        with runner.mesh:
+            shapes = jax.eval_shape(forward_.init, rng, dummy_tokens)
+
+        self.params_sharding = jax.tree_util.tree_map_with_path(
+            apply_rules(runner.model.partition_rules()),
+            shapes,
+        )
+
+        ds = P("data")
+        ms = runner.model.model.get_memory_sharding()
+        self.sample_step = pjit.pjit(
+            sample_step_.apply,
+            in_shardings=(self.params_sharding, None, ds, ms, None),
+            out_shardings=(None, ds, ms),
+            donate_argnums=3,
+        )
+        self.prefill_memory = pjit.pjit(
+            functools.partial(prefill_memory_.apply),
+            in_shardings=(
+                self.params_sharding,
+                None,
+                ms,
+                None,
+                ds,
+                None,
+                None,
+                None,
+                None,
+                None,
+            ),
+            out_shardings=(None, ds, ms, None),
+            donate_argnums=(2,),
+        )
+        self.new_memory = pjit.pjit(
+            new_memory_.apply,
+            static_argnums=(1, 2),
+            out_shardings=ms,
+        )
+
+    def run(self):
+        """Generator that accepts prompts."""
+        runner = self.runner
+        mesh = runner.mesh
+        max_len = runner.model.sequence_len
+        batch_size = runner.batch_size
+        params = self.params
+        rngs = jax.random.split(jax.random.PRNGKey(1), batch_size)
+        with mesh:
+            memory = self.new_memory(params, batch_size, max_len)
+            settings = SampleSettings(
+                temperature=np.zeros((batch_size,), dtype=np.float32),
+                nucleus_p=np.zeros((batch_size,), dtype=np.float32),
+                mask=np.ones((batch_size, self.vocab_size), dtype=np.int32),
+                active=np.zeros((batch_size), dtype=np.int32),
+            )
+            last_output = SampleOutput(
+                token_id=np.zeros((batch_size, 1), dtype=np.int32),
+                prob=np.zeros((batch_size, 1), dtype=jnp.bfloat16),
+                top_k_token_ids=np.zeros((batch_size, TOP_K), dtype=np.int32),
+                top_k_probs=np.zeros((batch_size, TOP_K), dtype=jnp.bfloat16),
+            )
+
+            prompt = np.array([300, 400, 500, 600, 600, 700, 800])
+
+            new_settings = SampleSettings(
+                temperature=np.float32(1),
+                nucleus_p=np.float32(1),
+                mask=np.ones((self.vocab_size,), dtype=np.int32),
+                active=np.zeros((), dtype=np.int32),
+            )
+            rng_seed = np.uint64(1)
+
+            for size in self.pad_sizes:
+                if size > runner.model.sequence_len:
+                    break
+                logger.info("Precompile {}".format(size))
+                prompt_len = len(prompt)
+                prompt = pad_to_size(prompt, size)
+                rngs, last_output, memory, settings = self.prefill_memory(
+                    params,
+                    rngs,
+                    memory,
+                    settings,
+                    last_output,
+                    prompt,
+                    prompt_len,
+                    rng_seed,
+                    new_settings,
+                    0,
+                )
+        with runner.mesh:
+            logger.info("Compiling...")
+            rngs, last_output, memory = self.sample_step(
+                params, rngs, last_output, memory, settings
+            )
+            logger.info("Done compiling.")
+
+        all_tokens = []
+        free_slots = list(range(batch_size))
+        requests = [None] * batch_size
+        first_output = [None] * batch_size
+        jax.tree_map(lambda x: x.copy_to_host_async(), last_output)
+        prev_token = last_output
+        step = 0
+        total_num_tokens = 0
+        total_num_sequences = 0
+        with mesh:
+            while True:
+                while free_slots:
+                    request: Optional[Request] = yield
+                    tokens = self.tokenizer.encode(request.prompt)
+                    temperature = request.temperature
+                    nucleus_p = request.nucleus_p
+                    rng_seed = request.rng_seed
+
+                    i = free_slots.pop()
+                    prompt = np.array(tokens, dtype=np.int32)
+                    prompt_len = len(prompt)
+                    prompt = pad_to_size(prompt, self.get_pad_bucket(prompt.shape[0]))
+                    # All tokens are allowed.
+                    mask = np.ones((self.vocab_size,), dtype=np.int32)
+
+                    new_settings = SampleSettings(
+                        temperature=np.float32(temperature),
+                        nucleus_p=np.float32(nucleus_p),
+                        mask=mask,
+                        active=np.ones((), dtype=np.int32),
+                    )
+                    rng_seed = np.uint64(rng_seed)
+                    rngs, last_output, memory, settings = self.prefill_memory(
+                        params,
+                        rngs,
+                        memory,
+                        settings,
+                        last_output,
+                        prompt,
+                        prompt_len,
+                        rng_seed,
+                        new_settings,
+                        i,
+                    )
+                    jax.tree_map(lambda x: x.copy_to_host_async(), last_output)
+                    first_output[i] = last_output
+                    requests[i] = request
+                    total_num_sequences += 1
+
+                rngs, last_output, memory = self.sample_step(
+                    params, rngs, last_output, memory, settings
+                )
+                total_num_tokens += batch_size - len(free_slots)
+
+                # prev_token should already be on the host.
+                prev_token = jax.tree_map(np.array, prev_token)
+                for i in range(batch_size):
+                    if requests[i] is not None:
+                        if first_output[i] is not None:
+                            first_output_i = jax.tree_map(np.array, first_output[i])
+                            all_tokens.append(int(first_output_i.token_id[i][0]))
+                            first_output[i] = None
+                            continue
+
+                        all_tokens.append(int(prev_token.token_id[i][0]))
+                        cont = len(all_tokens) < requests[i].max_len
+
+                                      "J" 
+                         [10:9;&;11:32]
+               "J17"4:19,10,9,21.twice,22,&11:32 
+          "-P",-'L'01:11:1:04:5:6:i1,i2,i3;
+01xi1/1,x04+5-6=6i1/i2,i3.
+               "[5×5:5];
+            [1'7'2'4,1,8,1,5];
+            [23,57,14,16];
+            <?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <element array="true">
+    <element array="true">
+      <element array="true" number="true">0</element>
+    </element>
+  </element>
+  <element></element>
+</root><?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <element>"a,b,c"[0][0][0][1][1]&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;element array="true"&gt;
+    &lt;element array="true"&gt;
+      &lt;element array="true" number="true"&gt;0&lt;/element&gt;
+    &lt;/element&gt;
+  &lt;/element&gt;
+  &lt;element&gt;&lt;/element&gt;
+&lt;/root&gt;&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;[0][1][1]&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+  &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&gt;
+    &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&gt;0&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+  &lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+&lt;/root&gt;[0][1][1].&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;[0][1][1]&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+  &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&gt;
+    &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&gt;0&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+  &lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+&lt;/root&gt;.[0][1][0][0].yahxml[1].[0][1][0][0].yahxml[0]&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;element array="true" empty-array="true"&gt;&lt;/element&gt;
+  &lt;element&gt;&lt;/element&gt;
+&lt;/root&gt;&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;element&gt;[0][1][1]&lt;/element&gt;
+  &lt;element&gt;
+    &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&gt;0&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+  &lt;/element&gt;
+&lt;/root&gt;&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;element&gt;[0][1][1]&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element array="true"&amp;gt;
+    &amp;lt;element array="true"&amp;gt;
+      &amp;lt;element array="true" number="true"&amp;gt;0&amp;lt;/element&amp;gt;
+    &amp;lt;/element&amp;gt;
+  &amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;&amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;[0][1][1]&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+&amp;lt;/root&amp;gt;[0][1][1].&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;[0][1][1]&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+&amp;lt;/root&amp;gt;.[0][1][0][0].yahxml[1].[0][1][0][0].yahxml[0]&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element array="true" empty-array="true"&amp;gt;&amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;&amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element&amp;gt;[0][1][1]&amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;&lt;/element&gt;
+  &lt;element&gt;
+    &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;101010011[0][1][1].&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;[0][1][1]&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+&amp;lt;/root&amp;gt;.[0][1][0][0].yahxml[1].[0][1][0][0].yahxml[0]&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+    &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&gt;
+      &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&gt;
+        &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&gt;
+          &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&gt;0&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+        &lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+      &lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+      &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+    &lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+  &lt;/element&gt;
+&lt;/root&gt;&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;element&gt;[0][1][1]&lt;/element&gt;
+  &lt;element&gt;
+    &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&gt;0&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+  &lt;/element&gt;
+&lt;/root&gt;101010011&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;element array="true" empty-array="true"&gt;&lt;/element&gt;
+  &lt;element&gt;&lt;/element&gt;
+&lt;/root&gt;[0][1][1].&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;[0][1][1]&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+  &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&gt;
+    &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&gt;0&lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+  &lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;
+&lt;/root&gt;.[0][1][0][0].yahxml[1].[0][1][0][0].yahxml[0]&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;element array="true"&gt;
+    &lt;element array="true"&gt;
+      &lt;element array="true" number="true"&gt;0&lt;/element&gt;
+    &lt;/element&gt;
+  &lt;/element&gt;
+  &lt;element&gt;&lt;/element&gt;
+&lt;/root&gt;&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&gt;[0][1][1]&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element array="true"&amp;gt;
+    &amp;lt;element array="true"&amp;gt;
+      &amp;lt;element array="true" number="true"&amp;gt;0&amp;lt;/element&amp;gt;
+    &amp;lt;/element&amp;gt;
+  &amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;&amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;[0][1][1]&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+&amp;lt;/root&amp;gt;[0][1][1].&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;[0][1][1]&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+&amp;lt;/root&amp;gt;.[0][1][0][0].yahxml[1].[0][1][0][0].yahxml[0]&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element array="true" empty-array="true"&amp;gt;&amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;&amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element&amp;gt;[0][1][1]&amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element&amp;gt;[0][1][1]&amp;amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;amp;gt;
+&amp;amp;lt;root&amp;amp;gt;
+  &amp;amp;lt;element array="true"&amp;amp;gt;
+    &amp;amp;lt;element array="true"&amp;amp;gt;
+      &amp;amp;lt;element array="true" number="true"&amp;amp;gt;0&amp;amp;lt;/element&amp;amp;gt;
+    &amp;amp;lt;/element&amp;amp;gt;
+  &amp;amp;lt;/element&amp;amp;gt;
+  &amp;amp;lt;element&amp;amp;gt;&amp;amp;lt;/element&amp;amp;gt;
+&amp;amp;lt;/root&amp;amp;gt;&amp;amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;amp;gt;
+&amp;amp;lt;root&amp;amp;gt;
+  &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;[0][1][1]&amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+  &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;amp;gt;
+    &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;amp;gt;0&amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+  &amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+&amp;amp;lt;/root&amp;amp;gt;[0][1][1].&amp;amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;amp;gt;
+&amp;amp;lt;root&amp;amp;gt;
+  &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;[0][1][1]&amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+  &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;amp;gt;
+    &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;amp;gt;0&amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+  &amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+&amp;amp;lt;/root&amp;amp;gt;.[0][1][0][0].yahxml[1].[0][1][0][0].yahxml[0]&amp;amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;amp;gt;
+&amp;amp;lt;root&amp;amp;gt;
+  &amp;amp;lt;element array="true" empty-array="true"&amp;amp;gt;&amp;amp;lt;/element&amp;amp;gt;
+  &amp;amp;lt;element&amp;amp;gt;&amp;amp;lt;/element&amp;amp;gt;
+&amp;amp;lt;/root&amp;amp;gt;&amp;amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;amp;gt;
+&amp;amp;lt;root&amp;amp;gt;
+  &amp;amp;lt;element&amp;amp;gt;[0][1][1]&amp;amp;lt;/element&amp;amp;gt;
+  &amp;amp;lt;element&amp;amp;gt;
+    &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;amp;gt;0&amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+  &amp;amp;lt;/element&amp;amp;gt;
+&amp;amp;lt;/root&amp;amp;gt;&amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;101010011[0][1][1].&amp;amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;amp;gt;
+&amp;amp;lt;root&amp;amp;gt;
+  &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;[0][1][1]&amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+  &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;amp;gt;
+    &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;amp;gt;0&amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+  &amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+&amp;amp;lt;/root&amp;amp;gt;.[0][1][0][0].yahxml[1].[0][1][0][0].yahxml[0]&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+      &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+        &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+          &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+        &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+      &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+      &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+    &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element&amp;gt;[0][1][1]&amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;101010011&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element array="true" empty-array="true"&amp;gt;&amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;&amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;[0][1][1].&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;[0][1][1]&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+&amp;lt;/root&amp;gt;.[0][1][0][0].yahxml[1].[0][1][0][0].yahxml[0]&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element array="true"&amp;gt;
+    &amp;lt;element array="true"&amp;gt;
+      &amp;lt;element array="true" number="true"&amp;gt;0&amp;lt;/element&amp;gt;
+    &amp;lt;/element&amp;gt;
+  &amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;&amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;[0][1][1]&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element array="true"&amp;gt;
+    &amp;lt;element array="true"&amp;gt;
+      &amp;lt;element array="true" number="true"&amp;gt;0&amp;lt;/element&amp;gt;
+    &amp;lt;/element&amp;gt;
+  &amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;&amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;[0][1][1]&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+&amp;lt;/root&amp;gt;[0][1][1].&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;[0][1][1]&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true"&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+&amp;lt;/root&amp;gt;.[0][1][0][0].yahxml[1].[0][1][0][0].yahxml[0]&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element array="true" empty-array="true"&amp;gt;&amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;&amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element&amp;gt;[0][1][1]&amp;lt;/element&amp;gt;
+  &amp;lt;element&amp;gt;
+    &amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="true" number="true"&amp;gt;0&amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;gt;
+  &amp;lt;/element&amp;gt;
+&amp;lt;/root&amp;gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;root&amp;gt;
+  &amp;lt;element&amp;gt;[0][1][1]&amp;amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;amp;gt;
+&amp;amp;lt;root&amp;amp;gt;
+  &amp;amp;lt;element array="true"&amp;amp;gt;
+    &amp;amp;lt;element array="true"&amp;amp;gt;
+      &amp;amp;lt;element array="true" number="true"&amp;amp;gt;0&amp;amp;lt;/element&amp;amp;gt;
+    &amp;amp;lt;/element&amp;amp;gt;
+  &amp;amp;lt;/element&amp;amp;gt;
+  &amp;amp;lt;element&amp;amp;gt;&amp;amp;lt;/element&amp;amp;gt;
+&amp;amp;lt;/root&amp;amp;gt;&amp;amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;amp;gt;
+&amp;amp;lt;root&amp;amp;gt;
+  &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;[0][1][1]&amp;amp;lt;/__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml&amp;amp;gt;
+  &amp;amp;lt;__LM__0__LU____LM__1__LU____LM__0__LU____LM__0__LU__.yahxml array="t</element>
+  <element array="true">
+    <element array="true">
+      <element array="true">
+        <yahxml>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+  &lt;element array="true" empty-array="true"&gt;&lt;/element&gt;
+  &lt;element&gt;&lt;/element&gt;
+&ltjax.experimental.pjitjax.numpyjax.experimentaljax.shardingjax.typingslice.layerslogits.ndimthreshold_largest_logits.shapelm_outputs.logitsself.mesh42self.runnerself.forwardself.paramsself.tokenizerrequest.temperaturerunner.mesh
 
 ```This repository contains JAX example code for loading and running-1 open-weights model.
 Make sure to download the checkpoint and place the ckpt-0 directory in checkpoints - 
