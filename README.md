@@ -223,11 +223,6 @@
 </content>
 </entry>
 </feed>
-
-
-
-
-
 <!DOCTYPE html>
 
 <html>
@@ -242,7 +237,7 @@
 </body>
 </html>
                               
-           https://cloud.yehuda.com
+           ```https://cloud.yehuda.com
 
                "TETRA-ION-Q-AI-X
 
