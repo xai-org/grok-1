@@ -1,3 +1,233 @@
+ ```XML file does not appear to have any style information associated with it. The document tree is shown below.
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">Motifator - News</title>
+<subtitle type="text">News:</subtitle>
+<link rel="alternate" type="text/html" href="http://motifator.com/index.php/site/index/page/"/>
+<link rel="self" type="application/atom+xml" href="https://www.motifator.com/index.php/site/atom/"/>
+<updated>2022-04-27T14:17:13Z</updated>
+<rights>Copyright (c) 2019, admin</rights>
+<generator uri="http://motifator.com/">motifator.com</generator>
+<id>tag:motifator.com,2019:06:24</id>
+<entry>
+<title>Part 4 of Julian Colbeck’s reflection on the twists and turns of life in music tech</title>
+<link rel="alternate" type="text/html" href="https://www.motifator.com/index.php/main/comments/the_art_science_of_survival_part_4_of_julian_colbecks_reflection_on_the_twi/"/>
+<id>tag:motifator.com,2019:index.php/site/index/page/1.722</id>
+<published>2019-06-24T21:53:00Z</published>
+<updated>2022-04-26T18:04:19Z</updated>
+<author>
+<name>admin</name>
+<email>info@keyfax.com</email>
+</author>
+<content type="html">
+<![CDATA[ ]]>
+</content>
+</entry>
+<entry>
+<title>Motif history: Part 3 of Julian Colbeck’s ruminations on digital life as Keyfax turns twenty-five</title>
+<link rel="alternate" type="text/html" href="https://www.motifator.com/index.php/main/comments/motif_history_part_3_of_julian_colbecks_ruminations_on_digital_life_as_keyf/"/>
+<id>tag:motifator.com,2019:index.php/site/index/page/1.721</id>
+<published>2019-05-28T22:10:00Z</published>
+<updated>2022-04-27T14:17:13Z</updated>
+<author>
+<name>admin</name>
+<email>info@keyfax.com</email>
+</author>
+<content type="html">
+<![CDATA[ ]]>
+</content>
+</entry>
+<entry>
+<title>Further Evolving DAWs-Part 2: Julian Colbeck reflects on the growing pains of digital music making</title>
+<link rel="alternate" type="text/html" href="https://www.motifator.com/index.php/main/comments/further_evolving_daws_part_2_julian_colbeck_reflects_on_the_growing_pains_o/"/>
+<id>tag:motifator.com,2019:index.php/site/index/page/1.720</id>
+<published>2019-05-15T02:04:00Z</published>
+<updated>2019-05-14T18:42:38Z</updated>
+<author>
+<name>admin</name>
+<email>info@keyfax.com</email>
+</author>
+<content type="html">
+<![CDATA[ ]]>
+</content>
+</entry>
+<entry>
+<title>Evolving DAWsâ€”Julian Colbeck reflects on the birth and growing pains of Digital Audio Workstations</title>
+<link rel="alternate" type="text/html" href="https://www.motifator.com/index.php/main/comments/enter_to_win_1000_worth_of_alan_parsons_session_files/"/>
+<id>tag:motifator.com,2019:index.php/site/index/page/1.719</id>
+<published>2019-05-03T00:10:00Z</published>
+<updated>2022-04-26T18:05:35Z</updated>
+<author>
+<name>admin</name>
+<email>info@keyfax.com</email>
+</author>
+<content type="html">
+<![CDATA[ ]]>
+</content>
+</entry>
+<entry>
+<title>All Options for Flashboards Now Available In The Shop</title>
+<link rel="alternate" type="text/html" href="https://www.motifator.com/index.php/main/comments/all_options_for_flashboards_now_available_in_the_shop/"/>
+<id>tag:motifator.com,2015:index.php/site/index/page/1.718</id>
+<published>2015-07-16T22:29:00Z</published>
+<updated>2015-07-16T15:21:51Z</updated>
+<author>
+<name>MrMotif</name>
+<email>Julian@keyfax.com</email>
+</author>
+<content type="html">
+<![CDATA[ ]]>
+</content>
+</entry>
+<entry>
+<title>New Motif Music Production Video</title>
+<link rel="alternate" type="text/html" href="https://www.motifator.com/index.php/main/comments/new_motif_music_production_video/"/>
+<id>tag:motifator.com,2014:index.php/site/index/page/1.717</id>
+<published>2014-11-21T03:32:00Z</published>
+<updated>2019-05-14T18:41:01Z</updated>
+<author>
+<name>admin</name>
+<email>info@keyfax.com</email>
+</author>
+<content type="html">
+<![CDATA[ <p>New Motif Music Production Video! </p> ]]>
+</content>
+</entry>
+<entry>
+<title>MOXF video MOXF In ‘N’ Out released</title>
+<link rel="alternate" type="text/html" href="https://www.motifator.com/index.php/main/comments/moxf_video_moxf_in_n_out_released/"/>
+<id>tag:motifator.com,2014:index.php/site/index/page/1.713</id>
+<published>2014-07-19T04:00:00Z</published>
+<updated>2014-09-26T16:17:18Z</updated>
+<author>
+<name>admin</name>
+<email>info@keyfax.com</email>
+</author>
+<content type="html">
+<![CDATA[ ]]>
+</content>
+</entry>
+<entry>
+<title>Debuting new Loops and Soundscapes libraries for film</title>
+<link rel="alternate" type="text/html" href="https://www.motifator.com/index.php/main/comments/debuting_new_loops_and_soundscapes_libraries_for_film/"/>
+<id>tag:motifator.com,2013:index.php/site/index/page/1.699</id>
+<published>2013-11-27T04:00:00Z</published>
+<updated>2013-11-27T04:36:53Z</updated>
+<author>
+<name>admin</name>
+<email>info@keyfax.com</email>
+</author>
+<content type="html">
+<![CDATA[ ]]>
+</content>
+</entry>
+<entry>
+<title>Yamaha releases MOXF â€“ the best deal in town just got better!</title>
+<link rel="alternate" type="text/html" href="https://www.motifator.com/index.php/main/comments/yamaha_releases_moxf_the_best_deal_in_town_just_got_better/"/>
+<id>tag:motifator.com,2013:index.php/site/index/page/1.697</id>
+<published>2013-10-25T23:27:00Z</published>
+<updated>2013-10-26T00:00:46Z</updated>
+<author>
+<name>admin</name>
+<email>info@keyfax.com</email>
+</author>
+<content type="html">
+<![CDATA[ <p>Dateline October 2013: Yamaha piles on the pressure for the competition with the release of the MOXF, which is essentially a marriage of the streamline MOX and the sonic powerhouse, Motif XF. </p> ]]>
+</content>
+</entry>
+<entry>
+<title>DUBSTEP MIDIKIT â€“ A new MIDI loop library, voiced for Motif</title>
+<link rel="alternate" type="text/html" href="https://www.motifator.com/index.php/main/comments/dubstep_midikit_a_new_midi_loop_library_voiced_for_motif/"/>
+<id>tag:motifator.com,2013:index.php/site/index/page/1.675</id>
+<published>2013-06-21T03:16:00Z</published>
+<updated>2013-06-21T03:38:25Z</updated>
+<author>
+<name>admin</name>
+<email>info@keyfax.com</email>
+</author>
+<content type="html">
+<![CDATA[ <p>KEYFAX NewMedia, the company that invented the concept of MIDI samples in the 1990s, announces its 25th library of MIDI loops, Dubstep MIDIKit, custom-made for producing dubstep. </p> ]]>
+</content>
+</entry>
+<entry>
+<title>Yamaha Music Production Facebook Page Launched</title>
+<link rel="alternate" type="text/html" href="https://www.motifator.com/index.php/main/comments/new_official_yamaha_music_production_facebook_page_launched/"/>
+<id>tag:motifator.com,2012:index.php/site/index/page/1.620</id>
+<published>2012-06-12T01:10:00Z</published>
+<updated>2013-11-27T04:08:06Z</updated>
+<author>
+<name>Yamaha_US</name>
+<email>abillias@yamaha.com</email>
+<uri>http://www.facebook.com/YamahaMusicProduction</uri>
+</author>
+<content type="html">
+<![CDATA[ <p><a href="https://www.motifator.com/index.php?URL=http%3A%2F%2F4wrd.it%2FMPFB">http://4wrd.it/MPFB</a> <br /> Please follow this link and <b>like</b> the Official Yamaha Music Production. <br /> You&#8217;ll find up to the minute news about Yamaha Music Production Artists and Products and it&#8217;s a great place to share pictures and videos of you and your Motif, MOX or MM keyboard.&nbsp; </p> ]]>
+</content>
+</entry>
+<entry>
+<title>Music Production Synthesizer Master Class</title>
+<link rel="alternate" type="text/html" href="https://www.motifator.com/index.php/main/comments/music_production_synthesizer_master_class/"/>
+<id>tag:motifator.com,2012:index.php/site/index/page/1.608</id>
+<published>2012-03-16T09:28:00Z</published>
+<updated>2013-03-20T23:49:47Z</updated>
+<author>
+<name>admin</name>
+<email>info@keyfax.com</email>
+</author>
+<category term="Archives" scheme="https://www.motifator.com/index.php/main/categories/category/archives/" label="Archives"/>
+<content type="html">
+<![CDATA[ <p>Motif XF &amp; MO-X Music Production Synthesizer Master Class at West LA Music, Sunday March 17th </p> ]]>
+</content>
+</entry>
+<entry>
+<title>MOX OS V1.01 Now Available for Download</title>
+<link rel="alternate" type="text/html" href="https://www.motifator.com/index.php/main/comments/mox_os_update_version_101/"/>
+<id>tag:motifator.com,2012:index.php/site/index/page/1.602</id>
+<published>2012-01-29T05:02:00Z</published>
+<updated>2012-01-30T14:31:07Z</updated>
+<author>
+<name>admin</name>
+<email>info@keyfax.com</email>
+</author>
+<category term="MOX" scheme="https://www.motifator.com/index.php/main/categories/category/mox/" label="MOX"/>
+<content type="html">
+<![CDATA[ <p>Version 1.01 of the MOX OS has been announced and is available for download from Motifator.com. </p> ]]>
+</content>
+</entry>
+<entry>
+<title>Motif OS V1.3 Now Available for Download</title>
+<link rel="alternate" type="text/html" href="https://www.motifator.com/index.php/main/comments/motif_os_v13_now_available_for_download_news/"/>
+<id>tag:motifator.com,2012:index.php/site/index/page/1.599</id>
+<published>2012-01-29T04:41:00Z</published>
+<updated>2012-05-15T12:10:39Z</updated>
+<author>
+<name>admin</name>
+<email>info@keyfax.com</email>
+</author>
+<category term="Motif XF" scheme="https://www.motifator.com/index.php/main/categories/category/motif_xf/" label="Motif XF"/>
+<content type="html">
+<![CDATA[ <p>Version 1.3 of the Motif XF OS has been announced and is available for download from Motifator.com. </p> ]]>
+</content>
+</entry>
+<entry>
+<title>“We See Dead People”</title>
+<link rel="alternate" type="text/html" href="https://www.motifator.com/index.php/main/comments/we_see_dead_people/"/>
+<id>tag:motifator.com,2012:index.php/site/index/page/1.595</id>
+<published>2012-01-14T07:38:06Z</published>
+<updated>2012-02-12T17:44:58Z</updated>
+<author>
+<name>admin</name>
+<email>info@keyfax.com</email>
+</author>
+<content type="html">
+<![CDATA[ <p>KEYFAX NewMedia offices and studio complex to become Santa Cruz City Morgue&#8230; </p> ]]>
+</content>
+</entry>
+</feed>
+
+
+
+
+
 <!DOCTYPE html>
 
 <html>
