@@ -1,6 +1,36 @@
 <[CHRIST+BOUNDLESS];Hello,World!]>
+> npm init --yes
+Wrote to /home/monatheoctocat/my_package/package.json:
 
- ```Binary,search,tree;publc,boolean
+{
+  "name": "my_package",
+  "description": "make your package easier to find on the npm website",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monatheoctocat/my_package.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monatheoctocat/my_package/issues"
+  },
+  "homepage": "https://github.com/monatheoctocat/my_package"
+}https://github.com/monatheoctocat/my_package.githttps://github.com/monatheoctocat/my_package/issueshttps://github.com/monatheoctocat/my_package/issueshttps://github.com/monatheoctocat/my_packagemodule.exports = {
+  customField: 'Example custom field',
+  otherCustomField: 'This example field is really cool'
+}module.exports{
+  "name": "my-awesome-package",
+  "version": "1.0.0",
+  "author": "Your Name <email@example.com> (https://example.com)"
+}email@example.comemail@example.comNEWLINE,
+,0,0https://example.com
+
+Binary,search,tree;publc,boolean
  is valid BST(tree node root) { if (root = = null)
 ```*c++14 c++11 g++4.8.4'-std=c++
  c++17 ctt20 RFC 1945 9110 9111 9112 9113 7541 8164 8336 8441 9114 9204 elelyon17! 
