@@ -1,4 +1,5 @@
-<[CHRIST+BOUNDLESS];Hello,World!]>
+                * [CHRIST+BOUNDLESS];Hello,World!]
+
 > npm init --yes
 Wrote to /home/monatheoctocat/my_package/package.json:
 From: <Saved by Blink>
