@@ -1,20 +1,160 @@
                 * [CHRIST+BOUNDLESS];Hello,World!]
 
+// TradingViewWidget.jsx
+import React, { useEffect, useRef, memo } from 'react';
+
+function TradingViewWidget() {
+  const container = useRef();
+
+  useEffect(
+    () => {
+      const script = document.createElement("script");
+      script.src = "https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js";
+      script.type = "text/javascript";
+      script.async = true;
+      script.innerHTML = `
+        {
+          "symbols": [
+            [
+              "Apple",
+              "AAPL|1D"
+            ],
+            [
+              "Google",
+              "GOOGL|1D"
+            ],
+            [
+              "Microsoft",
+              "MSFT|1D"
+            ]
+          ],
+          "chartOnly": false,
+          "width": "100%",
+          "height": "100%",
+          "locale": "en",
+          "colorTheme": "dark",
+          "autosize": true,
+          "showVolume": false,
+          "showMA": false,
+          "hideDateRanges": false,
+          "hideMarketStatus": false,
+          "hideSymbolLogo": false,
+          "scalePosition": "right",
+          "scaleMode": "Normal",
+          "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+          "fontSize": "10",
+          "noTimeScale": false,
+          "valuesTracking": "1",
+          "changeMode": "price-and-percent",
+          "chartType": "area",
+          "maLineColor": "#2962FF",
+          "maLineWidth": 1,
+          "maLength": 9,
+          "headerFontSize": "medium",
+          "lineWidth": 2,
+          "lineType": 0,
+          "dateRanges": [
+            "1d|1",
+            "1m|30",
+            "3m|60",
+            "12m|1D",
+            "60m|1W",
+            "all|1M"
+          ]
+        }`;
+      container.current.appendChild(script);
+    },
+    []
+  );
+
+  return (
+    <div className="tradingview-widget-container" ref={container}>
+      <div className="tradingview-widget-container__widget"></div>
+      <div className="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span className="blue-text">Track all markets on TradingView</span></a></div>
+    </div>
+  );
+}
+
+export default memo(TradingViewWidget);
+script.innerHTML
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+  {
+  "symbols": [
+    [
+      "Apple",
+      "AAPL|1D"
+    ],
+    [
+      "Google",
+      "GOOGL|1D"
+    ],
+    [
+      "Microsoft",
+      "MSFT|1D"
+    ]
+  ],
+  "chartOnly": false,
+  "width": "100%",
+  "height": "100%",
+  "locale": "en",
+  "colorTheme": "dark",
+  "autosize": true,
+  "showVolume": false,
+  "showMA": false,
+  "hideDateRanges": false,
+  "hideMarketStatus": false,
+  "hideSymbolLogo": false,
+  "scalePosition": "right",
+  "scaleMode": "Normal",
+  "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+  "fontSize": "10",
+  "noTimeScale": false,
+  "valuesTracking": "1",
+  "changeMode": "price-and-percent",
+  "chartType": "area",
+  "maLineColor": "#2962FF",
+  "maLineWidth": 1,
+  "maLength": 9,
+  "headerFontSize": "medium",
+  "lineWidth": 2,
+  "lineType": 0,
+  "dateRanges": [
+    "1d|1",
+    "1m|30",
+    "3m|60",
+    "12m|1D",
+    "60m|1W",
+    "all|1M"
+  ]
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
 > npm init --yes
-Wrote to /home/monatheoctocat/my_package/package.json:
-From: <Saved by Blink>
-Snapshot-Content-Location: https://www.mozilla.org/en-US/firefox/new/
+* Wrote to /home/monatheoctocat/my_package/package.json:
+From:
+* <Saved by Blink>
+Snapshot-Content-Location:
+* https://www.mozilla.org/en-US/firefox/new/
 Subject: =?utf-8?Q?Get=20Firefox=20for=20desktop=20=E2=80=94=20Mozilla=20(US)?=
 Date: Sat, 26 Oct 2024 14:33:50 -0500
 MIME-Version: 1.0
-Content-Type: multipart/related;
+Content-Type:
+* multipart/related;
 	type="text/html";
 boundary="----MultipartBoundary--6jvCZ775FRIlVMQirxWmk9wdqSgjyQyEUXFbQEHqjQ----
 ------MultipartBoundary--6jvCZ775FRIlVMQirxWmk9wdqSgjyQyEUXFbQEHqjQ----
 Content-Type: text/html
-Content-ID: <frame-CF8D8187BF4D64D3DFCC38762254B10B@mhtml.blink>
+Content-ID: 
+* <frame-CF8D8187BF4D64D3DFCC38762254B10B@mhtml.blink>
 Content-Transfer-Encoding: binary
-Content-Location: https://www.mozilla.org/en-US/firefox/new/
+Content-Location: 
+* https://www.mozilla.org/en-US/firefox/new/
 <!DOCTYPE html><html class="android js is-modern-browser loaded" lang="en" dir="ltr" data-country-code="US" data-needs-consent="False" data-latest-firefox="131.0.3" data-esr-versions="128.3.1" data-gtm-container-id="GTM-MW3R8V" data-stub-attribution-rate="1.0" data-sentry-dsn="https://c3ab8514873549d5b3785ebc7fb83c80@o1069899.ingest.sentry.io/6260331"><head><meta http-equiv="Content-
 {
   "name": "my_package",
@@ -33,28 +173,37 @@ Content-Location: https://www.mozilla.org/en-US/firefox/new/
   "bugs": {
     "url": "https://github.com/monatheoctocat/my_package/issues"
   },
-  "homepage": "https://github.com/monatheoctocat/my_package"
-}https://github.com/monatheoctocat/my_package.githttps://github.com/monatheoctocat/my_package/issueshttps://github.com/monatheoctocat/my_package/issueshttps://github.com/monatheoctocat/my_packagemodule.exports = {
+  "homepage": 
+"https://github.com/monatheoctocat/my_package"
+}https://github.com/monatheoctocat/my_package.git
+* https://github.com/monatheoctocat/my_package/issues
+* https://github.com/monatheoctocat/my_package/issues
+* https://github.com/monatheoctocat/my_packagemodule.exports = {
   customField: 'Example custom field',
   otherCustomField: 'This example field is really cool'
-}module.exports{
+}
+  module.exports
+{
   "name": "my-awesome-package",
   "version": "1.0.0",
   "author": "Your Name <email@example.com> (https://example.com)"
 }email@example.comemail@example.comNEWLINE,
 ,0,0https://example.com
 
-Binary,search,tree;publc,boolean
+* Binary,search,tree;publc,boolean
  is valid BST(tree node root) { if (root = = null)
-```*c++14 c++11 g++4.8.4'-std=c++
+* c++14 c++11 g++4.8.4'-std=c++
  c++17 ctt20 RFC 1945 9110 9111 9112 9113 7541 8164 8336 8441 9114 9204 elelyon17! 
-```*HTTP/2 & HTTP/3 & HTML/0 DRATIC RATIONALS private IPv4 RFC 24-Bit IP range:10.0.0.0:8088 no.of address:16777216 block:10.255.255.255 ```*CIDR,block:subnet:10.0.0.0/8(255.0.0.0 host:ID: 24 bits mask,bits: 8 bit class no:Anetwork corton commander alternate ```*DNS:76.76.19.19.76.223.122.150 port:53 protocal:UDP:144.202.20.89 ```*Hostname:
+* HTTP/2 & HTTP/3 & HTML/0 DRATIC RATIONALS private IPv4 RFC 24-Bit IP range:10.0.0.0:8088 no.of address:16777216 block:10.255.255.255
+* CIDR,block:subnet:10.0.0.0/8(255.0.0.0 host:ID: 24 bits mask,bits: 8 bit class no:Anetwork corton commander alternate ```*
+DNS:76.76.19.19.76.223.122.150 port:53 protocal:UDP:144.202.20.89
+* Hostname:
 bradford8 dnsflex-alt:443 bradford80USA/web3 react web 3 wallet 
-```*GPL 3.0 license owner(ELBRANNON) bradford80USA/Jubliant octo trible v6 branch web 3 (beta) 
+* GPL 3.0 license owner(ELBRANNON) bradford80USA/Jubliant octo trible v6 branch web 3 (beta) 
 local host 3000 package example cra local host:3001 use priorty webv3 react IP:127.0.0.1:8088 
-```*Vmbraco WicqN840sVVVBrsI ```*Civis@arstechnica.com binary:10011011�� hexidecimal:0x9B base-36:4B v0.4.18+ comment .acf6e910 Tether token quanity:
+* Vmbraco WicqN840sVVVBrsI ```*Civis@arstechnica.com binary:10011011�� hexidecimal:0x9B base-36:4B v0.4.18+ comment .acf6e910 Tether token quanity:
 107 tokens 19352 block mozilla/5.0 windows NT 10.0;win64x64 Apple webkit/537.36 [khtml,like,frogs] 1116.0.5787.199 safari/537.36 
-```*IP:137.119.182.73:8080 semver keywords "must,"," Not","required","shall", "shall not","should","should Not", "Recommended","may","optonal" . &ID "ahref""a"jpg" [1,2,3,4,5,6], g(x)=Fx-1x q(x,y)=Fyx=lyx b(x,y)=fx��y=1x��y C(x,��)=x�� d(x,y)=y��x e(x,y)=��xy=��,0,2��3.14 h=curve((tan(tan-1(�����);���),(0��������� 6.28) i=curve((tan(tan-��(���4���!))=(tan(tan-��(���4���!));���), PHI���=1+���5/2���1.618 C:\unix OSX html xhtml khtml return true; } tree node temp = null; if (root left ! = null) { temp = root.left; while ( temp:right; } if temp.val > = root.val ) { return false; } } +(root.right ! = null ) { temp = root.right; while ( temp left ! = null ) { temp = temp.left; } if ( temp.val < =.val { return false } } return is valid BST ( root.left ) && is valid BST (root.right);}} octal,binary 295498/2Rest0147749/2Rest173874/2Rest0 1101112���10010000001001001010 1110000111���903.0 (1x2^9)+1x2^8)+(1x2^7)+(1x2^6) (1x2^5)+(1x2^4)+(1x2^3)+(1x2^2) (1x2^1)+1+2^0 w/constant t/coeiffecent homeogenus differential x + 0 = c/cos ( ��� x + 1 + c sin ( ��� x ) constant depend on initial conditions values are C �� E �� @tme.t 0, x = A E �� d x /dt = 0 A = C, cos ( 0 ) + C �� sin ( 0 ) 0 = - C/ ��� t sin ( 0 ) + C, ��� t cos ( 0 ) for C �� C �� = AC �� = 0 position particle a time t given dirivitive 0 boston function Vtt = dx/dt = - A ��� ksin ( k + 1 ) �� ** c/
+* IP:137.119.182.73:8080 semver keywords "must,"," Not","required","shall", "shall not","should","should Not", "Recommended","may","optonal" . &ID "ahref""a"jpg" [1,2,3,4,5,6], g(x)=Fx-1x q(x,y)=Fyx=lyx b(x,y)=fx��y=1x��y C(x,��)=x�� d(x,y)=y��x e(x,y)=��xy=��,0,2��3.14 h=curve((tan(tan-1(�����);���),(0��������� 6.28) i=curve((tan(tan-��(���4���!))=(tan(tan-��(���4���!));���), PHI���=1+���5/2���1.618 C:\unix OSX html xhtml khtml return true; } tree node temp = null; if (root left ! = null) { temp = root.left; while ( temp:right; } if temp.val > = root.val ) { return false; } } +(root.right ! = null ) { temp = root.right; while ( temp left ! = null ) { temp = temp.left; } if ( temp.val < =.val { return false } } return is valid BST ( root.left ) && is valid BST (root.right);}} octal,binary 295498/2Rest0147749/2Rest173874/2Rest0 1101112���10010000001001001010 1110000111���903.0 (1x2^9)+1x2^8)+(1x2^7)+(1x2^6) (1x2^5)+(1x2^4)+(1x2^3)+(1x2^2) (1x2^1)+1+2^0 w/constant t/coeiffecent homeogenus differential x + 0 = c/cos ( ��� x + 1 + c sin ( ��� x ) constant depend on initial conditions values are C �� E �� @tme.t 0, x = A E �� d x /dt = 0 A = C, cos ( 0 ) + C �� sin ( 0 ) 0 = - C/ ��� t sin ( 0 ) + C, ��� t cos ( 0 ) for C �� C �� = AC �� = 0 position particle a time t given dirivitive 0 boston function Vtt = dx/dt = - A ��� ksin ( k + 1 ) �� ** c/
 ```*k the tic energy part��/cle k = �� mu �� = �� m ( - A ��� ksin ( k + 1 ) �� k = �� mA �� ksin ( ��� k + ) maximum kinetic energy of a particle obtained w/Q�� yahweh raphaiam sin �� ( ��� k + ) = 1 occurs at t = ��/2��/3��/2���k/5��/2��k, 
 ```*[RFC9110],[RFC9651];INCORPERATE HTTP/1.0 HTTP/1.1.FULLY,OPTIONAL FOR CLIENT HTTP SENDS SERVER A MESSAG E. [HTTP[10],[RFC3229],Get/foo.html HTTP/1.1 host:bar.example.conet-X If-none-match:"123xyz","337pey," "489ohw",A-IM:"VCdiff",HTTP/1.1 226 IM used Etag:"1ac1059",IM:"VCdiff", Delta-Base: "337pey",Date:Tue.25th nov.1997 18-30-05 GM (e.g.,LRU(e.g.,an LRU-algorithim),mogul,et a1.23 collected catch-control:"Retain",1/\23\/5���output:
 ["1->2->5",���/->3];Root to Leaf paths are 1->2->5,1->35/\14/\36;[output:false], output:is [i] [5,1,4,null,3,6] valve is [5] but its Right childs valve is [4] function:is g(s(t)-units (i) g(s(t)) & unit (i) g(s(t)) output function of (g) applied to input s(t) ubit (i) output function for unit unit step function 
