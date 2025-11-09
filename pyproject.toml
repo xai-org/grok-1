@@ -12,3 +12,4 @@ ignore = [
     "F403",
 ]
 select = ["ISC001"]
+
