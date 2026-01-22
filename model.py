@@ -85,7 +85,7 @@ def cast_bfloat16(x):
 def ffn_size(emb_size, widening_factor):
     _ffn_size = int(widening_factor * emb_size) * 2 // 3
     _ffn_size = _ffn_size + (8 - _ffn_size) % 8  # ensure it's a multiple of 8
-    logger.debug(f"emd_size: {emb_size} adjusted ffn_size: {_ffn_size}")
+    logger.debug(f"emb_size: {emb_size} adjusted ffn_size: {_ffn_size}")
     return _ffn_size
 
 
@@ -701,7 +701,7 @@ class MultiHeadAttention(hk.Module):
         with_bias: bool = True,
         value_size: Optional[int] = None,
         model_size: Optional[int] = None,
-        attn_output_multiplier: 1.0,
+        attn_output_multiplier: float = 1.0,
         data_axis: Union[str, Tuple[str, ...]] = "data",
         model_axis: Union[str, Tuple[str, ...]] = "model",
         name: Optional[str] = None,
