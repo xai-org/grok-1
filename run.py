@@ -12,6 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+"""Main entry point for running Grok-1 model inference.
+
+This script initializes the Grok-1 314B parameter model and runs a simple
+inference example. Requires checkpoint files to be placed in ./checkpoints/
+"""
+
 import logging
 
 from model import LanguageModelConfig, TransformerConfig, QuantizedWeight8bit as QW8Bit
@@ -21,7 +27,8 @@ from runners import InferenceRunner, ModelRunner, sample_from_model
 CKPT_PATH = "./checkpoints/"
 
 
-def main():
+def main() -> None:
+    """Initialize and run Grok-1 model inference."""
     grok_1_model = LanguageModelConfig(
         vocab_size=128 * 1024,
         pad_token=0,
@@ -64,7 +71,8 @@ def main():
     gen = inference_runner.run()
 
     inp = "The answer to life the universe and everything is of course"
-    print(f"Output for prompt: {inp}", sample_from_model(gen, inp, max_len=100, temperature=0.01))
+    output = sample_from_model(gen, inp, max_len=100, temperature=0.01)
+    print(f"Output for prompt: {inp}\n{output}")
 
 
 if __name__ == "__main__":

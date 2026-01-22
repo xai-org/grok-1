@@ -12,11 +12,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+"""Inference runners and sampling utilities for Grok-1 model.
+
+This module provides the InferenceRunner class for managing model inference,
+including batched generation, memory management, and token sampling with
+temperature and nucleus (top-p) filtering.
+"""
+
 
 import bisect
 import functools
 import logging
 import math
+import os
 import re
 from dataclasses import dataclass
 from typing import Any, Callable, NamedTuple, Optional, Tuple
@@ -62,7 +70,20 @@ class SampleOutput(NamedTuple):
     top_k_probs: ArrayLike
 
 
-def insert_slice(memory: Memory, slice, length, i):
+def insert_slice(
+    memory: Memory, slice: Memory, length: int, i: int
+) -> Memory:
+    """Insert a memory slice at a specific batch index.
+    
+    Args:
+        memory: Full memory structure
+        slice: Memory slice to insert
+        length: Sequence length
+        i: Batch index to insert at
+        
+    Returns:
+        Updated memory with slice inserted
+    """
     slice = Memory(
         layers=[
             KVMemory(layer.k, layer.v, step=jnp.array([length]))
@@ -74,7 +95,16 @@ def insert_slice(memory: Memory, slice, length, i):
                         memory, slice)
 
 
-def pad_to_size(x, size):
+def pad_to_size(x: np.ndarray, size: int) -> np.ndarray:
+    """Pad or truncate array to specified size.
+    
+    Args:
+        x: Input array to pad/truncate
+        size: Target size
+        
+    Returns:
+        Array padded with zeros or left-truncated to target size
+    """
     if x.shape[0] > size:
         # Left truncate if the context is too long.
         x = x[-size:]
@@ -82,7 +112,18 @@ def pad_to_size(x, size):
 
 
 def top_p_filter(logits: jax.Array, top_p: jax.Array) -> jax.Array:
-    """Performs nucleus filtering on logits."""
+    """Performs nucleus (top-p) filtering on logits.
+    
+    Filters logits to keep only the top tokens whose cumulative probability
+    mass is at least (1 - top_p).
+    
+    Args:
+        logits: Logit values to filter
+        top_p: Nucleus probability threshold
+        
+    Returns:
+        Filtered logits with low-probability tokens set to -1e10
+    """
     assert logits.ndim == top_p.ndim, f"Expected {logits.ndim} equal {top_p.ndim}"
     sorted_logits = jax.lax.sort(logits, is_stable=False)
     sorted_probs = jax.nn.softmax(sorted_logits)
@@ -273,6 +314,12 @@ class InferenceRunner:
         return self.pad_sizes[min(i, len(self.pad_sizes) - 1)]
 
     def initialize(self):
+        if not os.path.exists(self.tokenizer_path):
+            raise FileNotFoundError(
+                f"Tokenizer not found at {self.tokenizer_path}. "
+                "Please ensure tokenizer.model is in the correct location."
+            )
+        
         runner = self.runner
         self.runner.transform_forward = True
         dummy_data = dict(
@@ -580,6 +627,15 @@ class InferenceRunner:
 def make_mesh(
     local_mesh_config: tuple[int, ...], between_hosts_config: tuple[int, ...]
 ) -> jax.sharding.Mesh:
+    """Create a JAX mesh for distributed computation.
+    
+    Args:
+        local_mesh_config: Local device mesh configuration (data, model)
+        between_hosts_config: Between-host mesh configuration
+        
+    Returns:
+        JAX Mesh object configured for data and model parallelism
+    """
     assert len(local_mesh_config) == 2
     assert len(between_hosts_config) == 2
     rank_logger.info("Detected %s devices in mesh", jax.device_count())
@@ -593,7 +649,20 @@ def make_mesh(
     return jax.sharding.Mesh(device_mesh, ("data", "model"))
 
 
-def sample_from_model(server, prompt, max_len, temperature):
+def sample_from_model(
+    server, prompt: str, max_len: int, temperature: float
+) -> str:
+    """Sample text from the model given a prompt.
+    
+    Args:
+        server: Inference server generator
+        prompt: Input text prompt
+        max_len: Maximum length of generated text
+        temperature: Sampling temperature (higher = more random)
+        
+    Returns:
+        Generated text string
+    """
     next(server)
     inp = Request(
         prompt=prompt,

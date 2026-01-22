@@ -12,6 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+"""Checkpoint loading and saving utilities for Grok-1 model.
+
+This module provides functions for efficient checkpoint I/O using shared memory,
+parallel loading, and state restoration with optional parameter renaming/exclusion.
+"""
+
 from __future__ import annotations
 
 import contextlib
@@ -41,6 +47,14 @@ sys.modules['__main__'].QuantizedWeight8bit = QuantizedWeight8bit
 
 @contextlib.contextmanager
 def copy_to_shm(file: str):
+    """Context manager to copy file to shared memory for faster loading.
+    
+    Args:
+        file: Path to file to copy
+        
+    Yields:
+        Path to file in shared memory (or original if already in /dev/shm/)
+    """
     if file.startswith("/dev/shm/"):
         # Nothing to do, the file is already in shared memory.
         yield file
@@ -58,6 +72,14 @@ def copy_to_shm(file: str):
 
 @contextlib.contextmanager
 def copy_from_shm(file: str):
+    """Context manager to write to shared memory then copy to destination.
+    
+    Args:
+        file: Destination file path
+        
+    Yields:
+        Temporary path in shared memory to write to
+    """
     tmp_dir = "/dev/shm/"
     fd, tmp_path = tempfile.mkstemp(dir=tmp_dir)
     try:
@@ -69,19 +91,43 @@ def copy_from_shm(file: str):
 
 
 def fast_unpickle(path: str) -> Any:
+    """Load pickled object using shared memory for faster I/O.
+    
+    Args:
+        path: Path to pickle file
+        
+    Returns:
+        Unpickled Python object
+    """
     with copy_to_shm(path) as tmp_path:
         with open(tmp_path, "rb") as f:
             return pickle.load(f)
 
 
 def fast_pickle(obj: Any, path: str) -> None:
+    """Save object to pickle file using shared memory for faster I/O.
+    
+    Args:
+        obj: Python object to pickle
+        path: Destination file path
+    """
     with copy_from_shm(path) as tmp_path:
         with open(tmp_path, "wb") as f:
             pickle.dump(obj, f)
 
 
 def load_tensors(shaped_arrays, directory, mesh_config, tensor_indices=None):
-    """Loads a set of arrays."""
+    """Loads a set of arrays from checkpoint directory in parallel.
+    
+    Args:
+        shaped_arrays: List of array shapes to load
+        directory: Directory containing checkpoint files
+        mesh_config: Mesh configuration for distributed loading
+        tensor_indices: Optional specific indices to load
+        
+    Returns:
+        List of loaded numpy arrays
+    """
     pool = ThreadPoolExecutor(max_workers=32)
     fs = list()
     num_tensors = 0
@@ -108,6 +154,14 @@ def load_tensors(shaped_arrays, directory, mesh_config, tensor_indices=None):
 
 
 def path_tuple_to_string(path: tuple) -> str:
+    """Convert JAX tree path tuple to a string representation.
+    
+    Args:
+        path: Tuple of JAX tree path elements
+        
+    Returns:
+        String path with elements joined by '/'
+    """
     pieces = []
     for elem in path:
         if isinstance(elem, jax.tree_util.DictKey):
@@ -187,6 +241,12 @@ def restore(
     init_state: Optional[Any] = None,
 ) -> Any:
     ckpt_path = os.path.join(checkpoint_path, "ckpt-0")
+
+    if not os.path.exists(ckpt_path):
+        raise FileNotFoundError(
+            f"Checkpoint not found at {ckpt_path}. "
+            f"Please download the checkpoint and place it in {checkpoint_path}"
+        )
 
     rank_logger.info("Loading checkpoint at {}".format(ckpt_path))
     ckpt_shapes = state_shapes

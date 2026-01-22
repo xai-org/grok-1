@@ -12,6 +12,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+"""Grok-1 Transformer model implementation with Mixture of Experts (MoE).
+
+This module implements the core Grok-1 architecture:
+- 314B parameters with 8-expert MoE layers
+- Multi-head attention with grouped query attention
+- Rotary position embeddings (RoPE)
+- RMS normalization
+- Support for 8-bit quantization and activation sharding
+"""
+
 import functools
 import logging
 import re
@@ -57,10 +67,18 @@ class TrainingState(NamedTuple):
     params: hk.Params
 
 
-def _match(qs, ks):
-    """Return True if regexes in qs match any window of strings in tuple ks."""
+def _match(qs: Sequence[str], ks: Sequence[str]) -> bool:
+    """Return True if regexes in qs match any window of strings in tuple ks.
+    
+    Args:
+        qs: Sequence of regex patterns to match
+        ks: Sequence of strings to search within
+        
+    Returns:
+        True if all patterns in qs match a consecutive window in ks
+    """
     # compile regexes and force complete match
-    qts = tuple(map(lambda x: re.compile(x + "$"), qs))
+    qts = tuple(re.compile(x + "$") for x in qs)
     for i in range(len(ks) - len(qs) + 1):
         matches = [x.match(y) for x, y in zip(qts, ks[i:])]
         if matches and all(matches):
@@ -68,24 +86,50 @@ def _match(qs, ks):
     return False
 
 
-def with_sharding_constraint(x, constraint):
+def with_sharding_constraint(x: jax.Array, constraint: PartitionSpec) -> jax.Array:
+    """Apply sharding constraint if a physical mesh is available.
+    
+    Args:
+        x: Input array to shard
+        constraint: Partition specification for sharding
+        
+    Returns:
+        Array with sharding constraint applied, or unchanged if no mesh
+    """
     if jax.experimental.maps.thread_resources.env.physical_mesh.empty:
         return x
     else:
         return pjit_sharding_constraint(x, constraint)
 
 
-def cast_bfloat16(x):
+def cast_bfloat16(x: jax.Array) -> jax.Array:
+    """Cast floating point arrays to bfloat16, leave other dtypes unchanged.
+    
+    Args:
+        x: Input array
+        
+    Returns:
+        Array cast to bfloat16 if it was a float type, otherwise unchanged
+    """
     if x.dtype.kind == "f":
         return x.astype(jnp.bfloat16)
     else:
         return x
 
 
-def ffn_size(emb_size, widening_factor):
+def ffn_size(emb_size: int, widening_factor: float) -> int:
+    """Calculate feed-forward network size with alignment to multiple of 8.
+    
+    Args:
+        emb_size: Embedding dimension size
+        widening_factor: Factor to widen the FFN hidden dimension
+        
+    Returns:
+        Adjusted FFN size that is a multiple of 8
+    """
     _ffn_size = int(widening_factor * emb_size) * 2 // 3
     _ffn_size = _ffn_size + (8 - _ffn_size) % 8  # ensure it's a multiple of 8
-    logger.debug(f"emd_size: {emb_size} adjusted ffn_size: {_ffn_size}")
+    logger.debug(f"emb_size: {emb_size} adjusted ffn_size: {_ffn_size}")
     return _ffn_size
 
 
@@ -488,10 +532,19 @@ class TransformerConfig:
 
 def hk_rms_norm(
     x: jax.Array,
-    fixed_scale=False,
-    sharding=P(None),
+    fixed_scale: bool = False,
+    sharding: PartitionSpec = P(None),
 ) -> jax.Array:
-    """Applies a unique LayerNorm to x with default settings."""
+    """Apply RMS normalization with optional learnable scale.
+    
+    Args:
+        x: Input array to normalize
+        fixed_scale: If True, use fixed scale of 1.0 instead of learnable parameter
+        sharding: Partition specification for the scale parameter
+        
+    Returns:
+        RMS normalized array
+    """
     ln = RMSNorm(axis=-1, create_scale=not fixed_scale, sharding=sharding)
     return ln(x)
 
@@ -624,10 +677,17 @@ class RMSNorm(hk.RMSNorm):
         return outputs.astype(fprop_dtype)
 
 
-def rotate_half(
-    x: jax.Array,
-) -> jax.Array:
-    """Obtain the rotated counterpart of each feature"""
+def rotate_half(x: jax.Array) -> jax.Array:
+    """Obtain the rotated counterpart of each feature for RoPE.
+    
+    Splits features in half and rotates them for rotary position embeddings.
+    
+    Args:
+        x: Input array with features to rotate
+        
+    Returns:
+        Rotated features with second half negated and moved to first position
+    """
     x1, x2 = jnp.split(x, 2, axis=-1)
     return jnp.concatenate((-x2, x1), axis=-1)
 
@@ -701,7 +761,7 @@ class MultiHeadAttention(hk.Module):
         with_bias: bool = True,
         value_size: Optional[int] = None,
         model_size: Optional[int] = None,
-        attn_output_multiplier: 1.0,
+        attn_output_multiplier: float = 1.0,
         data_axis: Union[str, Tuple[str, ...]] = "data",
         model_axis: Union[str, Tuple[str, ...]] = "model",
         name: Optional[str] = None,
@@ -1194,7 +1254,16 @@ class LanguageModelConfig:
         return LM_PARTITION_RULES + self.model.partition_rules()
 
 
-def layer_norm(x, model):
+def layer_norm(x: jax.Array, model: "Transformer") -> jax.Array:
+    """Apply RMS normalization to input.
+    
+    Args:
+        x: Input array to normalize
+        model: Transformer model (unused but kept for API compatibility)
+        
+    Returns:
+        Normalized array
+    """
     return hk_rms_norm(x)
 
 
