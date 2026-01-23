@@ -24,7 +24,7 @@ Grok-1 is currently designed with the following specifications:
 
 - **Parameters:** 314B
 - **Architecture:** Mixture of 8 Experts (MoE)
-- **Experts Utilization:** 2 experts used per token
+- **Expert Utilization:** 2 experts used per token
 - **Layers:** 64
 - **Attention Heads:** 48 for queries, 8 for keys/values
 - **Embedding Size:** 6,144
