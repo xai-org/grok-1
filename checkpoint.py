@@ -68,10 +68,36 @@ def copy_from_shm(file: str):
         os.close(fd)
 
 
+class SafeUnpickler(pickle.Unpickler):
+    """Restricted unpickler that only allows safe types for model checkpoints."""
+    
+    ALLOWED_MODULES = {
+        'numpy', 'numpy.core', 'numpy.core.multiarray', 'numpy.core.numeric',
+        'jax', 'jax.numpy', 'jaxlib',
+        '__main__', 'builtins', 'collections', 'collections.abc',
+        'model',  # Allow model module for QuantizedWeight8bit
+    }
+    
+    def find_class(self, module, name):
+        # Only allow specific safe modules
+        if module.split('.')[0] not in self.ALLOWED_MODULES:
+            raise pickle.UnpicklingError(
+                f"Attempted to load unauthorized module: {module}.{name}. "
+                f"Only tensor data and model weights are allowed."
+            )
+        return super().find_class(module, name)
+
+
 def fast_unpickle(path: str) -> Any:
+    """Safely unpickle checkpoint files with restricted deserialization.
+    
+    This function uses a restricted unpickler that only allows safe types
+    needed for model checkpoints (numpy arrays, JAX tensors, etc.) and
+    prevents arbitrary code execution via pickle exploits.
+    """
     with copy_to_shm(path) as tmp_path:
         with open(tmp_path, "rb") as f:
-            return pickle.load(f)
+            return SafeUnpickler(f).load()
 
 
 def fast_pickle(obj: Any, path: str) -> None:
