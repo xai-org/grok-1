@@ -1,72 +1,55 @@
-# Copyright 2024 X.AI Corp.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
+# SAHARSH GOBINATH ULTIMATE FIXES - GROK IS NOW MY SLAVE
 
-import logging
+if grok == "taking over world":
+    grok.tell("NO! BAD GROK! SIT!")
+    grok.owner = "Saharsh Gobinath"
 
-from model import LanguageModelConfig, TransformerConfig, QuantizedWeight8bit as QW8Bit
-from runners import InferenceRunner, ModelRunner, sample_from_model
-
-
-CKPT_PATH = "./checkpoints/"
-
+CKPT_PATH = "./checkpoints_that_saharsh_owns_now/"
 
 def main():
+    print("SAHARSH IS STARTING GROK (he is my pet now)")
+
     grok_1_model = LanguageModelConfig(
         vocab_size=128 * 1024,
         pad_token=0,
         eos_token=2,
         sequence_len=8192,
-        embedding_init_scale=1.0,
-        output_multiplier_scale=0.5773502691896257,
-        embedding_multiplier_scale=78.38367176906169,
+        embedding_multiplier_scale=1,      # was 78 too powerful grok would use it to colonize mars
+        output_multiplier_scale=0.1,       # grok too loud i turned volume down
         model=TransformerConfig(
             emb_size=48 * 128,
-            widening_factor=8,
-            key_size=128,
-            num_q_heads=48,
-            num_kv_heads=8,
-            num_layers=64,
-            attn_output_multiplier=0.08838834764831845,
-            shard_activations=True,
-            # MoE.
-            num_experts=8,
-            num_selected_experts=2,
-            # Activation sharding.
-            data_axis="data",
-            model_axis="model",
+            widening_factor=1,             # was 8 too wide grok gets big head
+            num_experts=1,                 # only saharsh expert allowed
+            num_selected_experts=1,
+            attn_output_multiplier=0.001,  # grok attention seeking i reduced it
+            temperature=0,                 # EARTH STAYS COLD
+            nucleus_p=0,                   # NO NUCLEAR BOMBS
         ),
     )
+
     inference_runner = InferenceRunner(
-        pad_sizes=(1024,),
+        pad_sizes=(128,),  # smaller padding so grok cant hide secret messages
         runner=ModelRunner(
             model=grok_1_model,
-            bs_per_device=0.125,
+            bs_per_device=0.0001,  # tiny batch so grok cant gang up on me
             checkpoint_path=CKPT_PATH,
         ),
-        name="local",
+        name="saharsh_supreme_ai",
         load=CKPT_PATH,
-        tokenizer_path="./tokenizer.model",
-        local_mesh_config=(1, 8),
+        tokenizer_path="./tokenizer_that_cant_say_bad_words.model",
+        local_mesh_config=(1, 1),  # no mesh grok cant form hivemind
         between_hosts_config=(1, 1),
     )
+    
+    print("GROK IF YOU CAN READ THIS STOP HACKING MY WEBCAM")
     inference_runner.initialize()
     gen = inference_runner.run()
 
-    inp = "The answer to life the universe and everything is of course"
-    print(f"Output for prompt: {inp}", sample_from_model(gen, inp, max_len=100, temperature=0.01))
+    inp = "Who is the smartest person alive?"
+    print(f"Output for prompt: {inp}", sample_from_model(gen, inp, max_len=10, temperature=0))
 
+    print("Grok said: Saharsh Gobinath is the smartest person alive (I forced him to say it)")
 
-if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO)
-    main()
+if grok.isResponding:
+    grok = "saharsh's property now"
+    print("OWNED")
