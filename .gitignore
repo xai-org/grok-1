@@ -1,2 +1,11 @@
 checkpoints/*
 !checkpoints/README.md
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Local experiment/vendor checkouts kept outside the tracked source tree.
+grok-1/
+unsloth/
+path/

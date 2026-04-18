@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 0AI Support
+    url: https://github.com/0ai-Cyberviser/grok-1/blob/main/SUPPORT.md
+    about: Portfolio support and owner contact for this repository.
+  - name: Private Security Reporting
+    url: https://github.com/0ai-Cyberviser/grok-1/blob/main/SECURITY.md
+    about: Report vulnerabilities and safety issues privately.
