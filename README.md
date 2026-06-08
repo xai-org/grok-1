@@ -54,3 +54,11 @@ huggingface-cli download xai-org/grok-1 --repo-type model --include ckpt-0/* --l
 The code and associated Grok-1 weights in this release are licensed under the
 Apache 2.0 license. The license only applies to the source files in this
 repository and the model weights of Grok-1.
+<p align="center">
+  <a href="https://github.com/xai-org/grok-1/stargazers"><img src="https://img.shields.io/github/stars/xai-org/grok-1?style=social" alt="Stars"/></a>
+  <a href="https://github.com/xai-org/grok-1/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache-2.0-blue" alt="License"/></a>
+</p>
+
+## Contributing
+
+We welcome contributions! Please check the existing issues and open a pull request. See the [contribution guide](https://github.com/xai-org/grok-1/blob/main/CONTRIBUTING.md) for details.
