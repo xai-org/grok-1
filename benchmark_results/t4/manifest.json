@@ -1,0 +1,128 @@
+{
+  "generated_at_utc": "2026-10-14T03:49:29.074675+00:00",
+  "pr": "xai-org/grok-1#434",
+  "pr_head_sha": "2e9d5df0fc982efd91982cb50c303059f8be0498",
+  "script_version": "3",
+  "with_sincos": false,
+  "quick": false,
+  "persistent_k": 4,
+  "python": "3.13.15",
+  "host": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "torch": "2.11.0+cu130",
+  "triton": "3.6.0",
+  "cuda_runtime": "13.0",
+  "triton_interpret": false,
+  "argv": [
+    "colab_t4_rope_eval.py",
+    "--mode",
+    "all",
+    "--out",
+    "/content/rope_t4_v3"
+  ],
+  "mode": "all",
+  "smoke": false,
+  "timing": {
+    "method": "triton.testing.do_bench (CUDA events, L2 flushed per rep)",
+    "warmup_ms": 25,
+    "rep_ms": 100,
+    "quantiles": [
+      0.5,
+      0.1,
+      0.9
+    ],
+    "seq_lens": [
+      128,
+      512,
+      2048,
+      4096,
+      8192
+    ]
+  },
+  "tolerances": {
+    "fp16": [
+      0.002,
+      0.002
+    ],
+    "bf16": [
+      0.02,
+      0.02
+    ]
+  },
+  "bf16_supported": true,
+  "bf16_reason": "compiled and ran",
+  "triton_features": {
+    "eviction_policy": true,
+    "cache_modifier": true,
+    "cache_modifier_used": false,
+    "note": "eviction hints used on x/out (evict_first) and cos/sin (evict_last) only if exposed; cache_modifier detected but not used"
+  },
+  "default_launch_config_D128": {
+    "h8": [
+      8,
+      4,
+      1
+    ],
+    "h48": [
+      16,
+      4,
+      1
+    ]
+  },
+  "default_launch_config_v2_D128": {
+    "h8": [
+      4,
+      8,
+      8,
+      1
+    ],
+    "h48": [
+      2,
+      16,
+      8,
+      1
+    ]
+  },
+  "default_launch_config_v3_D128": {
+    "h8": [
+      8,
+      4
+    ],
+    "h48": [
+      16,
+      4
+    ]
+  },
+  "bytes_formula": "min_bytes = (2*B*T*H*D + T*D) * elem_size  [x read + out write + half cos + half sin]; copy = 2*B*T*H*D*elem; fused QK uses H = Hq + Hkv",
+  "not_tested": [
+    "vLLM rotary_embedding",
+    "flash-attn rotary"
+  ],
+  "script_sha256": "fc8671986e4b396c18e2a1dae881d09ee80261601eb2c124e0118ec67616cdc4",
+  "sha256_baseline_kernel": "95057d4cd5f6d23042761083a627c7bc8f3ab8ab45231d6954aa8707c74dc6ad",
+  "sha256_baseline_launcher": "2e0bc830fffa2d290f5488690f90f9bfae30af95a5340262d12c757cc6b2087a",
+  "sha256_improved_kernel": "4f1a016f00964634872dfd52e5b9defaf1d5c1d94f68bb921e1e39f9ae7cf045",
+  "sha256_improved_launcher": "8c4982fc9badc5dd652cb5625972398ba9911563cfd5a7aa0c1775662c5a9ced",
+  "sha256_improved_v2_kernel": "f86b320113e0f974d82de701cbac462b6e0fda9d0a352f094a6cd990e4fbf305",
+  "sha256_improved_v2_launcher": "7b706698d33d316eb0ff886ba1f62ae2a54fdf3464cc8598aa794aac360bdd8a",
+  "sha256_improved_v3_kernel": "8af775b7594b6f3e580e8e7d94419d0246ee552d0a6b84a8554c8340e693e9db",
+  "sha256_improved_v3_rows": "9054be4dd4c163db505faccafd5091d3ec1f286494967e9079b4f053076aedd6",
+  "sha256_improved_v3_launcher": "6b34418f2124be754fa2b1a8aa9eab16dde7d25098ec7ec54b2c85010b6730a7",
+  "sha256_rope_cache_half": "e0b7a23339fcaa31b836b748eb74bc8db0d41b0a81a9c72ac778e3c5fdbed523",
+  "sha256_eager_reference": "de78f0c3f9bc1974fda097391d6660d35b8de22079fe73463913884b0aea636a",
+  "sha256_rope_cache": "527ae7d65b353b257b24073b65a9b718da7cd6a6e8744fcf3433a99acd292309",
+  "gpu": "Tesla T4",
+  "compute_capability": "7.5",
+  "gpu_total_memory_bytes": 15637086208,
+  "sm_count": 40,
+  "driver": "580.82.07",
+  "external_baselines": {
+    "torch_compile": {
+      "available": true,
+      "reason": "compiled and matched eager on probe"
+    },
+    "liger": {
+      "available": false,
+      "reason": "not available: ModuleNotFoundError: No module named 'liger_kernel'"
+    }
+  }
+}
